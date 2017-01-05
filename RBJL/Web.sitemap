@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+  <siteMapNode url="" title="" description="">
+    <siteMapNode url="~/Matter/New.aspx?" title="" description="$Resources:LanguagePack, MenuMatter" >
+      <!--<siteMapNode url="~/Matter/New.aspx" title="" description="$Resources:LanguagePack, MenuMatterSub" >-->
+      <siteMapNode url="~/Matter/New.aspx" title="" description="$Resources:LanguagePack, MenuMatterSub" />
+      <siteMapNode url="~/Matter/NewMatterAdd.aspx" title="" description="$Resources:LanguagePack, MenuMatterNew"/>
+      <siteMapNode url="~/Matter/PendingList.aspx" title="" description="$Resources:LanguagePack, MenuMatterPendingList" />
+      <!--</siteMapNode>-->
+      <siteMapNode url="~/PutAway/PutAway.aspx" title="" description="$Resources:LanguagePack, MenuMatterPutAway" />
+    </siteMapNode>
+    <siteMapNode url="~/DebitNote/New.aspx?" title="" description="$Resources:LanguagePack, MenuDebitNote" >
+      <siteMapNode url="~/DebitNote/New.aspx" title="" description="$Resources:LanguagePack, MenuDebitNoteNew"/>
+      <siteMapNode url="~/DebitNote/PendingList.aspx" title="" description="$Resources:LanguagePack, MenuDebitNotePendingList" />
+      <siteMapNode url="~/Report/DebitNote.aspx" title="" description="$Resources:LanguagePack, MenuDebitNoteReport" />
+      <siteMapNode url="~/DebitNote/DebitNote.aspx?" title="" description="$Resources:LanguagePack, MenuDebitNoteSub" />
+    </siteMapNode>
+    <siteMapNode url="~/Report/NewMatterRecord.aspx?" title="" description="$Resources:LanguagePack, MenuReport" >
+      <siteMapNode url="~/Report/NewMatterRecord.aspx" title="" description="$Resources:LanguagePack, MenuNewMatterRecord" />
+      <siteMapNode url="~/Report/FeeEarner.aspx" title="" description="$Resources:LanguagePack, MenuFeeEarner"/>
+      <siteMapNode url="~/Report/Agents.aspx" title="" description="$Resources:LanguagePack, MenuAgentss" roles="administrator"/>
+      <siteMapNode url="~/Report/PutAway.aspx" title="" description="$Resources:LanguagePack, MenuPutAway" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Master/Client.aspx?" title="" description="$Resources:LanguagePack, MenuMaster" roles="administrator,account">
+      <siteMapNode url="~/Master/Client.aspx" title="" description="$Resources:LanguagePack, MenuClient" roles="administrator,account"/>
+      <siteMapNode url="~/Master/Referer.aspx" title="" description="$Resources:LanguagePack, MenuReferer" roles="administrator,account"/>
+      <siteMapNode url="~/Master/JobType.aspx" title="" description="$Resources:LanguagePack, MenuJobType" roles="administrator,account" />
+      <siteMapNode url="~/Master/Pricing.aspx" title="" description="$Resources:LanguagePack, MenuPricing" roles="administrator,account"/>
+      <siteMapNode url="~/Master/Template.aspx" title="" description="$Resources:LanguagePack, MenuTemplate" roles="administrator,account"/>
+      <siteMapNode url="~/Master/Keyword.aspx" title="" description="$Resources:LanguagePack, MenuKeyword" roles="administrator,account"/>
+      <siteMapNode url="~/Master/OtherParties.aspx" title="" description="$Resources:LanguagePack, MenuOtherParties" roles="administrator,account"/>
+      <siteMapNode url="~/Master/OutgoingAgent.aspx" title="" description="$Resources:LanguagePack, MenuOutgoingAgent" roles="administrator,account"/>
+      <siteMapNode url="~/Master/Currency.aspx" title="" description="$Resources:LanguagePack, MenuCurrency" roles="administrator,account"/>
+      <siteMapNode url="~/Master/Country.aspx" title="" description="$Resources:LanguagePack, MenuCountry" roles="administrator,account"/>
+    </siteMapNode>
+    <siteMapNode url="~/Log/UserLog.aspx?" title="" description="$Resources:LanguagePack, MenuLog" >
+      <siteMapNode url="~/Log/UserLog.aspx" title="" description="$Resources:LanguagePack, MenuUserLog" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Setting/ChangePassword.aspx?" title="" description="$Resources:LanguagePack, MenuSettings" roles="administrator">
+      <siteMapNode url="~/Setting/systemUser.aspx" title="" description="$Resources:LanguagePack, MenuSystemUser" roles="administrator"/>
+      <siteMapNode url="~/Setting/SettingMiscellaneous.aspx" title="" description="$Resources:LanguagePack, MenuSettingMiscellaneous" roles="administrator"/>
+      <siteMapNode url="~/Setting/ChangePassword.aspx" title="" description="$Resources:LanguagePack, MenuSettingChangePassword" roles="administrator"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,2204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RBJLLawFirmDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="RBJLLawFirmDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aspnet_Applications" EntityType="RBJLLawFirmDBModel.aspnet_Applications" />
+    <EntitySet Name="aspnet_Membership" EntityType="RBJLLawFirmDBModel.aspnet_Membership" />
+    <EntitySet Name="aspnet_Paths" EntityType="RBJLLawFirmDBModel.aspnet_Paths" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="RBJLLawFirmDBModel.aspnet_PersonalizationAllUsers" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser" />
+    <EntitySet Name="aspnet_Profile" EntityType="RBJLLawFirmDBModel.aspnet_Profile" />
+    <EntitySet Name="aspnet_Roles" EntityType="RBJLLawFirmDBModel.aspnet_Roles" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="RBJLLawFirmDBModel.aspnet_SchemaVersions" />
+    <EntitySet Name="aspnet_Users" EntityType="RBJLLawFirmDBModel.aspnet_Users" />
+    <EntitySet Name="aspnet_UsersInRoles" EntityType="RBJLLawFirmDBModel.aspnet_UsersInRoles" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="RBJLLawFirmDBModel.aspnet_WebEvent_Events" />
+    <EntitySet Name="Clients" EntityType="RBJLLawFirmDBModel.Client" />
+    <EntitySet Name="Countries" EntityType="RBJLLawFirmDBModel.Country" />
+    <EntitySet Name="CurrencyRates" EntityType="RBJLLawFirmDBModel.CurrencyRate" />
+    <EntitySet Name="DebitNoteAttachments" EntityType="RBJLLawFirmDBModel.DebitNoteAttachment" />
+    <EntitySet Name="DebitNoteCores" EntityType="RBJLLawFirmDBModel.DebitNoteCore" />
+    <EntitySet Name="DebitNoteCosts" EntityType="RBJLLawFirmDBModel.DebitNoteCost" />
+    <EntitySet Name="DebitNoteDisbursements" EntityType="RBJLLawFirmDBModel.DebitNoteDisbursement" />
+    <EntitySet Name="DebitNoteNarratives" EntityType="RBJLLawFirmDBModel.DebitNoteNarrative" />
+    <EntitySet Name="DebitNoteSubjectPs" EntityType="RBJLLawFirmDBModel.DebitNoteSubjectP" />
+    <EntitySet Name="JobTypes" EntityType="RBJLLawFirmDBModel.JobType" />
+    <EntitySet Name="Keyworks" EntityType="RBJLLawFirmDBModel.Keywork" />
+    <EntitySet Name="LFUsers" EntityType="RBJLLawFirmDBModel.LFUser" />
+    <EntitySet Name="MatterAndFeeEarners" EntityType="RBJLLawFirmDBModel.MatterAndFeeEarner" />
+    <EntitySet Name="MatterAndHandlingColleagues" EntityType="RBJLLawFirmDBModel.MatterAndHandlingColleague" />
+    <EntitySet Name="MatterCores" EntityType="RBJLLawFirmDBModel.MatterCore" />
+    <EntitySet Name="MatterDetails" EntityType="RBJLLawFirmDBModel.MatterDetail" />
+    <EntitySet Name="Miscellaneous" EntityType="RBJLLawFirmDBModel.Miscellaneou" />
+    <EntitySet Name="OtherParties" EntityType="RBJLLawFirmDBModel.OtherParty" />
+    <EntitySet Name="OutgoingAgents" EntityType="RBJLLawFirmDBModel.OutgoingAgent" />
+    <EntitySet Name="PricingDetails" EntityType="RBJLLawFirmDBModel.PricingDetail" />
+    <EntitySet Name="PricingTypes" EntityType="RBJLLawFirmDBModel.PricingType" />
+    <EntitySet Name="PutAwayAndFeeEarners" EntityType="RBJLLawFirmDBModel.PutAwayAndFeeEarner" />
+    <EntitySet Name="PutAwayAndHandlingColleagues" EntityType="RBJLLawFirmDBModel.PutAwayAndHandlingColleague" />
+    <EntitySet Name="PutAwayCores" EntityType="RBJLLawFirmDBModel.PutAwayCore" />
+    <EntitySet Name="Referers" EntityType="RBJLLawFirmDBModel.Referer" />
+    <EntitySet Name="TemplateDetails" EntityType="RBJLLawFirmDBModel.TemplateDetail" />
+    <EntitySet Name="TemplateTypes" EntityType="RBJLLawFirmDBModel.TemplateType" />
+    <EntitySet Name="UserLogs" EntityType="RBJLLawFirmDBModel.UserLog" />
+    <EntitySet Name="View_ExportMatter" EntityType="RBJLLawFirmDBModel.View_ExportMatter" />
+    <EntitySet Name="View_FindMatter" EntityType="RBJLLawFirmDBModel.View_FindMatter" />
+    <EntitySet Name="View_MatterUser" EntityType="RBJLLawFirmDBModel.View_MatterUser" />
+    <EntitySet Name="View_OldTimeEntry" EntityType="RBJLLawFirmDBModel.View_OldTimeEntry" />
+    <EntitySet Name="View_ReportDebitNote" EntityType="RBJLLawFirmDBModel.View_ReportDebitNote" />
+    <EntitySet Name="View_UserInfo" EntityType="RBJLLawFirmDBModel.View_UserInfo" />
+    <EntitySet Name="vw_aspnet_UsersInRoles" EntityType="RBJLLawFirmDBModel.vw_aspnet_UsersInRoles" />
+    <AssociationSet Name="FK__aspnet_Me__Appli__2BFE89A6" Association="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__2BFE89A6">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__3B0BC30C" Association="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__3B0BC30C">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__2DE6D218" Association="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__2DE6D218">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__3CF40B7E" Association="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__3CF40B7E">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__32AB8735" Association="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__32AB8735">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__41B8C09B" Association="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__41B8C09B">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__339FAB6E" Association="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__339FAB6E">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__42ACE4D4" Association="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__42ACE4D4">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__2CF2ADDF" Association="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__2CF2ADDF">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__3BFFE745" Association="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__3BFFE745">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2EDAF651" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2EDAF651">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2FCF1A8A" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2FCF1A8A">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__3DE82FB7" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3DE82FB7">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__3EDC53F0" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3EDC53F0">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__30C33EC3" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__30C33EC3">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__3FD07829" Association="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__3FD07829">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__31B762FC" Association="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__31B762FC">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__40C49C62" Association="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__40C49C62">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__3493CFA7" Association="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__3493CFA7">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__43A1090D" Association="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__43A1090D">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__3587F3E0" Association="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__3587F3E0">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__44952D46" Association="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__44952D46">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client_Country" Association="RBJLLawFirmDBModel.FK_Client_Country">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client_Referer" Association="RBJLLawFirmDBModel.FK_Client_Referer">
+      <End Role="Referer" EntitySet="Referers" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_Client" Association="RBJLLawFirmDBModel.FK_DebitNoteCore_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_Client" Association="RBJLLawFirmDBModel.FK_MatterCore_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="MatterCore" EntitySet="MatterCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Client" Association="RBJLLawFirmDBModel.FK_PutAwayCore_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Client1" Association="RBJLLawFirmDBModel.FK_PutAwayCore_Client1">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OutgoingAgent_Country" Association="RBJLLawFirmDBModel.FK_OutgoingAgent_Country">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Referer_Country" Association="RBJLLawFirmDBModel.FK_Referer_Country">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="Referer" EntitySet="Referers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteAttachment_DebitNoteCore" Association="RBJLLawFirmDBModel.FK_DebitNoteAttachment_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+      <End Role="DebitNoteAttachment" EntitySet="DebitNoteAttachments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_MatterCore" Association="RBJLLawFirmDBModel.FK_DebitNoteCore_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCores" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_OtherParties" Association="RBJLLawFirmDBModel.FK_DebitNoteCore_OtherParties">
+      <End Role="OtherParty" EntitySet="OtherParties" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_Referer" Association="RBJLLawFirmDBModel.FK_DebitNoteCore_Referer">
+      <End Role="Referer" EntitySet="Referers" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCost_DebitNoteCore" Association="RBJLLawFirmDBModel.FK_DebitNoteCost_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+      <End Role="DebitNoteCost" EntitySet="DebitNoteCosts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteDisbursement_DebitNoteCore" Association="RBJLLawFirmDBModel.FK_DebitNoteDisbursement_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+      <End Role="DebitNoteDisbursement" EntitySet="DebitNoteDisbursements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteNarrative_DebitNoteCore" Association="RBJLLawFirmDBModel.FK_DebitNoteNarrative_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCores" />
+      <End Role="DebitNoteNarrative" EntitySet="DebitNoteNarratives" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndFeeEarner_LFUser" Association="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_LFUser">
+      <End Role="LFUser" EntitySet="LFUsers" />
+      <End Role="MatterAndFeeEarner" EntitySet="MatterAndFeeEarners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndHandlingColleague_LFUser" Association="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_LFUser">
+      <End Role="LFUser" EntitySet="LFUsers" />
+      <End Role="MatterAndHandlingColleague" EntitySet="MatterAndHandlingColleagues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndFeeEarner_LFUser" Association="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_LFUser">
+      <End Role="LFUser" EntitySet="LFUsers" />
+      <End Role="PutAwayAndFeeEarner" EntitySet="PutAwayAndFeeEarners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndHandlingColleague_LFUser" Association="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_LFUser">
+      <End Role="LFUser" EntitySet="LFUsers" />
+      <End Role="PutAwayAndHandlingColleague" EntitySet="PutAwayAndHandlingColleagues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndFeeEarner_MatterCore" Association="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCores" />
+      <End Role="MatterAndFeeEarner" EntitySet="MatterAndFeeEarners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndHandlingColleague_MatterCore" Association="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCores" />
+      <End Role="MatterAndHandlingColleague" EntitySet="MatterAndHandlingColleagues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_OutgoingAgent" Association="RBJLLawFirmDBModel.FK_MatterCore_OutgoingAgent">
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgents" />
+      <End Role="MatterCore" EntitySet="MatterCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_Referer" Association="RBJLLawFirmDBModel.FK_MatterCore_Referer">
+      <End Role="Referer" EntitySet="Referers" />
+      <End Role="MatterCore" EntitySet="MatterCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterDetails_MatterCore" Association="RBJLLawFirmDBModel.FK_MatterDetails_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCores" />
+      <End Role="MatterDetail" EntitySet="MatterDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Referer_OutgoingAgent" Association="RBJLLawFirmDBModel.FK_Referer_OutgoingAgent">
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgents" />
+      <End Role="Referer" EntitySet="Referers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PricingDetails_PricingType" Association="RBJLLawFirmDBModel.FK_PricingDetails_PricingType">
+      <End Role="PricingType" EntitySet="PricingTypes" />
+      <End Role="PricingDetail" EntitySet="PricingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndFeeEarner_PutAwayCore" Association="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_PutAwayCore">
+      <End Role="PutAwayCore" EntitySet="PutAwayCores" />
+      <End Role="PutAwayAndFeeEarner" EntitySet="PutAwayAndFeeEarners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndHandlingColleague_PutAwayCore" Association="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_PutAwayCore">
+      <End Role="PutAwayCore" EntitySet="PutAwayCores" />
+      <End Role="PutAwayAndHandlingColleague" EntitySet="PutAwayAndHandlingColleagues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Referer" Association="RBJLLawFirmDBModel.FK_PutAwayCore_Referer">
+      <End Role="Referer" EntitySet="Referers" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TemplateDetails_TemplateType" Association="RBJLLawFirmDBModel.FK_TemplateDetails_TemplateType">
+      <End Role="TemplateType" EntitySet="TemplateTypes" />
+      <End Role="TemplateDetail" EntitySet="TemplateDetails" />
+    </AssociationSet>
+    <EntitySet Name="DebitNoteSubjectTs" EntityType="RBJLLawFirmDBModel.DebitNoteSubjectT" />
+  </EntityContainer>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Type="String" Name="ApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__2BFE89A6" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Membership1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__3B0BC30C" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__2DE6D218" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Paths1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__3CF40B7E" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__32AB8735" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Roles1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__41B8C09B" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__339FAB6E" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+    <NavigationProperty Name="aspnet_Users1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__42ACE4D4" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="PasswordFormat" Nullable="false" />
+    <Property Type="String" Name="PasswordSalt" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobilePIN" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredEmail" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordQuestion" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordAnswer" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="false" />
+    <Property Type="Boolean" Name="IsLockedOut" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLoginDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastPasswordChangedDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLockoutDate" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAttemptWindowStart" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAnswerAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAnswerAttemptWindowStart" Nullable="false" />
+    <Property Type="String" Name="Comment" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__2BFE89A6" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Applications1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__Appli__3B0BC30C" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__2CF2ADDF" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+    <NavigationProperty Name="aspnet_Users1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__3BFFE745" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredPath" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__2DE6D218" FromRole="aspnet_Paths" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Applications1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pa__Appli__3CF40B7E" FromRole="aspnet_Paths" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_PersonalizationAllUsers" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2EDAF651" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationAllUsers" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2FCF1A8A" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_PersonalizationAllUsers1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3DE82FB7" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationAllUsers" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3EDC53F0" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationPerUser" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="Binary" Name="PageSettings" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2EDAF651" FromRole="aspnet_PersonalizationAllUsers" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Paths1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3DE82FB7" FromRole="aspnet_PersonalizationAllUsers" ToRole="aspnet_Paths" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="Guid" Name="PathId" />
+    <Property Type="Guid" Name="UserId" />
+    <Property Type="Binary" Name="PageSettings" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__2FCF1A8A" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Paths1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__PathI__3EDC53F0" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Users" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__30C33EC3" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Users" />
+    <NavigationProperty Name="aspnet_Users1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__3FD07829" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="PropertyNames" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PropertyValuesString" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Binary" Name="PropertyValuesBinary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__31B762FC" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+    <NavigationProperty Name="aspnet_Users1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__40C49C62" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredRoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__32AB8735" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Applications1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Ro__Appli__41B8C09B" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_UsersInRoles" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__3493CFA7" FromRole="aspnet_Roles" ToRole="aspnet_UsersInRoles" />
+    <NavigationProperty Name="aspnet_UsersInRoles1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__43A1090D" FromRole="aspnet_Roles" ToRole="aspnet_UsersInRoles" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Type="String" Name="Feature" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CompatibleSchemaVersion" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsCurrentVersion" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredUserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobileAlias" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="LastActivityDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__339FAB6E" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Applications1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__Appli__42ACE4D4" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__2CF2ADDF" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Membership1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Me__UserI__3BFFE745" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__30C33EC3" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pe__UserI__3FD07829" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_Profile" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__31B762FC" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="aspnet_Profile1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Pr__UserI__40C49C62" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="aspnet_UsersInRoles" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__3587F3E0" FromRole="aspnet_Users" ToRole="aspnet_UsersInRoles" />
+    <NavigationProperty Name="aspnet_UsersInRoles1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__44952D46" FromRole="aspnet_Users" ToRole="aspnet_UsersInRoles" />
+  </EntityType>
+  <EntityType Name="aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__3493CFA7" FromRole="aspnet_UsersInRoles" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Roles1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__RoleI__43A1090D" FromRole="aspnet_UsersInRoles" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__3587F3E0" FromRole="aspnet_UsersInRoles" ToRole="aspnet_Users" />
+    <NavigationProperty Name="aspnet_Users1" Relationship="RBJLLawFirmDBModel.FK__aspnet_Us__UserI__44952D46" FromRole="aspnet_UsersInRoles" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Type="String" Name="EventId" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Type="DateTime" Name="EventTimeUtc" Nullable="false" />
+    <Property Type="DateTime" Name="EventTime" Nullable="false" />
+    <Property Type="String" Name="EventType" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="EventSequence" Nullable="false" Precision="19" Scale="0" />
+    <Property Type="Decimal" Name="EventOccurrence" Nullable="false" Precision="19" Scale="0" />
+    <Property Type="Int32" Name="EventCode" Nullable="false" />
+    <Property Type="Int32" Name="EventDetailCode" Nullable="false" />
+    <Property Type="String" Name="Message" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ApplicationPath" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ApplicationVirtualPath" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MachineName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RequestUrl" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExceptionType" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Details" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="clientName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="accountGroup" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="clientNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingEmail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="referertId" />
+    <Property Type="Double" Name="discount" />
+    <Property Type="String" Name="refNumOfReferer" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isReleaseToPublic" />
+    <Property Type="String" Name="remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="UpdateByUserName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="String" Name="ioNumOfReferer" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="String" Name="contactPerson02" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel02" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email02" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson03" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel03" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email03" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson04" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel04" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email04" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson05" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel05" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email05" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson06" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel06" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email06" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson07" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel07" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email07" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson08" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel08" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email08" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson09" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel09" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email09" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson10" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel10" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email10" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson11" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel11" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email11" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson12" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel12" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email12" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson13" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel13" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email13" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson14" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel14" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email14" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson15" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel15" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email15" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson16" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel16" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email16" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson17" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel17" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email17" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson18" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel18" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email18" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson19" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel19" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email19" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson20" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel20" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email20" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="countryId" />
+    <NavigationProperty Name="Country" Relationship="RBJLLawFirmDBModel.FK_Client_Country" FromRole="Client" ToRole="Country" />
+    <NavigationProperty Name="Referer" Relationship="RBJLLawFirmDBModel.FK_Client_Referer" FromRole="Client" ToRole="Referer" />
+    <NavigationProperty Name="DebitNoteCores" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_Client" FromRole="Client" ToRole="DebitNoteCore" />
+    <NavigationProperty Name="MatterCores" Relationship="RBJLLawFirmDBModel.FK_MatterCore_Client" FromRole="Client" ToRole="MatterCore" />
+    <NavigationProperty Name="PutAwayCores" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Client" FromRole="Client" ToRole="PutAwayCore" />
+    <NavigationProperty Name="PutAwayCores1" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Client1" FromRole="Client" ToRole="PutAwayCore" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="countryName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="String" Name="countryCode" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="countryCodeISO" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Clients" Relationship="RBJLLawFirmDBModel.FK_Client_Country" FromRole="Country" ToRole="Client" />
+    <NavigationProperty Name="OutgoingAgents" Relationship="RBJLLawFirmDBModel.FK_OutgoingAgent_Country" FromRole="Country" ToRole="OutgoingAgent" />
+    <NavigationProperty Name="Referers" Relationship="RBJLLawFirmDBModel.FK_Referer_Country" FromRole="Country" ToRole="Referer" />
+  </EntityType>
+  <EntityType Name="CurrencyRate">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="symbol" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="currencyName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="rateToHK" Nullable="false" />
+    <Property Type="Int32" Name="orderBy" />
+    <Property Type="Boolean" Name="isEnable" />
+  </EntityType>
+  <EntityType Name="DebitNoteAttachment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="String" Name="filePath" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="DebitNoteCore" Relationship="RBJLLawFirmDBModel.FK_DebitNoteAttachment_DebitNoteCore" FromRole="DebitNoteAttachment" ToRole="DebitNoteCore" />
+  </EntityType>
+  <EntityType Name="DebitNoteCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="debitNoteNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="startDate" />
+    <Property Type="DateTime" Name="endDate" />
+    <Property Type="Int32" Name="clientId" />
+    <Property Type="Int32" Name="otherPartiesId" />
+    <Property Type="Int32" Name="refererId" />
+    <Property Type="String" Name="address" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ref" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="yourRef" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="status" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Guid" Name="matterNumId" Nullable="false" />
+    <Property Type="String" Name="debitNoteType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="price" />
+    <Property Type="Boolean" Name="isDiscount" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="String" Name="contactPersonList" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="feeEarnerList" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="HandlingColleagueList" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="DiscountValue" Nullable="false" />
+    <Property Type="String" Name="subject" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="category" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billTo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="reportDate" />
+    <Property Type="String" Name="ioNum" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SubjectType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CurrencySymbol" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="subRef" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="depositAccount" />
+    <Property Type="String" Name="matterNumIdList" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="butSay" />
+    <NavigationProperty Name="Client" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_Client" FromRole="DebitNoteCore" ToRole="Client" />
+    <NavigationProperty Name="DebitNoteAttachments" Relationship="RBJLLawFirmDBModel.FK_DebitNoteAttachment_DebitNoteCore" FromRole="DebitNoteCore" ToRole="DebitNoteAttachment" />
+    <NavigationProperty Name="MatterCore" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_MatterCore" FromRole="DebitNoteCore" ToRole="MatterCore" />
+    <NavigationProperty Name="OtherParty" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_OtherParties" FromRole="DebitNoteCore" ToRole="OtherParty" />
+    <NavigationProperty Name="Referer" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_Referer" FromRole="DebitNoteCore" ToRole="Referer" />
+    <NavigationProperty Name="DebitNoteCosts" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCost_DebitNoteCore" FromRole="DebitNoteCore" ToRole="DebitNoteCost" />
+    <NavigationProperty Name="DebitNoteDisbursements" Relationship="RBJLLawFirmDBModel.FK_DebitNoteDisbursement_DebitNoteCore" FromRole="DebitNoteCore" ToRole="DebitNoteDisbursement" />
+    <NavigationProperty Name="DebitNoteNarratives" Relationship="RBJLLawFirmDBModel.FK_DebitNoteNarrative_DebitNoteCore" FromRole="DebitNoteCore" ToRole="DebitNoteNarrative" />
+  </EntityType>
+  <EntityType Name="DebitNoteCost">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="String" Name="templateType" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="templateDetails" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="cost" />
+    <Property Type="String" Name="remark" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Int32" Name="orderByValue" />
+    <NavigationProperty Name="DebitNoteCore" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCost_DebitNoteCore" FromRole="DebitNoteCost" ToRole="DebitNoteCore" />
+  </EntityType>
+  <EntityType Name="DebitNoteDisbursement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="String" Name="templateType" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="templateDetails" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="cost" />
+    <Property Type="String" Name="remark" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Int32" Name="orderByValue" />
+    <NavigationProperty Name="DebitNoteCore" Relationship="RBJLLawFirmDBModel.FK_DebitNoteDisbursement_DebitNoteCore" FromRole="DebitNoteDisbursement" ToRole="DebitNoteCore" />
+  </EntityType>
+  <EntityType Name="DebitNoteNarrative">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="Int32" Name="itemNum" />
+    <Property Type="DateTime" Name="date" />
+    <Property Type="Guid" Name="feeEarner" />
+    <Property Type="Guid" Name="otherFeeEarner" />
+    <Property Type="Double" Name="timespan" />
+    <Property Type="Double" Name="fixedCost" />
+    <Property Type="String" Name="description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="wittenOff" />
+    <Property Type="Double" Name="billable" />
+    <Property Type="Int32" Name="templateType" />
+    <Property Type="String" Name="templateDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Int32" Name="matterDetailsId" Nullable="false" />
+    <Property Type="Double" Name="hourlyRateH" />
+    <Property Type="Double" Name="fixedCostTimeSpan" />
+    <Property Type="Boolean" Name="isCountTotal" />
+    <NavigationProperty Name="DebitNoteCore" Relationship="RBJLLawFirmDBModel.FK_DebitNoteNarrative_DebitNoteCore" FromRole="DebitNoteNarrative" ToRole="DebitNoteCore" />
+  </EntityType>
+  <EntityType Name="DebitNoteSubjectP">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="String" Name="PStageValue" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PRoleProprietorApplican" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PRoleProprietorApplicanValue" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PAssignee" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PTitle" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PDesignOrPatentNum" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PDesignOrPatentNumValue" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PNationalPhase" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Country" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="String" Name="PPriorityValue" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="JobType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="num" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+  </EntityType>
+  <EntityType Name="Keywork">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="description" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+  </EntityType>
+  <EntityType Name="LFUser">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Type="Guid" Name="userid" Nullable="false" />
+    <Property Type="Guid" Name="systemUserId" Nullable="false" />
+    <Property Type="String" Name="systemUserNum" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="firstName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="lastName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="MatterAndFeeEarners" Relationship="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_LFUser" FromRole="LFUser" ToRole="MatterAndFeeEarner" />
+    <NavigationProperty Name="MatterAndHandlingColleagues" Relationship="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_LFUser" FromRole="LFUser" ToRole="MatterAndHandlingColleague" />
+    <NavigationProperty Name="PutAwayAndFeeEarners" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_LFUser" FromRole="LFUser" ToRole="PutAwayAndFeeEarner" />
+    <NavigationProperty Name="PutAwayAndHandlingColleagues" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_LFUser" FromRole="LFUser" ToRole="PutAwayAndHandlingColleague" />
+  </EntityType>
+  <EntityType Name="MatterAndFeeEarner">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="feeEarnerId" />
+    </Key>
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="Guid" Name="feeEarnerId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Double" Name="hourlyRate" />
+    <NavigationProperty Name="LFUser" Relationship="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_LFUser" FromRole="MatterAndFeeEarner" ToRole="LFUser" />
+    <NavigationProperty Name="MatterCore" Relationship="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_MatterCore" FromRole="MatterAndFeeEarner" ToRole="MatterCore" />
+  </EntityType>
+  <EntityType Name="MatterAndHandlingColleague">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="handlingColleagueId" />
+    </Key>
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="Guid" Name="handlingColleagueId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="LFUser" Relationship="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_LFUser" FromRole="MatterAndHandlingColleague" ToRole="LFUser" />
+    <NavigationProperty Name="MatterCore" Relationship="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_MatterCore" FromRole="MatterAndHandlingColleague" ToRole="MatterCore" />
+  </EntityType>
+  <EntityType Name="MatterCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="matterNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="matterSubject" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="clientId" Nullable="false" />
+    <Property Type="Int32" Name="refererId" />
+    <Property Type="Double" Name="refererFee" />
+    <Property Type="Int32" Name="jobTypeId" />
+    <Property Type="String" Name="jobTypeName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="fileOpenDate" />
+    <Property Type="Double" Name="discount" />
+    <Property Type="Int32" Name="masterKeywordId" />
+    <Property Type="String" Name="masterKeywordName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="introducer" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordFirst" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordSecond" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordThird" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="logo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="releaseToPublic" />
+    <Property Type="Int32" Name="outgoingAgentId" />
+    <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="addUserToCase" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isReopen" />
+    <Property Type="Boolean" Name="isPending" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Int32" Name="adminStatus" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="DateTime" Name="putAwayDate" />
+    <Property Type="String" Name="putAwayBoxNum" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="putAwayContent" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ioNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SPList" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Client" Relationship="RBJLLawFirmDBModel.FK_MatterCore_Client" FromRole="MatterCore" ToRole="Client" />
+    <NavigationProperty Name="DebitNoteCores" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_MatterCore" FromRole="MatterCore" ToRole="DebitNoteCore" />
+    <NavigationProperty Name="MatterAndFeeEarners" Relationship="RBJLLawFirmDBModel.FK_MatterAndFeeEarner_MatterCore" FromRole="MatterCore" ToRole="MatterAndFeeEarner" />
+    <NavigationProperty Name="MatterAndHandlingColleagues" Relationship="RBJLLawFirmDBModel.FK_MatterAndHandlingColleague_MatterCore" FromRole="MatterCore" ToRole="MatterAndHandlingColleague" />
+    <NavigationProperty Name="OutgoingAgent" Relationship="RBJLLawFirmDBModel.FK_MatterCore_OutgoingAgent" FromRole="MatterCore" ToRole="OutgoingAgent" />
+    <NavigationProperty Name="Referer" Relationship="RBJLLawFirmDBModel.FK_MatterCore_Referer" FromRole="MatterCore" ToRole="Referer" />
+    <NavigationProperty Name="MatterDetails" Relationship="RBJLLawFirmDBModel.FK_MatterDetails_MatterCore" FromRole="MatterCore" ToRole="MatterDetail" />
+  </EntityType>
+  <EntityType Name="MatterDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="itemNum" />
+    <Property Type="DateTime" Name="date" />
+    <Property Type="Guid" Name="feeEarner" />
+    <Property Type="Guid" Name="otherFeeEarner" />
+    <Property Type="Double" Name="timespan" />
+    <Property Type="Double" Name="fixedCost" />
+    <Property Type="String" Name="description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="wittenOff" />
+    <Property Type="Double" Name="billable" />
+    <Property Type="Int32" Name="templateType" />
+    <Property Type="String" Name="templateDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Double" Name="hourlyRateH" />
+    <Property Type="Double" Name="fixedCostTimeSpan" />
+    <NavigationProperty Name="MatterCore" Relationship="RBJLLawFirmDBModel.FK_MatterDetails_MatterCore" FromRole="MatterDetail" ToRole="MatterCore" />
+  </EntityType>
+  <EntityType Name="Miscellaneou">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="numberName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="numberValue" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="countValue" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isAutoGen" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+  </EntityType>
+  <EntityType Name="OtherParty">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="otherPartiesName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="otherPartiesNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressFirst" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressSecond" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="DebitNoteCores" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_OtherParties" FromRole="OtherParty" ToRole="DebitNoteCore" />
+  </EntityType>
+  <EntityType Name="OutgoingAgent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="agentName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="agentNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress3First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress3Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Int32" Name="countryId" />
+    <NavigationProperty Name="Country" Relationship="RBJLLawFirmDBModel.FK_OutgoingAgent_Country" FromRole="OutgoingAgent" ToRole="Country" />
+    <NavigationProperty Name="MatterCores" Relationship="RBJLLawFirmDBModel.FK_MatterCore_OutgoingAgent" FromRole="OutgoingAgent" ToRole="MatterCore" />
+    <NavigationProperty Name="Referers" Relationship="RBJLLawFirmDBModel.FK_Referer_OutgoingAgent" FromRole="OutgoingAgent" ToRole="Referer" />
+  </EntityType>
+  <EntityType Name="PricingDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="detailsDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="priceValue" Nullable="false" />
+    <Property Type="Int32" Name="typeId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="PricingType" Relationship="RBJLLawFirmDBModel.FK_PricingDetails_PricingType" FromRole="PricingDetail" ToRole="PricingType" />
+  </EntityType>
+  <EntityType Name="PricingType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="typeDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="PricingDetails" Relationship="RBJLLawFirmDBModel.FK_PricingDetails_PricingType" FromRole="PricingType" ToRole="PricingDetail" />
+  </EntityType>
+  <EntityType Name="PutAwayAndFeeEarner">
+    <Key>
+      <PropertyRef Name="putAwayId" />
+      <PropertyRef Name="feeEarnerId" />
+    </Key>
+    <Property Type="Guid" Name="putAwayId" Nullable="false" />
+    <Property Type="Guid" Name="feeEarnerId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="LFUser" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_LFUser" FromRole="PutAwayAndFeeEarner" ToRole="LFUser" />
+    <NavigationProperty Name="PutAwayCore" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_PutAwayCore" FromRole="PutAwayAndFeeEarner" ToRole="PutAwayCore" />
+  </EntityType>
+  <EntityType Name="PutAwayAndHandlingColleague">
+    <Key>
+      <PropertyRef Name="putAwayId" />
+      <PropertyRef Name="handlingColleagueId" />
+    </Key>
+    <Property Type="Guid" Name="putAwayId" Nullable="false" />
+    <Property Type="Guid" Name="handlingColleagueId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="LFUser" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_LFUser" FromRole="PutAwayAndHandlingColleague" ToRole="LFUser" />
+    <NavigationProperty Name="PutAwayCore" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_PutAwayCore" FromRole="PutAwayAndHandlingColleague" ToRole="PutAwayCore" />
+  </EntityType>
+  <EntityType Name="PutAwayCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="matterNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="matterSubject" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="clientId" />
+    <Property Type="Int32" Name="refererId" />
+    <Property Type="Int32" Name="jobTypeId" />
+    <Property Type="String" Name="jobTypeName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="fileOpenDate" />
+    <Property Type="String" Name="logo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="putAwayDate" />
+    <Property Type="String" Name="putAwayNum" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="putAwayContent" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="other" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="Client" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Client" FromRole="PutAwayCore" ToRole="Client" />
+    <NavigationProperty Name="Client1" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Client1" FromRole="PutAwayCore" ToRole="Client" />
+    <NavigationProperty Name="PutAwayAndFeeEarners" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndFeeEarner_PutAwayCore" FromRole="PutAwayCore" ToRole="PutAwayAndFeeEarner" />
+    <NavigationProperty Name="PutAwayAndHandlingColleagues" Relationship="RBJLLawFirmDBModel.FK_PutAwayAndHandlingColleague_PutAwayCore" FromRole="PutAwayCore" ToRole="PutAwayAndHandlingColleague" />
+    <NavigationProperty Name="Referer" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Referer" FromRole="PutAwayCore" ToRole="Referer" />
+  </EntityType>
+  <EntityType Name="Referer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="refererName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refererNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remark" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="islegalAid" />
+    <Property Type="Int32" Name="outgoingAgentId" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="String" Name="contactPerson02" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel02" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email02" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson03" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel03" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email03" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson04" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel04" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email04" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson05" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel05" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email05" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson06" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel06" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email06" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson07" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel07" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email07" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson08" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel08" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email08" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson09" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel09" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email09" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson10" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel10" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email10" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson11" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel11" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email11" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson12" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel12" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email12" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson13" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel13" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email13" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson14" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel14" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email14" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson15" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel15" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email15" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson16" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel16" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email16" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson17" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel17" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email17" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson18" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel18" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email18" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson19" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel19" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email19" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson20" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel20" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email20" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="countryId" />
+    <NavigationProperty Name="Clients" Relationship="RBJLLawFirmDBModel.FK_Client_Referer" FromRole="Referer" ToRole="Client" />
+    <NavigationProperty Name="Country" Relationship="RBJLLawFirmDBModel.FK_Referer_Country" FromRole="Referer" ToRole="Country" />
+    <NavigationProperty Name="DebitNoteCores" Relationship="RBJLLawFirmDBModel.FK_DebitNoteCore_Referer" FromRole="Referer" ToRole="DebitNoteCore" />
+    <NavigationProperty Name="MatterCores" Relationship="RBJLLawFirmDBModel.FK_MatterCore_Referer" FromRole="Referer" ToRole="MatterCore" />
+    <NavigationProperty Name="OutgoingAgent" Relationship="RBJLLawFirmDBModel.FK_Referer_OutgoingAgent" FromRole="Referer" ToRole="OutgoingAgent" />
+    <NavigationProperty Name="PutAwayCores" Relationship="RBJLLawFirmDBModel.FK_PutAwayCore_Referer" FromRole="Referer" ToRole="PutAwayCore" />
+  </EntityType>
+  <EntityType Name="TemplateDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="detailsDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="TemplateType" Relationship="RBJLLawFirmDBModel.FK_TemplateDetails_TemplateType" FromRole="TemplateDetail" ToRole="TemplateType" />
+  </EntityType>
+  <EntityType Name="TemplateType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="typeDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <NavigationProperty Name="TemplateDetails" Relationship="RBJLLawFirmDBModel.FK_TemplateDetails_TemplateType" FromRole="TemplateType" ToRole="TemplateDetail" />
+  </EntityType>
+  <EntityType Name="UserLog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="date" Nullable="false" />
+    <Property Type="Int32" Name="typeId" />
+    <Property Type="String" Name="logDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+  </EntityType>
+  <EntityType Name="View_ExportMatter">
+    <Key>
+      <PropertyRef Name="matterSubject" />
+      <PropertyRef Name="clientName" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="String" Name="matterNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="matterSubject" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="refererFee" />
+    <Property Type="Int32" Name="jobTypeId" />
+    <Property Type="String" Name="jobTypeName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="fileOpenDate" />
+    <Property Type="Double" Name="discount" />
+    <Property Type="String" Name="masterKeywordName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordFirst" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordSecond" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordThird" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="introducer" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="releaseToPublic" />
+    <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isReopen" />
+    <Property Type="String" Name="ioNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="clientName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="accountGroup" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="clientNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientbillingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientbillingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcorrespondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcorrespondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcorrespondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcorrespondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson02" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel02" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail02" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson03" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel03" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail03" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson04" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel04" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail04" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson05" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel05" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail05" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson06" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel06" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail06" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson07" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel07" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail07" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson08" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel08" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail08" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson09" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel09" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail09" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson10" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel10" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail10" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson11" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel11" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail11" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson12" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel12" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail12" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson13" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel13" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail13" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson14" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel14" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail14" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson15" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel15" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail15" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson16" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel16" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail16" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson17" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel17" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail17" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson18" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clienttel18" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Clientemail18" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientcontactPerson19" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientTel19" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientEmail19" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientContactPerson20" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientTel20" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientEmail20" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ClientBillingEmail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="ClientDiscount" />
+    <Property Type="String" Name="ClientRemarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refererName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refererNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RefererbillingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RefererbillingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercorrespondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercorrespondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercorrespondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercorrespondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson02" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel02" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail02" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson03" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel03" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail03" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson04" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel04" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail04" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson05" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel05" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail05" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson06" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel06" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail06" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson07" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel07" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail07" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson08" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel08" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail08" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson09" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel09" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail09" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson10" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel10" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail10" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson11" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel11" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail11" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson12" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel12" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail12" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson13" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel13" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail13" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson14" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel14" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail14" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson15" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel15" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail15" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson16" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel16" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail16" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson17" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel17" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail17" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson18" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel18" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail18" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson19" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel19" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail19" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReferercontactPerson20" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Referertel20" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refereremail20" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Refererremark" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="SPList" MaxLength="3000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="View_FindMatter">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="clientId" />
+      <PropertyRef Name="matterSubject" />
+      <PropertyRef Name="clientName" />
+    </Key>
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="matterNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="clientId" Nullable="false" />
+    <Property Type="String" Name="matterSubject" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="masterKeywordName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordFirst" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordSecond" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="customKeywordThird" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="clientName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="jobTypeId" />
+    <Property Type="String" Name="jobTypeName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="refererId" />
+    <Property Type="String" Name="refererName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Int32" Name="adminStatus" />
+    <Property Type="DateTime" Name="fileOpenDate" />
+    <Property Type="Boolean" Name="releaseToPublic" />
+    <Property Type="Boolean" Name="isPending" />
+    <Property Type="Boolean" Name="isReopen" />
+    <Property Type="Double" Name="refererFee" />
+    <Property Type="Double" Name="discount" />
+    <Property Type="Int32" Name="masterKeywordId" />
+    <Property Type="String" Name="introducer" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="logo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="outgoingAgentId" />
+    <Property Type="String" Name="remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="DateTime" Name="putAwayDate" />
+    <Property Type="String" Name="putAwayBoxNum" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="putAwayContent" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="agentName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="islegalAid" />
+    <Property Type="String" Name="ioNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refNumOfRefererM" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SPList" MaxLength="3000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="View_MatterUser">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="tarUserId" />
+    </Key>
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="Guid" Name="tarUserId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="View_OldTimeEntry">
+    <Key>
+      <PropertyRef Name="debitNoteId" />
+      <PropertyRef Name="matterDetailsId" />
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="Int32" Name="matterDetailsId" Nullable="false" />
+    <Property Type="String" Name="debitNoteType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="Int32" Name="itemNum" />
+    <Property Type="DateTime" Name="date" />
+    <Property Type="Guid" Name="feeEarner" />
+    <Property Type="Guid" Name="otherFeeEarner" />
+    <Property Type="Double" Name="timespan" />
+    <Property Type="Double" Name="fixedCost" />
+    <Property Type="String" Name="description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="wittenOff" />
+    <Property Type="Double" Name="billable" />
+    <Property Type="Int32" Name="templateType" />
+    <Property Type="String" Name="templateDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="Double" Name="hourlyRateH" />
+    <Property Type="DateTime" Name="CreateDebitNoteDate" />
+    <Property Type="Double" Name="fixedCostTimeSpan" />
+    <Property Type="Boolean" Name="isCountTotal" />
+  </EntityType>
+  <EntityType Name="View_ReportDebitNote">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="matterNumId" />
+      <PropertyRef Name="DiscountValue" />
+    </Key>
+    <Property Type="Guid" Name="id" Nullable="false" />
+    <Property Type="String" Name="debitNoteNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="startDate" />
+    <Property Type="DateTime" Name="endDate" />
+    <Property Type="Int32" Name="otherPartiesId" />
+    <Property Type="Int32" Name="clientId" />
+    <Property Type="Int32" Name="refererId" />
+    <Property Type="String" Name="address" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ref" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="yourRef" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="status" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Guid" Name="matterNumId" Nullable="false" />
+    <Property Type="String" Name="debitNoteType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="price" />
+    <Property Type="Boolean" Name="isDiscount" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+    <Property Type="String" Name="clientName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="accountGroup" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="clientNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="correspondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactPerson" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billingEmail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="referertId" />
+    <Property Type="Double" Name="discount" />
+    <Property Type="String" Name="refNumOfReferer" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isReleaseToPublic" />
+    <Property Type="String" Name="otherPartiesName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="otherPartiesNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPBillingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPBillingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPCorrespondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPCorrespondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPCorrespondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPCorrespondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPContactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPTel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPFax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="OPEmail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refererName" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="refererNum" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RBillingAddressFirst" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RBillingAddressSecond" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RCorrespondingAddress1First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RCorrespondingAddress1Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RCorrespondingAddress2First" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RCorrespondingAddress2Second" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RContactPerson" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RTel" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RFax" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="REmail" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RRemark" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="RIslegalAid" />
+    <Property Type="Int32" Name="ROutgoingAgentId" />
+    <Property Type="String" Name="contactPersonList" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="feeEarnerList" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="HandlingColleagueList" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="DiscountValue" Nullable="false" />
+    <Property Type="String" Name="subject" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="category" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="billTo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="reportDate" />
+    <Property Type="String" Name="ioNum" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SubjectType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CurrencySymbol" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="subRef" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="depositAccount" />
+    <Property Type="String" Name="matterNumIdList" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="butSay" />
+  </EntityType>
+  <EntityType Name="View_UserInfo">
+    <Key>
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="PasswordFormat" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="FailedPasswordAttemptWindowStart" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptCount" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptWindowStart" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+      <PropertyRef Name="systemUserNum" />
+      <PropertyRef Name="systemUserId" />
+    </Key>
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="PasswordFormat" Nullable="false" />
+    <Property Type="String" Name="MobilePIN" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredEmail" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordQuestion" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordAnswer" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="false" />
+    <Property Type="Boolean" Name="IsLockedOut" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLoginDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastPasswordChangedDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLockoutDate" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAttemptWindowStart" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAnswerAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAnswerAttemptWindowStart" Nullable="false" />
+    <Property Type="String" Name="Comment" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobileAlias" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="LastActivityDate" Nullable="false" />
+    <Property Type="String" Name="firstName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="systemUserNum" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="systemUserId" Nullable="false" />
+    <Property Type="String" Name="lastName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateByDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="Boolean" Name="isEnable" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__2BFE89A6">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Membership" Role="aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__Appli__3B0BC30C">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Membership" Role="aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__2DE6D218">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__3CF40B7E">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__32AB8735">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Roles" Role="aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__41B8C09B">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Roles" Role="aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__339FAB6E">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__42ACE4D4">
+    <End Type="RBJLLawFirmDBModel.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__2CF2ADDF">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Membership" Role="aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__3BFFE745">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Membership" Role="aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2EDAF651">
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationAllUsers" Role="aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2FCF1A8A">
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__3DE82FB7">
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationAllUsers" Role="aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__3EDC53F0">
+    <End Type="RBJLLawFirmDBModel.aspnet_Paths" Role="aspnet_Paths" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__30C33EC3">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__3FD07829">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__31B762FC">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Profile" Role="aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__40C49C62">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_Profile" Role="aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__3493CFA7">
+    <End Type="RBJLLawFirmDBModel.aspnet_Roles" Role="aspnet_Roles" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_UsersInRoles" Role="aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__43A1090D">
+    <End Type="RBJLLawFirmDBModel.aspnet_Roles" Role="aspnet_Roles" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_UsersInRoles" Role="aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__3587F3E0">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_UsersInRoles" Role="aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__44952D46">
+    <End Type="RBJLLawFirmDBModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.aspnet_UsersInRoles" Role="aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client_Country">
+    <End Type="RBJLLawFirmDBModel.Country" Role="Country" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client_Referer">
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="referertId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_Client">
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_Client">
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Client">
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayCore" Role="PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Client1">
+    <End Type="RBJLLawFirmDBModel.Client" Role="Client" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayCore" Role="PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OutgoingAgent_Country">
+    <End Type="RBJLLawFirmDBModel.Country" Role="Country" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.OutgoingAgent" Role="OutgoingAgent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="OutgoingAgent">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Referer_Country">
+    <End Type="RBJLLawFirmDBModel.Country" Role="Country" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Referer">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteAttachment_DebitNoteCore">
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteAttachment" Role="DebitNoteAttachment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteAttachment">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_MatterCore">
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="matterNumId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_OtherParties">
+    <End Type="RBJLLawFirmDBModel.OtherParty" Role="OtherParty" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OtherParty">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="otherPartiesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_Referer">
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCost_DebitNoteCore">
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteCost" Role="DebitNoteCost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCost">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteDisbursement_DebitNoteCore">
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteDisbursement" Role="DebitNoteDisbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteDisbursement">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteNarrative_DebitNoteCore">
+    <End Type="RBJLLawFirmDBModel.DebitNoteCore" Role="DebitNoteCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.DebitNoteNarrative" Role="DebitNoteNarrative" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteNarrative">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndFeeEarner_LFUser">
+    <End Type="RBJLLawFirmDBModel.LFUser" Role="LFUser" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterAndFeeEarner" Role="MatterAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="MatterAndFeeEarner">
+        <PropertyRef Name="feeEarnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndHandlingColleague_LFUser">
+    <End Type="RBJLLawFirmDBModel.LFUser" Role="LFUser" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterAndHandlingColleague" Role="MatterAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="MatterAndHandlingColleague">
+        <PropertyRef Name="handlingColleagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndFeeEarner_LFUser">
+    <End Type="RBJLLawFirmDBModel.LFUser" Role="LFUser" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayAndFeeEarner" Role="PutAwayAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="PutAwayAndFeeEarner">
+        <PropertyRef Name="feeEarnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndHandlingColleague_LFUser">
+    <End Type="RBJLLawFirmDBModel.LFUser" Role="LFUser" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayAndHandlingColleague" Role="PutAwayAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="PutAwayAndHandlingColleague">
+        <PropertyRef Name="handlingColleagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndFeeEarner_MatterCore">
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterAndFeeEarner" Role="MatterAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterAndFeeEarner">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndHandlingColleague_MatterCore">
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterAndHandlingColleague" Role="MatterAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterAndHandlingColleague">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_OutgoingAgent">
+    <End Type="RBJLLawFirmDBModel.OutgoingAgent" Role="OutgoingAgent" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OutgoingAgent">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="outgoingAgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_Referer">
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterDetails_MatterCore">
+    <End Type="RBJLLawFirmDBModel.MatterCore" Role="MatterCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.MatterDetail" Role="MatterDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterDetail">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Referer_OutgoingAgent">
+    <End Type="RBJLLawFirmDBModel.OutgoingAgent" Role="OutgoingAgent" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OutgoingAgent">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Referer">
+        <PropertyRef Name="outgoingAgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PricingDetails_PricingType">
+    <End Type="RBJLLawFirmDBModel.PricingType" Role="PricingType" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.PricingDetail" Role="PricingDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PricingType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PricingDetail">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndFeeEarner_PutAwayCore">
+    <End Type="RBJLLawFirmDBModel.PutAwayCore" Role="PutAwayCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayAndFeeEarner" Role="PutAwayAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PutAwayCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayAndFeeEarner">
+        <PropertyRef Name="putAwayId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndHandlingColleague_PutAwayCore">
+    <End Type="RBJLLawFirmDBModel.PutAwayCore" Role="PutAwayCore" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayAndHandlingColleague" Role="PutAwayAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PutAwayCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayAndHandlingColleague">
+        <PropertyRef Name="putAwayId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Referer">
+    <End Type="RBJLLawFirmDBModel.Referer" Role="Referer" Multiplicity="0..1" />
+    <End Type="RBJLLawFirmDBModel.PutAwayCore" Role="PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TemplateDetails_TemplateType">
+    <End Type="RBJLLawFirmDBModel.TemplateType" Role="TemplateType" Multiplicity="1" />
+    <End Type="RBJLLawFirmDBModel.TemplateDetail" Role="TemplateDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TemplateType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="TemplateDetail">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DebitNoteSubjectT">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="debitNoteId" Nullable="false" />
+    <Property Type="String" Name="TTypeOfWork" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TIsOpponent" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TOpponentValue" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TRoleType" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TRoleTypeValue" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TrademarkLogo" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TrademarkNum" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TClass" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Country" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="matterId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Guid" Name="CreateByUserId" />
+    <Property Type="Guid" Name="UpdateByUserId" />
+    <Property Type="String" Name="TrademarkLogoDescription" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

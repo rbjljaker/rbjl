@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="getPutAwayStatus.ascx.cs" Inherits="WebControl_getPutAwayStatus" %>
+<asp:Label ID="Label1" runat="server" Text='<%# getStatus() %>'></asp:Label>

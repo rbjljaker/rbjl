@@ -1,0 +1,5 @@
+C:\Projects\RBJL\RBJL\obj\Debug\RBJL.csprojResolveAssemblyReference.cache
+C:\Projects\RBJL\RBJL\obj\Debug\RBJL.My_Project.Resources.resources
+C:\Projects\RBJL\RBJL\obj\Debug\RBJL.csproj.GenerateResource.Cache
+C:\Projects\RBJL\RBJL\obj\Debug\RdlCompile.cache
+C:\Projects\RBJL\RBJL\obj\Debug\RdlCompile.compiled

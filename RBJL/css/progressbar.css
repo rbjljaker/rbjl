@@ -1,0 +1,124 @@
+.big-green
+{
+	border-radius: 10px;
+	padding: 4px;
+	background: #EAEAEA;
+	box-shadow: 0 2px 3px #333;
+}
+
+.big-green sapn
+{
+	background: #0000FF url(../images/type_4.gif) top right;
+	box-shadow: 0 5px 5px #ccc inset;
+	text-indent: 99999px;
+	overflow: hidden;
+	float: left;
+}
+
+.big-red
+{
+	border-radius: 10px;
+	padding: 4px;
+	background: #EAEAEA;
+	box-shadow: 0 2px 3px #333;
+}
+
+.big-red sapn
+{
+	background: #0000FF url(../images/type_4.gif) top right;
+	box-shadow: 0 5px 5px #ccc inset;
+	text-indent: 99999px;
+	overflow: hidden;
+	float: left;
+}
+
+#billable
+{
+}
+
+#nonBillalbe
+{
+	background: #FF0000 url(../images/type_4.gif) top right;
+	box-shadow: 0 5px 5px #ccc inset;
+	text-indent: 99999px;
+	overflow: hidden;
+	float: left;
+}
+
+#nonBillalbe1
+{
+	background: #008000 url(../images/type_4.gif) top right;
+	box-shadow: 0 5px 5px #ccc inset;
+	text-indent: 99999px;
+	overflow: hidden;
+	float: left;
+}
+
+#progressBar
+{
+	width: 150px;
+	height: 22px;
+}
+
+.setFullRadius
+{
+	border-radius: 6px;
+}
+
+.setFRadius
+{
+	border-radius: 6px 0 0 6px;
+}
+
+.setSRadius
+{
+	position: relative;
+	left: -4px;
+	border-radius: 0 6px 6px 0;
+}
+
+#progressBar div
+{
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 22px;
+	width: 0;
+}
+
+
+
+#progressBarBillable
+{
+	width: 150px;
+	height: 22px;
+}
+
+#progressBarBillable div
+{
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 22px;
+	width: 0;
+}
+
+
+#progressBarBillableByMonth
+{
+	width: 150px;
+	height: 22px;
+}
+
+#progressBarBillableByMonth div
+{
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 22px;
+	width: 0;
+}
+

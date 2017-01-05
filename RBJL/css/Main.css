@@ -1,0 +1,900 @@
+﻿table td
+{
+	vertical-align: top;
+}
+
+.warning
+{
+	color: Red;
+}
+
+.headerRMaster
+{
+	text-align: center;
+}
+
+.headerRB
+{
+	margin: 0px auto;
+}
+
+.logout
+{
+	margin-right: 83px;
+}
+
+.logoutSize
+{
+	height: 25px;
+	width: 200px;
+	float: right;
+	margin-right: 12px;
+}
+
+.logoutCss
+{
+	color: #000000;
+	margin-left: -15px;
+}
+
+.SystemUserGV
+{
+}
+
+.alignRight
+{
+	text-align: right;
+}
+
+.HRWidth
+{
+	width: 150px;
+}
+
+.lineHeight
+{
+	line-height: 30px;
+}
+
+.lineHeightSearch
+{
+	line-height: 20px;
+}
+
+
+
+.MasterSearch
+{
+	width: 150px;
+}
+
+.warning
+{
+	color: Red;
+}
+
+.SettingMiscellaneous
+{
+}
+
+.underLinkText
+{
+	border-bottom: 1px solid;
+}
+.borderCommon
+{
+	border: 1px solid;
+	line-height: 1;
+}
+
+.reportFeeEarnerWidth
+{
+	width: 100px;
+}
+
+
+.reportShow
+{
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.reportContentCenter td
+{
+	vertical-align: middle;
+}
+
+
+.reportShowCheckBox
+{
+	vertical-align: middle;
+}
+
+.logoH
+{
+	height: 130px;
+}
+
+.floatL
+{
+	float: left;
+}
+
+.floatR
+{
+	float: right;
+}
+
+
+
+.clientTable
+{
+	width: 700px;
+}
+
+.twoBtn
+{
+	width: 60px;
+}
+
+.systemUser
+{
+	width: 500px;
+}
+
+
+.masterDe
+{
+	width: 700px;
+	height: 50px;
+	line-height: 30px;
+}
+
+
+.debitNotePriceClass
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+
+.ModalWindow
+{
+	border: solid1px#c0c0c0;
+	background: #FFFFFF;
+	padding: 0px10px10px10px;
+	position: inherit;
+	top: -1000px;
+	overflow: scroll;
+}
+
+
+.modalBackground
+{
+	background-color: #111111;
+	filter: alpha(opacity=40);
+	opacity: 0.5;
+}
+
+.displayNone
+{
+	display: none;
+}
+
+
+.panAdd
+{
+	width: 800px;
+	height: 400px;
+	top: 0;
+	border: Solid 30px white;
+}
+
+.panAddS
+{
+	top: 0;
+	border: Solid 30px white;
+}
+
+.panAddLong
+{
+	width: 900px;
+	height: 500px;
+	top: 0;
+	border: Solid 30px white;
+}
+.panAddCopyfrom
+{
+	width: 770px;
+	height: 400px;
+	top: 0;
+	border: Solid 30px white;
+}
+.panAddSmall
+{
+	width: 800px;
+	top: 0;
+	border: Solid 30px white;
+}
+
+.panAddDebitNote
+{
+	height: 150px;
+	width: 200px;
+	top: 0;
+}
+
+.ModalWindowDebitNote
+{
+	border: solid1px#c0c0c0;
+	background: #FFFFFF;
+	padding: 0px10px10px10px;
+	position: inherit;
+	top: -1000px;
+}
+
+
+
+/*Header*/
+
+.Tab .ajax__tab_header
+{
+	color: #4682b4;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+/*Body*/
+
+.Tab .ajax__tab_body
+{
+	padding-top: 0px;
+}
+
+/*Tab Active*/
+
+.Tab .ajax__tab_active .ajax__tab_tab
+{
+	color: #000000;
+	height: 20px;
+}
+
+.Tab .ajax__tab_active .ajax__tab_inner
+{
+	color: #ffffff;
+	padding-left: 10px;
+}
+
+.Tab .ajax__tab_active .ajax__tab_outer
+{
+	color: #ffffff;
+	padding-right: 6px;
+}
+
+/*Tab Hover*/
+
+.Tab .ajax__tab_hover .ajax__tab_tab
+{
+	color: #000000;
+	height: 20px;
+}
+
+.Tab .ajax__tab_hover .ajax__tab_inner
+{
+	color: #000000;
+	padding-left: 10px;
+}
+
+.Tab .ajax__tab_hover .ajax__tab_outer
+{
+	color: #000000;
+	padding-right: 6px;
+}
+
+/*Tab Inactive*/
+
+.Tab .ajax__tab_tab
+{
+	color: #666666;
+	height: 20px;
+}
+
+.Tab .ajax__tab_inner
+{
+	color: #666666;
+	padding-left: 10px;
+}
+
+.Tab .ajax__tab_outer
+{
+	color: #666666;
+	padding-right: 6px;
+	margin-right: 2px;
+}
+
+.gvBorder
+{
+}
+
+.gvBorder table
+{
+	border: 1px solid #000000;
+}
+
+.gvBorder th
+{
+	border: 1px solid #000000;
+	min-width: 50px;
+}
+
+.gvBorder tr
+{
+	border: 1px solid #000000;
+}
+
+.gvBorder td
+{
+	border: 1px solid #000000;
+}
+
+.DropdownCommon
+{
+	width: 156px;
+}
+
+div.timer
+{
+	border: 1px #666666 solid;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.timerMaster
+{
+	width: 220px;
+}
+
+.lineGridviewMaster td
+{
+	border-bottom: 1px solid silver;
+	border-top: 1px solid silver;
+	padding-right: 10px;
+	text-align: left;
+}
+.lineGridviewMaster th
+{
+	border-bottom: 1px solid silver;
+	padding-right: 10px;
+	text-align: left;
+}
+
+.ReportTable td
+{
+	border-bottom: 1px solid silver;
+	padding-right: 10px;
+}
+
+.ReportTable th
+{
+	border-bottom: 1px solid silver;
+	padding-right: 10px;
+}
+
+
+.masterSpace
+{
+	height: 50px;
+}
+
+
+.matterMaster
+{
+	width: 630px;
+}
+
+
+.timeEntryPanel
+{
+	width: 400px;
+}
+
+
+
+
+.allTitle
+{
+	font-size: 18px;
+}
+
+
+.searchWaterMark
+{
+	color: Gray;
+}
+
+
+.addSpace
+{
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.statusBarTable
+{
+}
+.statusBarTable th
+{
+}
+
+.statusBarTable tr
+{
+}
+
+
+.statusBarRed
+{
+	height: 30px;
+	background: #0000ff;
+}
+
+.statusBarBlue
+{
+	background: #ff0000;
+}
+
+
+.menuItem
+{
+	background-color: #E4E4E4;
+}
+
+.StatusHeight
+{
+	height: 30px;
+}
+
+
+.bg_Line
+{
+	background-image: url(../images/bg_line.jpg) !important;
+	background-repeat: repeat-y;
+	background-position: 78% 50%;
+	position: relative;
+}
+
+.bgAll_Line
+{
+	border-left: solid;
+	border-right: solid;
+	border-width: 2px;
+	border-color: #C3C3C3;
+	background-color: #FFFFFF;
+}
+
+
+body
+{
+	background-color: #EEEEEE;
+	background-image: url(../images/logon_bg.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.menu
+{
+}
+
+
+.userInfo
+{
+	color: Orange;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+.searchWidth
+{
+	width: 172px;
+}
+
+.MasterAdd
+{
+	float: left;
+}
+
+
+
+.bgColor
+{
+	height: 25px;
+	background-image: url(../images/mBg.jpg) !important;
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+.logoutClass
+{
+	float: right;
+}
+
+
+.doWorkTitle
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.menuWidth
+{
+	width: 780px;
+	height: 25px;
+	background-color: #E4E4E4;
+}
+
+
+
+.accordion
+{
+	width: 700px;
+}
+
+.accordionHeader
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #ce840c;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.accordionHeaderSelected
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #f29f1a;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.accordionContent
+{
+	background-color: #f9b340;
+	border: 1px dashed #2F4F4F;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+
+.CheckBoxListSearch
+{
+	margin-left: 20px;
+	margin-top: -19px;
+}
+
+.DDValidator
+{
+	color: Red;
+}
+
+.welcomePartA
+{
+	border: 1px solid #999999;
+	height: 200px;
+}
+
+
+.welcomePartB
+{
+	border: 1px solid #999999;
+	margin-top: 10px;
+	width: 770px;
+}
+.welcomePartC
+{
+	border: 1px solid #999999;
+	margin-top: 10px;
+}
+
+
+.DDLWidth
+{
+	width: 200px;
+}
+
+
+.txtBg
+{
+	margin-left: -5px;
+}
+
+
+.billedValue
+{
+	position: relative;
+	top: -24px;
+	left: 13px;
+}
+
+
+.MasterWidth
+{
+	width: 751px;
+}
+
+
+.textboxWidth
+{
+	width: 250px;
+}
+
+.dropdownlistWidth
+{
+	width: 200px;
+}
+
+.multiDropdownlistWidth
+{
+	width: 240px;
+}
+
+.multiDDLPanel
+{
+	width: 240px;
+	height: 200px;
+}
+
+
+.textAreaCss
+{
+	width: 500px;
+}
+
+
+.detailsViewHrCss
+{
+	width: 180px;
+}
+
+
+.testing
+{
+	position: relative;
+	left: 1px;
+}
+
+
+
+.addMatter
+{
+	position: relative;
+	left: -100px;
+	top: 10px;
+}
+
+
+.repTH
+{
+	width: 500px;
+}
+
+.repT
+{
+	width: 100px;
+	text-align: right;
+}
+
+
+.viewdMatter
+{
+	position: relative;
+	left: -128px;
+	top: 10px;
+}
+
+.repTE
+{
+	width: 120px;
+}
+
+
+
+.staticSelectedCss
+{
+	background-color: #ED941B;
+}
+
+
+.tableDC
+{
+	text-align: center;
+}
+
+
+.newpopM
+{
+	margin: 5px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: #916A20 3px solid;
+}
+
+.newpopH
+{
+	height: 600px;
+	overflow-y: scroll;
+}
+
+.newMasterD
+{
+	line-height: 30px;
+}
+
+
+
+.x-window-default
+{
+	background-color: #DDB073;
+}
+
+
+.x-window-header-default-top
+{
+	background-color: #DDB073;
+}
+
+.x-window-header-text-container-default
+{
+	color: #000000;
+}
+
+.x-window-body-default
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #DDB073;
+}
+
+
+
+div.ui-tooltip
+{
+	/* tooltip container box */
+	max-width: 600px !important;
+}
+div.ui-tooltip-content
+{
+	/* tooltip content */
+	max-width: 600px !important;
+}
+
+.MWidth
+{
+	width: 200px;
+}
+
+
+.panDragClass
+{
+	height: 30px;
+	background-color: #FFA600;
+	border: #916A20 1px solid;
+}
+
+
+.btnCancelClass
+{
+	float: right;
+	width: 20px;
+	height: 20px;
+	top: 4px;
+	position: relative;
+}
+
+.LabelDoworkTitleClass
+{
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 15px;
+	top: 4px;
+}
+
+.radiusClass
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+.popupCopy
+{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+
+
+.popupH
+{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+
+
+.popupWidth
+{
+	width: 900px;
+}
+
+
+.debitNotePopupWidth
+{
+	width: 270px;
+}
+
+
+.searchBox
+{
+	display: none;
+	background-color: White;
+	width: 330px;
+	height: 30px;
+	position: absolute;
+}
+
+
+.nameWidth
+{
+	width: 200px;
+}
+
+
+
+.donwloadAttWidth
+{
+	width: 300px;
+}
+
+.refWidth
+{
+
+}
+
+
+
+
+.debitNotePendingTable
+{
+}
+
+
+.debitNotePendingTable td, th
+{
+	
+}

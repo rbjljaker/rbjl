@@ -1,0 +1,2493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RBJLLawFirmDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="RBJLLawFirmDBModelStoreContainer">
+    <EntitySet Name="aspnet_Applications" EntityType="RBJLLawFirmDBModel.Store.aspnet_Applications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Membership" EntityType="RBJLLawFirmDBModel.Store.aspnet_Membership" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Paths" EntityType="RBJLLawFirmDBModel.Store.aspnet_Paths" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="RBJLLawFirmDBModel.Store.aspnet_PersonalizationAllUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="RBJLLawFirmDBModel.Store.aspnet_PersonalizationPerUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Profile" EntityType="RBJLLawFirmDBModel.Store.aspnet_Profile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Roles" EntityType="RBJLLawFirmDBModel.Store.aspnet_Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="RBJLLawFirmDBModel.Store.aspnet_SchemaVersions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Users" EntityType="RBJLLawFirmDBModel.Store.aspnet_Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_UsersInRoles" EntityType="RBJLLawFirmDBModel.Store.aspnet_UsersInRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="RBJLLawFirmDBModel.Store.aspnet_WebEvent_Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Client" EntityType="RBJLLawFirmDBModel.Store.Client" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Country" EntityType="RBJLLawFirmDBModel.Store.Country" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CurrencyRate" EntityType="RBJLLawFirmDBModel.Store.CurrencyRate" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteAttachment" EntityType="RBJLLawFirmDBModel.Store.DebitNoteAttachment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteCore" EntityType="RBJLLawFirmDBModel.Store.DebitNoteCore" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteCost" EntityType="RBJLLawFirmDBModel.Store.DebitNoteCost" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteDisbursement" EntityType="RBJLLawFirmDBModel.Store.DebitNoteDisbursement" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteNarrative" EntityType="RBJLLawFirmDBModel.Store.DebitNoteNarrative" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteSubjectP" EntityType="RBJLLawFirmDBModel.Store.DebitNoteSubjectP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebitNoteSubjectT" EntityType="RBJLLawFirmDBModel.Store.DebitNoteSubjectT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="JobType" EntityType="RBJLLawFirmDBModel.Store.JobType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Keywork" EntityType="RBJLLawFirmDBModel.Store.Keywork" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LFUser" EntityType="RBJLLawFirmDBModel.Store.LFUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatterAndFeeEarner" EntityType="RBJLLawFirmDBModel.Store.MatterAndFeeEarner" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatterAndHandlingColleague" EntityType="RBJLLawFirmDBModel.Store.MatterAndHandlingColleague" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatterCore" EntityType="RBJLLawFirmDBModel.Store.MatterCore" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatterDetails" EntityType="RBJLLawFirmDBModel.Store.MatterDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Miscellaneous" EntityType="RBJLLawFirmDBModel.Store.Miscellaneous" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OtherParties" EntityType="RBJLLawFirmDBModel.Store.OtherParties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OutgoingAgent" EntityType="RBJLLawFirmDBModel.Store.OutgoingAgent" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PricingDetails" EntityType="RBJLLawFirmDBModel.Store.PricingDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PricingType" EntityType="RBJLLawFirmDBModel.Store.PricingType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PutAwayAndFeeEarner" EntityType="RBJLLawFirmDBModel.Store.PutAwayAndFeeEarner" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PutAwayAndHandlingColleague" EntityType="RBJLLawFirmDBModel.Store.PutAwayAndHandlingColleague" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PutAwayCore" EntityType="RBJLLawFirmDBModel.Store.PutAwayCore" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Referer" EntityType="RBJLLawFirmDBModel.Store.Referer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TemplateDetails" EntityType="RBJLLawFirmDBModel.Store.TemplateDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TemplateType" EntityType="RBJLLawFirmDBModel.Store.TemplateType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserLog" EntityType="RBJLLawFirmDBModel.Store.UserLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="View_ExportMatter" EntityType="RBJLLawFirmDBModel.Store.View_ExportMatter" store:Type="Views" store:Schema="dbo" store:Name="View_ExportMatter">
+      <DefiningQuery>SELECT 
+      [View_ExportMatter].[matterNum] AS [matterNum], 
+      [View_ExportMatter].[matterSubject] AS [matterSubject], 
+      [View_ExportMatter].[refererFee] AS [refererFee], 
+      [View_ExportMatter].[jobTypeId] AS [jobTypeId], 
+      [View_ExportMatter].[jobTypeName] AS [jobTypeName], 
+      [View_ExportMatter].[fileOpenDate] AS [fileOpenDate], 
+      [View_ExportMatter].[discount] AS [discount], 
+      [View_ExportMatter].[masterKeywordName] AS [masterKeywordName], 
+      [View_ExportMatter].[customKeywordFirst] AS [customKeywordFirst], 
+      [View_ExportMatter].[customKeywordSecond] AS [customKeywordSecond], 
+      [View_ExportMatter].[customKeywordThird] AS [customKeywordThird], 
+      [View_ExportMatter].[introducer] AS [introducer], 
+      [View_ExportMatter].[releaseToPublic] AS [releaseToPublic], 
+      [View_ExportMatter].[status] AS [status], 
+      [View_ExportMatter].[remarks] AS [remarks], 
+      [View_ExportMatter].[isReopen] AS [isReopen], 
+      [View_ExportMatter].[ioNumOfRefererM] AS [ioNumOfRefererM], 
+      [View_ExportMatter].[refNumOfRefererM] AS [refNumOfRefererM], 
+      [View_ExportMatter].[clientName] AS [clientName], 
+      [View_ExportMatter].[accountGroup] AS [accountGroup], 
+      [View_ExportMatter].[clientNum] AS [clientNum], 
+      [View_ExportMatter].[ClientbillingAddressFirst] AS [ClientbillingAddressFirst], 
+      [View_ExportMatter].[ClientbillingAddressSecond] AS [ClientbillingAddressSecond], 
+      [View_ExportMatter].[ClientcorrespondingAddress1First] AS [ClientcorrespondingAddress1First], 
+      [View_ExportMatter].[ClientcorrespondingAddress1Second] AS [ClientcorrespondingAddress1Second], 
+      [View_ExportMatter].[ClientcorrespondingAddress2First] AS [ClientcorrespondingAddress2First], 
+      [View_ExportMatter].[ClientcorrespondingAddress2Second] AS [ClientcorrespondingAddress2Second], 
+      [View_ExportMatter].[ClientcontactPerson] AS [ClientcontactPerson], 
+      [View_ExportMatter].[Clienttel] AS [Clienttel], 
+      [View_ExportMatter].[Clientemail] AS [Clientemail], 
+      [View_ExportMatter].[ClientcontactPerson02] AS [ClientcontactPerson02], 
+      [View_ExportMatter].[Clienttel02] AS [Clienttel02], 
+      [View_ExportMatter].[Clientemail02] AS [Clientemail02], 
+      [View_ExportMatter].[ClientcontactPerson03] AS [ClientcontactPerson03], 
+      [View_ExportMatter].[Clienttel03] AS [Clienttel03], 
+      [View_ExportMatter].[Clientemail03] AS [Clientemail03], 
+      [View_ExportMatter].[ClientcontactPerson04] AS [ClientcontactPerson04], 
+      [View_ExportMatter].[Clienttel04] AS [Clienttel04], 
+      [View_ExportMatter].[Clientemail04] AS [Clientemail04], 
+      [View_ExportMatter].[ClientcontactPerson05] AS [ClientcontactPerson05], 
+      [View_ExportMatter].[Clienttel05] AS [Clienttel05], 
+      [View_ExportMatter].[Clientemail05] AS [Clientemail05], 
+      [View_ExportMatter].[ClientcontactPerson06] AS [ClientcontactPerson06], 
+      [View_ExportMatter].[Clienttel06] AS [Clienttel06], 
+      [View_ExportMatter].[Clientemail06] AS [Clientemail06], 
+      [View_ExportMatter].[ClientcontactPerson07] AS [ClientcontactPerson07], 
+      [View_ExportMatter].[Clienttel07] AS [Clienttel07], 
+      [View_ExportMatter].[Clientemail07] AS [Clientemail07], 
+      [View_ExportMatter].[ClientcontactPerson08] AS [ClientcontactPerson08], 
+      [View_ExportMatter].[Clienttel08] AS [Clienttel08], 
+      [View_ExportMatter].[Clientemail08] AS [Clientemail08], 
+      [View_ExportMatter].[ClientcontactPerson09] AS [ClientcontactPerson09], 
+      [View_ExportMatter].[Clienttel09] AS [Clienttel09], 
+      [View_ExportMatter].[Clientemail09] AS [Clientemail09], 
+      [View_ExportMatter].[ClientcontactPerson10] AS [ClientcontactPerson10], 
+      [View_ExportMatter].[Clienttel10] AS [Clienttel10], 
+      [View_ExportMatter].[Clientemail10] AS [Clientemail10], 
+      [View_ExportMatter].[ClientcontactPerson11] AS [ClientcontactPerson11], 
+      [View_ExportMatter].[Clienttel11] AS [Clienttel11], 
+      [View_ExportMatter].[Clientemail11] AS [Clientemail11], 
+      [View_ExportMatter].[ClientcontactPerson12] AS [ClientcontactPerson12], 
+      [View_ExportMatter].[Clienttel12] AS [Clienttel12], 
+      [View_ExportMatter].[Clientemail12] AS [Clientemail12], 
+      [View_ExportMatter].[ClientcontactPerson13] AS [ClientcontactPerson13], 
+      [View_ExportMatter].[Clienttel13] AS [Clienttel13], 
+      [View_ExportMatter].[Clientemail13] AS [Clientemail13], 
+      [View_ExportMatter].[ClientcontactPerson14] AS [ClientcontactPerson14], 
+      [View_ExportMatter].[Clienttel14] AS [Clienttel14], 
+      [View_ExportMatter].[Clientemail14] AS [Clientemail14], 
+      [View_ExportMatter].[ClientcontactPerson15] AS [ClientcontactPerson15], 
+      [View_ExportMatter].[Clienttel15] AS [Clienttel15], 
+      [View_ExportMatter].[Clientemail15] AS [Clientemail15], 
+      [View_ExportMatter].[ClientcontactPerson16] AS [ClientcontactPerson16], 
+      [View_ExportMatter].[Clienttel16] AS [Clienttel16], 
+      [View_ExportMatter].[Clientemail16] AS [Clientemail16], 
+      [View_ExportMatter].[ClientcontactPerson17] AS [ClientcontactPerson17], 
+      [View_ExportMatter].[Clienttel17] AS [Clienttel17], 
+      [View_ExportMatter].[Clientemail17] AS [Clientemail17], 
+      [View_ExportMatter].[ClientcontactPerson18] AS [ClientcontactPerson18], 
+      [View_ExportMatter].[Clienttel18] AS [Clienttel18], 
+      [View_ExportMatter].[Clientemail18] AS [Clientemail18], 
+      [View_ExportMatter].[ClientcontactPerson19] AS [ClientcontactPerson19], 
+      [View_ExportMatter].[ClientTel19] AS [ClientTel19], 
+      [View_ExportMatter].[ClientEmail19] AS [ClientEmail19], 
+      [View_ExportMatter].[ClientContactPerson20] AS [ClientContactPerson20], 
+      [View_ExportMatter].[ClientTel20] AS [ClientTel20], 
+      [View_ExportMatter].[ClientEmail20] AS [ClientEmail20], 
+      [View_ExportMatter].[ClientBillingEmail] AS [ClientBillingEmail], 
+      [View_ExportMatter].[ClientDiscount] AS [ClientDiscount], 
+      [View_ExportMatter].[ClientRemarks] AS [ClientRemarks], 
+      [View_ExportMatter].[refererName] AS [refererName], 
+      [View_ExportMatter].[refererNum] AS [refererNum], 
+      [View_ExportMatter].[RefererbillingAddressFirst] AS [RefererbillingAddressFirst], 
+      [View_ExportMatter].[RefererbillingAddressSecond] AS [RefererbillingAddressSecond], 
+      [View_ExportMatter].[ReferercorrespondingAddress1First] AS [ReferercorrespondingAddress1First], 
+      [View_ExportMatter].[ReferercorrespondingAddress1Second] AS [ReferercorrespondingAddress1Second], 
+      [View_ExportMatter].[ReferercorrespondingAddress2First] AS [ReferercorrespondingAddress2First], 
+      [View_ExportMatter].[ReferercorrespondingAddress2Second] AS [ReferercorrespondingAddress2Second], 
+      [View_ExportMatter].[ReferercontactPerson] AS [ReferercontactPerson], 
+      [View_ExportMatter].[Referertel] AS [Referertel], 
+      [View_ExportMatter].[Refereremail] AS [Refereremail], 
+      [View_ExportMatter].[ReferercontactPerson02] AS [ReferercontactPerson02], 
+      [View_ExportMatter].[Referertel02] AS [Referertel02], 
+      [View_ExportMatter].[Refereremail02] AS [Refereremail02], 
+      [View_ExportMatter].[ReferercontactPerson03] AS [ReferercontactPerson03], 
+      [View_ExportMatter].[Referertel03] AS [Referertel03], 
+      [View_ExportMatter].[Refereremail03] AS [Refereremail03], 
+      [View_ExportMatter].[ReferercontactPerson04] AS [ReferercontactPerson04], 
+      [View_ExportMatter].[Referertel04] AS [Referertel04], 
+      [View_ExportMatter].[Refereremail04] AS [Refereremail04], 
+      [View_ExportMatter].[ReferercontactPerson05] AS [ReferercontactPerson05], 
+      [View_ExportMatter].[Referertel05] AS [Referertel05], 
+      [View_ExportMatter].[Refereremail05] AS [Refereremail05], 
+      [View_ExportMatter].[ReferercontactPerson06] AS [ReferercontactPerson06], 
+      [View_ExportMatter].[Referertel06] AS [Referertel06], 
+      [View_ExportMatter].[Refereremail06] AS [Refereremail06], 
+      [View_ExportMatter].[ReferercontactPerson07] AS [ReferercontactPerson07], 
+      [View_ExportMatter].[Referertel07] AS [Referertel07], 
+      [View_ExportMatter].[Refereremail07] AS [Refereremail07], 
+      [View_ExportMatter].[ReferercontactPerson08] AS [ReferercontactPerson08], 
+      [View_ExportMatter].[Referertel08] AS [Referertel08], 
+      [View_ExportMatter].[Refereremail08] AS [Refereremail08], 
+      [View_ExportMatter].[ReferercontactPerson09] AS [ReferercontactPerson09], 
+      [View_ExportMatter].[Referertel09] AS [Referertel09], 
+      [View_ExportMatter].[Refereremail09] AS [Refereremail09], 
+      [View_ExportMatter].[ReferercontactPerson10] AS [ReferercontactPerson10], 
+      [View_ExportMatter].[Referertel10] AS [Referertel10], 
+      [View_ExportMatter].[Refereremail10] AS [Refereremail10], 
+      [View_ExportMatter].[ReferercontactPerson11] AS [ReferercontactPerson11], 
+      [View_ExportMatter].[Referertel11] AS [Referertel11], 
+      [View_ExportMatter].[Refereremail11] AS [Refereremail11], 
+      [View_ExportMatter].[ReferercontactPerson12] AS [ReferercontactPerson12], 
+      [View_ExportMatter].[Referertel12] AS [Referertel12], 
+      [View_ExportMatter].[Refereremail12] AS [Refereremail12], 
+      [View_ExportMatter].[ReferercontactPerson13] AS [ReferercontactPerson13], 
+      [View_ExportMatter].[Referertel13] AS [Referertel13], 
+      [View_ExportMatter].[Refereremail13] AS [Refereremail13], 
+      [View_ExportMatter].[ReferercontactPerson14] AS [ReferercontactPerson14], 
+      [View_ExportMatter].[Referertel14] AS [Referertel14], 
+      [View_ExportMatter].[Refereremail14] AS [Refereremail14], 
+      [View_ExportMatter].[ReferercontactPerson15] AS [ReferercontactPerson15], 
+      [View_ExportMatter].[Referertel15] AS [Referertel15], 
+      [View_ExportMatter].[Refereremail15] AS [Refereremail15], 
+      [View_ExportMatter].[ReferercontactPerson16] AS [ReferercontactPerson16], 
+      [View_ExportMatter].[Referertel16] AS [Referertel16], 
+      [View_ExportMatter].[Refereremail16] AS [Refereremail16], 
+      [View_ExportMatter].[ReferercontactPerson17] AS [ReferercontactPerson17], 
+      [View_ExportMatter].[Referertel17] AS [Referertel17], 
+      [View_ExportMatter].[Refereremail17] AS [Refereremail17], 
+      [View_ExportMatter].[ReferercontactPerson18] AS [ReferercontactPerson18], 
+      [View_ExportMatter].[Referertel18] AS [Referertel18], 
+      [View_ExportMatter].[Refereremail18] AS [Refereremail18], 
+      [View_ExportMatter].[ReferercontactPerson19] AS [ReferercontactPerson19], 
+      [View_ExportMatter].[Referertel19] AS [Referertel19], 
+      [View_ExportMatter].[Refereremail19] AS [Refereremail19], 
+      [View_ExportMatter].[ReferercontactPerson20] AS [ReferercontactPerson20], 
+      [View_ExportMatter].[Referertel20] AS [Referertel20], 
+      [View_ExportMatter].[Refereremail20] AS [Refereremail20], 
+      [View_ExportMatter].[Refererremark] AS [Refererremark], 
+      [View_ExportMatter].[id] AS [id], 
+      [View_ExportMatter].[SPList] AS [SPList]
+      FROM [dbo].[View_ExportMatter] AS [View_ExportMatter]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_FindMatter" EntityType="RBJLLawFirmDBModel.Store.View_FindMatter" store:Type="Views" store:Schema="dbo" store:Name="View_FindMatter">
+      <DefiningQuery>SELECT 
+      [View_FindMatter].[id] AS [id], 
+      [View_FindMatter].[matterNum] AS [matterNum], 
+      [View_FindMatter].[clientId] AS [clientId], 
+      [View_FindMatter].[matterSubject] AS [matterSubject], 
+      [View_FindMatter].[status] AS [status], 
+      [View_FindMatter].[masterKeywordName] AS [masterKeywordName], 
+      [View_FindMatter].[customKeywordFirst] AS [customKeywordFirst], 
+      [View_FindMatter].[customKeywordSecond] AS [customKeywordSecond], 
+      [View_FindMatter].[customKeywordThird] AS [customKeywordThird], 
+      [View_FindMatter].[clientName] AS [clientName], 
+      [View_FindMatter].[jobTypeId] AS [jobTypeId], 
+      [View_FindMatter].[jobTypeName] AS [jobTypeName], 
+      [View_FindMatter].[correspondingAddress2First] AS [correspondingAddress2First], 
+      [View_FindMatter].[correspondingAddress1First] AS [correspondingAddress1First], 
+      [View_FindMatter].[billingAddressFirst] AS [billingAddressFirst], 
+      [View_FindMatter].[refererId] AS [refererId], 
+      [View_FindMatter].[refererName] AS [refererName], 
+      [View_FindMatter].[correspondingAddress2Second] AS [correspondingAddress2Second], 
+      [View_FindMatter].[correspondingAddress1Second] AS [correspondingAddress1Second], 
+      [View_FindMatter].[billingAddressSecond] AS [billingAddressSecond], 
+      [View_FindMatter].[isEnable] AS [isEnable], 
+      [View_FindMatter].[adminStatus] AS [adminStatus], 
+      [View_FindMatter].[fileOpenDate] AS [fileOpenDate], 
+      [View_FindMatter].[releaseToPublic] AS [releaseToPublic], 
+      [View_FindMatter].[isPending] AS [isPending], 
+      [View_FindMatter].[isReopen] AS [isReopen], 
+      [View_FindMatter].[refererFee] AS [refererFee], 
+      [View_FindMatter].[discount] AS [discount], 
+      [View_FindMatter].[masterKeywordId] AS [masterKeywordId], 
+      [View_FindMatter].[introducer] AS [introducer], 
+      [View_FindMatter].[logo] AS [logo], 
+      [View_FindMatter].[outgoingAgentId] AS [outgoingAgentId], 
+      [View_FindMatter].[remarks] AS [remarks], 
+      [View_FindMatter].[CreateDate] AS [CreateDate], 
+      [View_FindMatter].[UpdateDate] AS [UpdateDate], 
+      [View_FindMatter].[CreateByUserId] AS [CreateByUserId], 
+      [View_FindMatter].[UpdateByUserId] AS [UpdateByUserId], 
+      [View_FindMatter].[putAwayDate] AS [putAwayDate], 
+      [View_FindMatter].[putAwayBoxNum] AS [putAwayBoxNum], 
+      [View_FindMatter].[putAwayContent] AS [putAwayContent], 
+      [View_FindMatter].[agentName] AS [agentName], 
+      [View_FindMatter].[islegalAid] AS [islegalAid], 
+      [View_FindMatter].[ioNumOfRefererM] AS [ioNumOfRefererM], 
+      [View_FindMatter].[refNumOfRefererM] AS [refNumOfRefererM], 
+      [View_FindMatter].[SPList] AS [SPList]
+      FROM [dbo].[View_FindMatter] AS [View_FindMatter]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_MatterUser" EntityType="RBJLLawFirmDBModel.Store.View_MatterUser" store:Type="Views" store:Schema="dbo" store:Name="View_MatterUser">
+      <DefiningQuery>SELECT 
+      [View_MatterUser].[matterId] AS [matterId], 
+      [View_MatterUser].[tarUserId] AS [tarUserId]
+      FROM [dbo].[View_MatterUser] AS [View_MatterUser]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_OldTimeEntry" EntityType="RBJLLawFirmDBModel.Store.View_OldTimeEntry" store:Type="Views" store:Schema="dbo" store:Name="View_OldTimeEntry">
+      <DefiningQuery>SELECT 
+      [View_OldTimeEntry].[debitNoteId] AS [debitNoteId], 
+      [View_OldTimeEntry].[matterDetailsId] AS [matterDetailsId], 
+      [View_OldTimeEntry].[debitNoteType] AS [debitNoteType], 
+      [View_OldTimeEntry].[matterId] AS [matterId], 
+      [View_OldTimeEntry].[id] AS [id], 
+      [View_OldTimeEntry].[itemNum] AS [itemNum], 
+      [View_OldTimeEntry].[date] AS [date], 
+      [View_OldTimeEntry].[feeEarner] AS [feeEarner], 
+      [View_OldTimeEntry].[otherFeeEarner] AS [otherFeeEarner], 
+      [View_OldTimeEntry].[timespan] AS [timespan], 
+      [View_OldTimeEntry].[fixedCost] AS [fixedCost], 
+      [View_OldTimeEntry].[description] AS [description], 
+      [View_OldTimeEntry].[wittenOff] AS [wittenOff], 
+      [View_OldTimeEntry].[billable] AS [billable], 
+      [View_OldTimeEntry].[templateType] AS [templateType], 
+      [View_OldTimeEntry].[templateDescription] AS [templateDescription], 
+      [View_OldTimeEntry].[CreateDate] AS [CreateDate], 
+      [View_OldTimeEntry].[UpdateDate] AS [UpdateDate], 
+      [View_OldTimeEntry].[CreateByUserId] AS [CreateByUserId], 
+      [View_OldTimeEntry].[UpdateByUserId] AS [UpdateByUserId], 
+      [View_OldTimeEntry].[isEnable] AS [isEnable], 
+      [View_OldTimeEntry].[hourlyRateH] AS [hourlyRateH], 
+      [View_OldTimeEntry].[CreateDebitNoteDate] AS [CreateDebitNoteDate], 
+      [View_OldTimeEntry].[fixedCostTimeSpan] AS [fixedCostTimeSpan], 
+      [View_OldTimeEntry].[isCountTotal] AS [isCountTotal]
+      FROM [dbo].[View_OldTimeEntry] AS [View_OldTimeEntry]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_ReportDebitNote" EntityType="RBJLLawFirmDBModel.Store.View_ReportDebitNote" store:Type="Views" store:Schema="dbo" store:Name="View_ReportDebitNote">
+      <DefiningQuery>SELECT 
+      [View_ReportDebitNote].[id] AS [id], 
+      [View_ReportDebitNote].[debitNoteNum] AS [debitNoteNum], 
+      [View_ReportDebitNote].[startDate] AS [startDate], 
+      [View_ReportDebitNote].[endDate] AS [endDate], 
+      [View_ReportDebitNote].[otherPartiesId] AS [otherPartiesId], 
+      [View_ReportDebitNote].[clientId] AS [clientId], 
+      [View_ReportDebitNote].[refererId] AS [refererId], 
+      [View_ReportDebitNote].[address] AS [address], 
+      [View_ReportDebitNote].[ref] AS [ref], 
+      [View_ReportDebitNote].[yourRef] AS [yourRef], 
+      [View_ReportDebitNote].[status] AS [status], 
+      [View_ReportDebitNote].[version] AS [version], 
+      [View_ReportDebitNote].[matterNumId] AS [matterNumId], 
+      [View_ReportDebitNote].[debitNoteType] AS [debitNoteType], 
+      [View_ReportDebitNote].[price] AS [price], 
+      [View_ReportDebitNote].[isDiscount] AS [isDiscount], 
+      [View_ReportDebitNote].[CreateDate] AS [CreateDate], 
+      [View_ReportDebitNote].[UpdateDate] AS [UpdateDate], 
+      [View_ReportDebitNote].[CreateByUserId] AS [CreateByUserId], 
+      [View_ReportDebitNote].[UpdateByUserId] AS [UpdateByUserId], 
+      [View_ReportDebitNote].[isEnable] AS [isEnable], 
+      [View_ReportDebitNote].[clientName] AS [clientName], 
+      [View_ReportDebitNote].[accountGroup] AS [accountGroup], 
+      [View_ReportDebitNote].[clientNum] AS [clientNum], 
+      [View_ReportDebitNote].[billingAddressFirst] AS [billingAddressFirst], 
+      [View_ReportDebitNote].[billingAddressSecond] AS [billingAddressSecond], 
+      [View_ReportDebitNote].[correspondingAddress1First] AS [correspondingAddress1First], 
+      [View_ReportDebitNote].[correspondingAddress1Second] AS [correspondingAddress1Second], 
+      [View_ReportDebitNote].[correspondingAddress2First] AS [correspondingAddress2First], 
+      [View_ReportDebitNote].[correspondingAddress2Second] AS [correspondingAddress2Second], 
+      [View_ReportDebitNote].[contactPerson] AS [contactPerson], 
+      [View_ReportDebitNote].[tel] AS [tel], 
+      [View_ReportDebitNote].[fax] AS [fax], 
+      [View_ReportDebitNote].[email] AS [email], 
+      [View_ReportDebitNote].[billingEmail] AS [billingEmail], 
+      [View_ReportDebitNote].[referertId] AS [referertId], 
+      [View_ReportDebitNote].[discount] AS [discount], 
+      [View_ReportDebitNote].[refNumOfReferer] AS [refNumOfReferer], 
+      [View_ReportDebitNote].[remarks] AS [remarks], 
+      [View_ReportDebitNote].[isReleaseToPublic] AS [isReleaseToPublic], 
+      [View_ReportDebitNote].[otherPartiesName] AS [otherPartiesName], 
+      [View_ReportDebitNote].[otherPartiesNum] AS [otherPartiesNum], 
+      [View_ReportDebitNote].[OPBillingAddressFirst] AS [OPBillingAddressFirst], 
+      [View_ReportDebitNote].[OPBillingAddressSecond] AS [OPBillingAddressSecond], 
+      [View_ReportDebitNote].[OPCorrespondingAddress1Second] AS [OPCorrespondingAddress1Second], 
+      [View_ReportDebitNote].[OPCorrespondingAddress1First] AS [OPCorrespondingAddress1First], 
+      [View_ReportDebitNote].[OPCorrespondingAddress2First] AS [OPCorrespondingAddress2First], 
+      [View_ReportDebitNote].[OPCorrespondingAddress2Second] AS [OPCorrespondingAddress2Second], 
+      [View_ReportDebitNote].[OPContactPerson] AS [OPContactPerson], 
+      [View_ReportDebitNote].[OPTel] AS [OPTel], 
+      [View_ReportDebitNote].[OPFax] AS [OPFax], 
+      [View_ReportDebitNote].[OPEmail] AS [OPEmail], 
+      [View_ReportDebitNote].[refererName] AS [refererName], 
+      [View_ReportDebitNote].[refererNum] AS [refererNum], 
+      [View_ReportDebitNote].[RBillingAddressFirst] AS [RBillingAddressFirst], 
+      [View_ReportDebitNote].[RBillingAddressSecond] AS [RBillingAddressSecond], 
+      [View_ReportDebitNote].[RCorrespondingAddress1First] AS [RCorrespondingAddress1First], 
+      [View_ReportDebitNote].[RCorrespondingAddress1Second] AS [RCorrespondingAddress1Second], 
+      [View_ReportDebitNote].[RCorrespondingAddress2First] AS [RCorrespondingAddress2First], 
+      [View_ReportDebitNote].[RCorrespondingAddress2Second] AS [RCorrespondingAddress2Second], 
+      [View_ReportDebitNote].[RContactPerson] AS [RContactPerson], 
+      [View_ReportDebitNote].[RTel] AS [RTel], 
+      [View_ReportDebitNote].[RFax] AS [RFax], 
+      [View_ReportDebitNote].[REmail] AS [REmail], 
+      [View_ReportDebitNote].[RRemark] AS [RRemark], 
+      [View_ReportDebitNote].[RIslegalAid] AS [RIslegalAid], 
+      [View_ReportDebitNote].[ROutgoingAgentId] AS [ROutgoingAgentId], 
+      [View_ReportDebitNote].[contactPersonList] AS [contactPersonList], 
+      [View_ReportDebitNote].[feeEarnerList] AS [feeEarnerList], 
+      [View_ReportDebitNote].[HandlingColleagueList] AS [HandlingColleagueList], 
+      [View_ReportDebitNote].[DiscountValue] AS [DiscountValue], 
+      [View_ReportDebitNote].[subject] AS [subject], 
+      [View_ReportDebitNote].[category] AS [category], 
+      [View_ReportDebitNote].[billTo] AS [billTo], 
+      [View_ReportDebitNote].[reportDate] AS [reportDate], 
+      [View_ReportDebitNote].[ioNum] AS [ioNum], 
+      [View_ReportDebitNote].[SubjectType] AS [SubjectType], 
+      [View_ReportDebitNote].[CurrencySymbol] AS [CurrencySymbol], 
+      [View_ReportDebitNote].[subRef] AS [subRef], 
+      [View_ReportDebitNote].[depositAccount] AS [depositAccount], 
+      [View_ReportDebitNote].[matterNumIdList] AS [matterNumIdList], 
+      [View_ReportDebitNote].[butSay] AS [butSay]
+      FROM [dbo].[View_ReportDebitNote] AS [View_ReportDebitNote]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_UserInfo" EntityType="RBJLLawFirmDBModel.Store.View_UserInfo" store:Type="Views" store:Schema="dbo" store:Name="View_UserInfo">
+      <DefiningQuery>SELECT 
+      [View_UserInfo].[RoleId] AS [RoleId], 
+      [View_UserInfo].[UserId] AS [UserId], 
+      [View_UserInfo].[PasswordFormat] AS [PasswordFormat], 
+      [View_UserInfo].[MobilePIN] AS [MobilePIN], 
+      [View_UserInfo].[Email] AS [Email], 
+      [View_UserInfo].[LoweredEmail] AS [LoweredEmail], 
+      [View_UserInfo].[PasswordQuestion] AS [PasswordQuestion], 
+      [View_UserInfo].[PasswordAnswer] AS [PasswordAnswer], 
+      [View_UserInfo].[IsApproved] AS [IsApproved], 
+      [View_UserInfo].[IsLockedOut] AS [IsLockedOut], 
+      [View_UserInfo].[CreateDate] AS [CreateDate], 
+      [View_UserInfo].[LastLoginDate] AS [LastLoginDate], 
+      [View_UserInfo].[LastPasswordChangedDate] AS [LastPasswordChangedDate], 
+      [View_UserInfo].[LastLockoutDate] AS [LastLockoutDate], 
+      [View_UserInfo].[FailedPasswordAttemptCount] AS [FailedPasswordAttemptCount], 
+      [View_UserInfo].[FailedPasswordAttemptWindowStart] AS [FailedPasswordAttemptWindowStart], 
+      [View_UserInfo].[FailedPasswordAnswerAttemptCount] AS [FailedPasswordAnswerAttemptCount], 
+      [View_UserInfo].[FailedPasswordAnswerAttemptWindowStart] AS [FailedPasswordAnswerAttemptWindowStart], 
+      [View_UserInfo].[Comment] AS [Comment], 
+      [View_UserInfo].[ApplicationId] AS [ApplicationId], 
+      [View_UserInfo].[UserName] AS [UserName], 
+      [View_UserInfo].[MobileAlias] AS [MobileAlias], 
+      [View_UserInfo].[IsAnonymous] AS [IsAnonymous], 
+      [View_UserInfo].[LastActivityDate] AS [LastActivityDate], 
+      [View_UserInfo].[firstName] AS [firstName], 
+      [View_UserInfo].[systemUserNum] AS [systemUserNum], 
+      [View_UserInfo].[systemUserId] AS [systemUserId], 
+      [View_UserInfo].[lastName] AS [lastName], 
+      [View_UserInfo].[nickName] AS [nickName], 
+      [View_UserInfo].[CreateByDate] AS [CreateByDate], 
+      [View_UserInfo].[UpdateDate] AS [UpdateDate], 
+      [View_UserInfo].[CreateByUserId] AS [CreateByUserId], 
+      [View_UserInfo].[UpdateByUserId] AS [UpdateByUserId], 
+      [View_UserInfo].[isEnable] AS [isEnable]
+      FROM [dbo].[View_UserInfo] AS [View_UserInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_UsersInRoles" EntityType="RBJLLawFirmDBModel.Store.vw_aspnet_UsersInRoles" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_UsersInRoles">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_UsersInRoles].[UserId] AS [UserId], 
+      [vw_aspnet_UsersInRoles].[RoleId] AS [RoleId]
+      FROM [dbo].[vw_aspnet_UsersInRoles] AS [vw_aspnet_UsersInRoles]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__2BFE89A6" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Me__Appli__2BFE89A6">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__3B0BC30C" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Me__Appli__3B0BC30C">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__2CF2ADDF" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Me__UserI__2CF2ADDF">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__3BFFE745" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Me__UserI__3BFFE745">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__2DE6D218" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pa__Appli__2DE6D218">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__3CF40B7E" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pa__Appli__3CF40B7E">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2EDAF651" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__PathI__2EDAF651">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2FCF1A8A" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__PathI__2FCF1A8A">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__3DE82FB7" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__PathI__3DE82FB7">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__3EDC53F0" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__PathI__3EDC53F0">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__30C33EC3" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__UserI__30C33EC3">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__3FD07829" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pe__UserI__3FD07829">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__31B762FC" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pr__UserI__31B762FC">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__40C49C62" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Pr__UserI__40C49C62">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__32AB8735" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Ro__Appli__32AB8735">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__41B8C09B" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Ro__Appli__41B8C09B">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__339FAB6E" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__Appli__339FAB6E">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__42ACE4D4" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__Appli__42ACE4D4">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__3493CFA7" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__RoleI__3493CFA7">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__43A1090D" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__RoleI__43A1090D">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__3587F3E0" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__UserI__3587F3E0">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__44952D46" Association="RBJLLawFirmDBModel.Store.FK__aspnet_Us__UserI__44952D46">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client_Country" Association="RBJLLawFirmDBModel.Store.FK_Client_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Client" EntitySet="Client" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client_Referer" Association="RBJLLawFirmDBModel.Store.FK_Client_Referer">
+      <End Role="Referer" EntitySet="Referer" />
+      <End Role="Client" EntitySet="Client" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteAttachment_DebitNoteCore" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteAttachment_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+      <End Role="DebitNoteAttachment" EntitySet="DebitNoteAttachment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_Client" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteCore_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_MatterCore" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteCore_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCore" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_OtherParties" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteCore_OtherParties">
+      <End Role="OtherParties" EntitySet="OtherParties" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCore_Referer" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteCore_Referer">
+      <End Role="Referer" EntitySet="Referer" />
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteCost_DebitNoteCore" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteCost_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+      <End Role="DebitNoteCost" EntitySet="DebitNoteCost" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteDisbursement_DebitNoteCore" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteDisbursement_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+      <End Role="DebitNoteDisbursement" EntitySet="DebitNoteDisbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DebitNoteNarrative_DebitNoteCore" Association="RBJLLawFirmDBModel.Store.FK_DebitNoteNarrative_DebitNoteCore">
+      <End Role="DebitNoteCore" EntitySet="DebitNoteCore" />
+      <End Role="DebitNoteNarrative" EntitySet="DebitNoteNarrative" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndFeeEarner_LFUser" Association="RBJLLawFirmDBModel.Store.FK_MatterAndFeeEarner_LFUser">
+      <End Role="LFUser" EntitySet="LFUser" />
+      <End Role="MatterAndFeeEarner" EntitySet="MatterAndFeeEarner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndFeeEarner_MatterCore" Association="RBJLLawFirmDBModel.Store.FK_MatterAndFeeEarner_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCore" />
+      <End Role="MatterAndFeeEarner" EntitySet="MatterAndFeeEarner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndHandlingColleague_LFUser" Association="RBJLLawFirmDBModel.Store.FK_MatterAndHandlingColleague_LFUser">
+      <End Role="LFUser" EntitySet="LFUser" />
+      <End Role="MatterAndHandlingColleague" EntitySet="MatterAndHandlingColleague" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterAndHandlingColleague_MatterCore" Association="RBJLLawFirmDBModel.Store.FK_MatterAndHandlingColleague_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCore" />
+      <End Role="MatterAndHandlingColleague" EntitySet="MatterAndHandlingColleague" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_Client" Association="RBJLLawFirmDBModel.Store.FK_MatterCore_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="MatterCore" EntitySet="MatterCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_OutgoingAgent" Association="RBJLLawFirmDBModel.Store.FK_MatterCore_OutgoingAgent">
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgent" />
+      <End Role="MatterCore" EntitySet="MatterCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterCore_Referer" Association="RBJLLawFirmDBModel.Store.FK_MatterCore_Referer">
+      <End Role="Referer" EntitySet="Referer" />
+      <End Role="MatterCore" EntitySet="MatterCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatterDetails_MatterCore" Association="RBJLLawFirmDBModel.Store.FK_MatterDetails_MatterCore">
+      <End Role="MatterCore" EntitySet="MatterCore" />
+      <End Role="MatterDetails" EntitySet="MatterDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OutgoingAgent_Country" Association="RBJLLawFirmDBModel.Store.FK_OutgoingAgent_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PricingDetails_PricingType" Association="RBJLLawFirmDBModel.Store.FK_PricingDetails_PricingType">
+      <End Role="PricingType" EntitySet="PricingType" />
+      <End Role="PricingDetails" EntitySet="PricingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndFeeEarner_LFUser" Association="RBJLLawFirmDBModel.Store.FK_PutAwayAndFeeEarner_LFUser">
+      <End Role="LFUser" EntitySet="LFUser" />
+      <End Role="PutAwayAndFeeEarner" EntitySet="PutAwayAndFeeEarner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndFeeEarner_PutAwayCore" Association="RBJLLawFirmDBModel.Store.FK_PutAwayAndFeeEarner_PutAwayCore">
+      <End Role="PutAwayCore" EntitySet="PutAwayCore" />
+      <End Role="PutAwayAndFeeEarner" EntitySet="PutAwayAndFeeEarner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndHandlingColleague_LFUser" Association="RBJLLawFirmDBModel.Store.FK_PutAwayAndHandlingColleague_LFUser">
+      <End Role="LFUser" EntitySet="LFUser" />
+      <End Role="PutAwayAndHandlingColleague" EntitySet="PutAwayAndHandlingColleague" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayAndHandlingColleague_PutAwayCore" Association="RBJLLawFirmDBModel.Store.FK_PutAwayAndHandlingColleague_PutAwayCore">
+      <End Role="PutAwayCore" EntitySet="PutAwayCore" />
+      <End Role="PutAwayAndHandlingColleague" EntitySet="PutAwayAndHandlingColleague" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Client" Association="RBJLLawFirmDBModel.Store.FK_PutAwayCore_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Client1" Association="RBJLLawFirmDBModel.Store.FK_PutAwayCore_Client1">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PutAwayCore_Referer" Association="RBJLLawFirmDBModel.Store.FK_PutAwayCore_Referer">
+      <End Role="Referer" EntitySet="Referer" />
+      <End Role="PutAwayCore" EntitySet="PutAwayCore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Referer_Country" Association="RBJLLawFirmDBModel.Store.FK_Referer_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Referer" EntitySet="Referer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Referer_OutgoingAgent" Association="RBJLLawFirmDBModel.Store.FK_Referer_OutgoingAgent">
+      <End Role="OutgoingAgent" EntitySet="OutgoingAgent" />
+      <End Role="Referer" EntitySet="Referer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TemplateDetails_TemplateType" Association="RBJLLawFirmDBModel.Store.FK_TemplateDetails_TemplateType">
+      <End Role="TemplateType" EntitySet="TemplateType" />
+      <End Role="TemplateDetails" EntitySet="TemplateDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="PasswordFormat" Type="int" Nullable="false" />
+    <Property Name="PasswordSalt" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="MobilePIN" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordQuestion" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordAnswer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="Comment" Type="ntext" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredPath" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PropertyNames" Type="ntext" Nullable="false" />
+    <Property Name="PropertyValuesString" Type="ntext" Nullable="false" />
+    <Property Name="PropertyValuesBinary" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Name="Feature" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="CompatibleSchemaVersion" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="IsCurrentVersion" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="char" Nullable="false" MaxLength="32" />
+    <Property Name="EventTimeUtc" Type="datetime" Nullable="false" />
+    <Property Name="EventTime" Type="datetime" Nullable="false" />
+    <Property Name="EventType" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="EventSequence" Type="decimal" Nullable="false" Precision="19" />
+    <Property Name="EventOccurrence" Type="decimal" Nullable="false" Precision="19" />
+    <Property Name="EventCode" Type="int" Nullable="false" />
+    <Property Name="EventDetailCode" Type="int" Nullable="false" />
+    <Property Name="Message" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ApplicationPath" Type="nvarchar" MaxLength="256" />
+    <Property Name="ApplicationVirtualPath" Type="nvarchar" MaxLength="256" />
+    <Property Name="MachineName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="RequestUrl" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ExceptionType" Type="nvarchar" MaxLength="256" />
+    <Property Name="Details" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="clientName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="accountGroup" Type="nvarchar" MaxLength="150" />
+    <Property Name="clientNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="billingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel" Type="nvarchar" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingEmail" Type="nvarchar" MaxLength="150" />
+    <Property Name="referertId" Type="int" />
+    <Property Name="discount" Type="float" />
+    <Property Name="refNumOfReferer" Type="nvarchar" MaxLength="150" />
+    <Property Name="isReleaseToPublic" Type="bit" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="UpdateByUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="ioNumOfReferer" Type="nvarchar" MaxLength="150" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="contactPerson02" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel02" Type="nvarchar" MaxLength="100" />
+    <Property Name="email02" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson03" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel03" Type="nvarchar" MaxLength="100" />
+    <Property Name="email03" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson04" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel04" Type="nvarchar" MaxLength="100" />
+    <Property Name="email04" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson05" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel05" Type="nvarchar" MaxLength="100" />
+    <Property Name="email05" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson06" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel06" Type="nvarchar" MaxLength="100" />
+    <Property Name="email06" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson07" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel07" Type="nvarchar" MaxLength="100" />
+    <Property Name="email07" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson08" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel08" Type="nvarchar" MaxLength="100" />
+    <Property Name="email08" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson09" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel09" Type="nvarchar" MaxLength="100" />
+    <Property Name="email09" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson10" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel10" Type="nvarchar" MaxLength="100" />
+    <Property Name="email10" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson11" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel11" Type="nvarchar" MaxLength="100" />
+    <Property Name="email11" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson12" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel12" Type="nvarchar" MaxLength="100" />
+    <Property Name="email12" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson13" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel13" Type="nvarchar" MaxLength="100" />
+    <Property Name="email13" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson14" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel14" Type="nvarchar" MaxLength="100" />
+    <Property Name="email14" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson15" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel15" Type="nvarchar" MaxLength="100" />
+    <Property Name="email15" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson16" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel16" Type="nvarchar" MaxLength="100" />
+    <Property Name="email16" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson17" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel17" Type="nvarchar" MaxLength="100" />
+    <Property Name="email17" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson18" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel18" Type="nvarchar" MaxLength="100" />
+    <Property Name="email18" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson19" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel19" Type="nvarchar" MaxLength="100" />
+    <Property Name="email19" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson20" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel20" Type="nvarchar" MaxLength="100" />
+    <Property Name="email20" Type="nvarchar" MaxLength="150" />
+    <Property Name="countryId" Type="int" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="countryName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="countryCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="countryCodeISO" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CurrencyRate">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="symbol" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="currencyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="rateToHK" Type="float" Nullable="false" />
+    <Property Name="orderBy" Type="int" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="DebitNoteAttachment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="filePath" Type="nvarchar" MaxLength="200" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="DebitNoteCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="debitNoteNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="startDate" Type="datetime" />
+    <Property Name="endDate" Type="datetime" />
+    <Property Name="clientId" Type="int" />
+    <Property Name="otherPartiesId" Type="int" />
+    <Property Name="refererId" Type="int" />
+    <Property Name="address" Type="nvarchar" MaxLength="250" />
+    <Property Name="ref" Type="nvarchar" MaxLength="500" />
+    <Property Name="yourRef" Type="nvarchar" MaxLength="500" />
+    <Property Name="status" Type="nvarchar" MaxLength="100" />
+    <Property Name="version" Type="int" />
+    <Property Name="matterNumId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="debitNoteType" Type="nvarchar" MaxLength="100" />
+    <Property Name="price" Type="float" />
+    <Property Name="isDiscount" Type="bit" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="contactPersonList" Type="nvarchar" MaxLength="3000" />
+    <Property Name="feeEarnerList" Type="nvarchar" MaxLength="1000" />
+    <Property Name="HandlingColleagueList" Type="nvarchar" MaxLength="1000" />
+    <Property Name="DiscountValue" Type="float" Nullable="false" />
+    <Property Name="subject" Type="nvarchar" MaxLength="500" />
+    <Property Name="category" Type="nvarchar" MaxLength="100" />
+    <Property Name="billTo" Type="nvarchar" MaxLength="200" />
+    <Property Name="reportDate" Type="datetime" />
+    <Property Name="ioNum" Type="nvarchar" MaxLength="150" />
+    <Property Name="SubjectType" Type="nvarchar" MaxLength="100" />
+    <Property Name="CurrencySymbol" Type="nvarchar" MaxLength="50" />
+    <Property Name="subRef" Type="nvarchar" MaxLength="500" />
+    <Property Name="depositAccount" Type="float" />
+    <Property Name="matterNumIdList" Type="nvarchar" MaxLength="3000" />
+    <Property Name="butSay" Type="float" />
+  </EntityType>
+  <EntityType Name="DebitNoteCost">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="templateType" Type="nvarchar" MaxLength="50" />
+    <Property Name="templateDetails" Type="nvarchar" MaxLength="50" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="cost" Type="float" />
+    <Property Name="remark" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="orderByValue" Type="int" />
+  </EntityType>
+  <EntityType Name="DebitNoteDisbursement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="templateType" Type="nvarchar" MaxLength="50" />
+    <Property Name="templateDetails" Type="nvarchar" MaxLength="50" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="cost" Type="float" />
+    <Property Name="remark" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="orderByValue" Type="int" />
+  </EntityType>
+  <EntityType Name="DebitNoteNarrative">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="itemNum" Type="int" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="feeEarner" Type="uniqueidentifier" />
+    <Property Name="otherFeeEarner" Type="uniqueidentifier" />
+    <Property Name="timespan" Type="float" />
+    <Property Name="fixedCost" Type="float" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="wittenOff" Type="float" />
+    <Property Name="billable" Type="float" />
+    <Property Name="templateType" Type="int" />
+    <Property Name="templateDescription" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="matterDetailsId" Type="int" Nullable="false" />
+    <Property Name="hourlyRateH" Type="float" />
+    <Property Name="fixedCostTimeSpan" Type="float" />
+    <Property Name="isCountTotal" Type="bit" />
+  </EntityType>
+  <EntityType Name="DebitNoteSubjectP">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PStageValue" Type="nvarchar" MaxLength="500" />
+    <Property Name="PRoleProprietorApplican" Type="nvarchar" MaxLength="100" />
+    <Property Name="PRoleProprietorApplicanValue" Type="nvarchar" MaxLength="500" />
+    <Property Name="PAssignee" Type="nvarchar" MaxLength="500" />
+    <Property Name="PTitle" Type="nvarchar" MaxLength="500" />
+    <Property Name="PDesignOrPatentNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="PDesignOrPatentNumValue" Type="nvarchar" MaxLength="500" />
+    <Property Name="PNationalPhase" Type="nvarchar" MaxLength="500" />
+    <Property Name="Country" Type="nvarchar" MaxLength="500" />
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="PPriorityValue" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="DebitNoteSubjectT">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="TTypeOfWork" Type="nvarchar" MaxLength="150" />
+    <Property Name="TIsOpponent" Type="nvarchar" MaxLength="10" />
+    <Property Name="TOpponentValue" Type="nvarchar" MaxLength="500" />
+    <Property Name="TRoleType" Type="nvarchar" MaxLength="100" />
+    <Property Name="TRoleTypeValue" Type="nvarchar" MaxLength="500" />
+    <Property Name="TrademarkLogo" Type="nvarchar" MaxLength="200" />
+    <Property Name="TrademarkNum" Type="nvarchar" MaxLength="500" />
+    <Property Name="TClass" Type="nvarchar" MaxLength="500" />
+    <Property Name="Country" Type="nvarchar" MaxLength="500" />
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="TrademarkLogoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="JobType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="num" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="Keywork">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="LFUser">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="systemUserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="systemUserNum" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="firstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="MatterAndFeeEarner">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="feeEarnerId" />
+    </Key>
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="feeEarnerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="hourlyRate" Type="float" />
+  </EntityType>
+  <EntityType Name="MatterAndHandlingColleague">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="handlingColleagueId" />
+    </Key>
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="handlingColleagueId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="MatterCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="matterNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="matterSubject" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="clientId" Type="int" Nullable="false" />
+    <Property Name="refererId" Type="int" />
+    <Property Name="refererFee" Type="float" />
+    <Property Name="jobTypeId" Type="int" />
+    <Property Name="jobTypeName" Type="nvarchar(max)" />
+    <Property Name="fileOpenDate" Type="datetime" />
+    <Property Name="discount" Type="float" />
+    <Property Name="masterKeywordId" Type="int" />
+    <Property Name="masterKeywordName" Type="nvarchar" MaxLength="50" />
+    <Property Name="introducer" Type="nvarchar" MaxLength="200" />
+    <Property Name="customKeywordFirst" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordSecond" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordThird" Type="nvarchar" MaxLength="50" />
+    <Property Name="logo" Type="nvarchar" MaxLength="200" />
+    <Property Name="releaseToPublic" Type="bit" />
+    <Property Name="outgoingAgentId" Type="int" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="addUserToCase" Type="nvarchar" MaxLength="100" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="isReopen" Type="bit" />
+    <Property Name="isPending" Type="bit" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="adminStatus" Type="int" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="putAwayDate" Type="datetime" />
+    <Property Name="putAwayBoxNum" Type="nvarchar(max)" />
+    <Property Name="putAwayContent" Type="nvarchar(max)" />
+    <Property Name="ioNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="refNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="SPList" Type="nvarchar" MaxLength="3000" />
+  </EntityType>
+  <EntityType Name="MatterDetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="itemNum" Type="int" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="feeEarner" Type="uniqueidentifier" />
+    <Property Name="otherFeeEarner" Type="uniqueidentifier" />
+    <Property Name="timespan" Type="float" />
+    <Property Name="fixedCost" Type="float" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="wittenOff" Type="float" />
+    <Property Name="billable" Type="float" />
+    <Property Name="templateType" Type="int" />
+    <Property Name="templateDescription" Type="nvarchar(max)" />
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="hourlyRateH" Type="float" />
+    <Property Name="fixedCostTimeSpan" Type="float" />
+  </EntityType>
+  <EntityType Name="Miscellaneous">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="numberName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="numberValue" Type="nvarchar" MaxLength="3000" />
+    <Property Name="countValue" Type="nvarchar" MaxLength="3000" />
+    <Property Name="isAutoGen" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="OtherParties">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="otherPartiesName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="otherPartiesNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="billingAddressFirst" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="billingAddressSecond" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="tel" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="OutgoingAgent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="agentName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="agentNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress3First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress3Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="tel" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="countryId" Type="int" />
+  </EntityType>
+  <EntityType Name="PricingDetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="detailsDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="priceValue" Type="float" Nullable="false" />
+    <Property Name="typeId" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="PricingType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="typeDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="PutAwayAndFeeEarner">
+    <Key>
+      <PropertyRef Name="putAwayId" />
+      <PropertyRef Name="feeEarnerId" />
+    </Key>
+    <Property Name="putAwayId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="feeEarnerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="PutAwayAndHandlingColleague">
+    <Key>
+      <PropertyRef Name="putAwayId" />
+      <PropertyRef Name="handlingColleagueId" />
+    </Key>
+    <Property Name="putAwayId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="handlingColleagueId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="PutAwayCore">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="matterNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="matterSubject" Type="nvarchar" MaxLength="50" />
+    <Property Name="clientId" Type="int" />
+    <Property Name="refererId" Type="int" />
+    <Property Name="jobTypeId" Type="int" />
+    <Property Name="jobTypeName" Type="nvarchar(max)" />
+    <Property Name="fileOpenDate" Type="datetime" />
+    <Property Name="logo" Type="nvarchar" MaxLength="200" />
+    <Property Name="putAwayDate" Type="datetime" />
+    <Property Name="putAwayNum" Type="nvarchar(max)" />
+    <Property Name="putAwayContent" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="other" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="Referer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="refererName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="refererNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="billingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="tel" Type="nvarchar" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" MaxLength="150" />
+    <Property Name="remark" Type="nvarchar(max)" />
+    <Property Name="islegalAid" Type="bit" />
+    <Property Name="outgoingAgentId" Type="int" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="contactPerson02" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel02" Type="nvarchar" MaxLength="100" />
+    <Property Name="email02" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson03" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel03" Type="nvarchar" MaxLength="100" />
+    <Property Name="email03" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson04" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel04" Type="nvarchar" MaxLength="100" />
+    <Property Name="email04" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson05" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel05" Type="nvarchar" MaxLength="100" />
+    <Property Name="email05" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson06" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel06" Type="nvarchar" MaxLength="100" />
+    <Property Name="email06" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson07" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel07" Type="nvarchar" MaxLength="100" />
+    <Property Name="email07" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson08" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel08" Type="nvarchar" MaxLength="100" />
+    <Property Name="email08" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson09" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel09" Type="nvarchar" MaxLength="100" />
+    <Property Name="email09" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson10" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel10" Type="nvarchar" MaxLength="100" />
+    <Property Name="email10" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson11" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel11" Type="nvarchar" MaxLength="100" />
+    <Property Name="email11" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson12" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel12" Type="nvarchar" MaxLength="100" />
+    <Property Name="email12" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson13" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel13" Type="nvarchar" MaxLength="100" />
+    <Property Name="email13" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson14" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel14" Type="nvarchar" MaxLength="100" />
+    <Property Name="email14" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson15" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel15" Type="nvarchar" MaxLength="100" />
+    <Property Name="email15" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson16" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel16" Type="nvarchar" MaxLength="100" />
+    <Property Name="email16" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson17" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel17" Type="nvarchar" MaxLength="100" />
+    <Property Name="email17" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson18" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel18" Type="nvarchar" MaxLength="100" />
+    <Property Name="email18" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson19" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel19" Type="nvarchar" MaxLength="100" />
+    <Property Name="email19" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson20" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel20" Type="nvarchar" MaxLength="100" />
+    <Property Name="email20" Type="nvarchar" MaxLength="150" />
+    <Property Name="countryId" Type="int" />
+  </EntityType>
+  <EntityType Name="TemplateDetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="detailsDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="typeId" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="TemplateType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="typeDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <EntityType Name="UserLog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="typeId" Type="int" />
+    <Property Name="logDescription" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_ExportMatter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_ExportMatter">
+    <Key>
+      <PropertyRef Name="matterSubject" />
+      <PropertyRef Name="clientName" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="matterNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="matterSubject" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="refererFee" Type="float" />
+    <Property Name="jobTypeId" Type="int" />
+    <Property Name="jobTypeName" Type="nvarchar(max)" />
+    <Property Name="fileOpenDate" Type="datetime" />
+    <Property Name="discount" Type="float" />
+    <Property Name="masterKeywordName" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordFirst" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordSecond" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordThird" Type="nvarchar" MaxLength="50" />
+    <Property Name="introducer" Type="nvarchar" MaxLength="200" />
+    <Property Name="releaseToPublic" Type="bit" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="isReopen" Type="bit" />
+    <Property Name="ioNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="refNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="clientName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="accountGroup" Type="nvarchar" MaxLength="150" />
+    <Property Name="clientNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientbillingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientbillingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcorrespondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcorrespondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcorrespondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcorrespondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson02" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel02" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail02" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson03" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel03" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail03" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson04" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel04" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail04" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson05" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel05" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail05" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson06" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel06" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail06" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson07" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel07" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail07" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson08" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel08" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail08" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson09" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel09" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail09" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson10" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel10" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail10" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson11" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel11" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail11" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson12" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel12" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail12" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson13" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel13" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail13" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson14" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel14" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail14" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson15" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel15" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail15" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson16" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel16" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail16" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson17" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel17" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail17" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson18" Type="nvarchar" MaxLength="300" />
+    <Property Name="Clienttel18" Type="nvarchar" MaxLength="100" />
+    <Property Name="Clientemail18" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientcontactPerson19" Type="nvarchar" MaxLength="300" />
+    <Property Name="ClientTel19" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClientEmail19" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientContactPerson20" Type="nvarchar" MaxLength="300" />
+    <Property Name="ClientTel20" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClientEmail20" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientBillingEmail" Type="nvarchar" MaxLength="150" />
+    <Property Name="ClientDiscount" Type="float" />
+    <Property Name="ClientRemarks" Type="nvarchar(max)" />
+    <Property Name="refererName" Type="nvarchar" MaxLength="250" />
+    <Property Name="refererNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefererbillingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="RefererbillingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercorrespondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercorrespondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercorrespondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercorrespondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="Referertel" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson02" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel02" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail02" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson03" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel03" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail03" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson04" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel04" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail04" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson05" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel05" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail05" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson06" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel06" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail06" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson07" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel07" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail07" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson08" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel08" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail08" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson09" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel09" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail09" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson10" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel10" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail10" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson11" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel11" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail11" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson12" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel12" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail12" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson13" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel13" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail13" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson14" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel14" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail14" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson15" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel15" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail15" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson16" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel16" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail16" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson17" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel17" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail17" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson18" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel18" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail18" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson19" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel19" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail19" Type="nvarchar" MaxLength="150" />
+    <Property Name="ReferercontactPerson20" Type="nvarchar" MaxLength="300" />
+    <Property Name="Referertel20" Type="nvarchar" MaxLength="100" />
+    <Property Name="Refereremail20" Type="nvarchar" MaxLength="150" />
+    <Property Name="Refererremark" Type="nvarchar(max)" />
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SPList" Type="nvarchar" MaxLength="3000" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_FindMatter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_FindMatter">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="clientId" />
+      <PropertyRef Name="matterSubject" />
+      <PropertyRef Name="clientName" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="matterNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="clientId" Type="int" Nullable="false" />
+    <Property Name="matterSubject" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="masterKeywordName" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordFirst" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordSecond" Type="nvarchar" MaxLength="50" />
+    <Property Name="customKeywordThird" Type="nvarchar" MaxLength="50" />
+    <Property Name="clientName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="jobTypeId" Type="int" />
+    <Property Name="jobTypeName" Type="nvarchar(max)" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="refererId" Type="int" />
+    <Property Name="refererName" Type="nvarchar" MaxLength="250" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="adminStatus" Type="int" />
+    <Property Name="fileOpenDate" Type="datetime" />
+    <Property Name="releaseToPublic" Type="bit" />
+    <Property Name="isPending" Type="bit" />
+    <Property Name="isReopen" Type="bit" />
+    <Property Name="refererFee" Type="float" />
+    <Property Name="discount" Type="float" />
+    <Property Name="masterKeywordId" Type="int" />
+    <Property Name="introducer" Type="nvarchar" MaxLength="200" />
+    <Property Name="logo" Type="nvarchar" MaxLength="200" />
+    <Property Name="outgoingAgentId" Type="int" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="putAwayDate" Type="datetime" />
+    <Property Name="putAwayBoxNum" Type="nvarchar(max)" />
+    <Property Name="putAwayContent" Type="nvarchar(max)" />
+    <Property Name="agentName" Type="nvarchar" MaxLength="250" />
+    <Property Name="islegalAid" Type="bit" />
+    <Property Name="ioNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="refNumOfRefererM" Type="nvarchar" MaxLength="150" />
+    <Property Name="SPList" Type="nvarchar" MaxLength="3000" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_MatterUser' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_MatterUser">
+    <Key>
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="tarUserId" />
+    </Key>
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="tarUserId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_OldTimeEntry' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_OldTimeEntry">
+    <Key>
+      <PropertyRef Name="debitNoteId" />
+      <PropertyRef Name="matterDetailsId" />
+      <PropertyRef Name="matterId" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="debitNoteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="matterDetailsId" Type="int" Nullable="false" />
+    <Property Name="debitNoteType" Type="nvarchar" MaxLength="100" />
+    <Property Name="matterId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="itemNum" Type="int" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="feeEarner" Type="uniqueidentifier" />
+    <Property Name="otherFeeEarner" Type="uniqueidentifier" />
+    <Property Name="timespan" Type="float" />
+    <Property Name="fixedCost" Type="float" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="wittenOff" Type="float" />
+    <Property Name="billable" Type="float" />
+    <Property Name="templateType" Type="int" />
+    <Property Name="templateDescription" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="hourlyRateH" Type="float" />
+    <Property Name="CreateDebitNoteDate" Type="datetime" />
+    <Property Name="fixedCostTimeSpan" Type="float" />
+    <Property Name="isCountTotal" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_ReportDebitNote' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_ReportDebitNote">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="matterNumId" />
+      <PropertyRef Name="DiscountValue" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="debitNoteNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="startDate" Type="datetime" />
+    <Property Name="endDate" Type="datetime" />
+    <Property Name="otherPartiesId" Type="int" />
+    <Property Name="clientId" Type="int" />
+    <Property Name="refererId" Type="int" />
+    <Property Name="address" Type="nvarchar" MaxLength="250" />
+    <Property Name="ref" Type="nvarchar" MaxLength="500" />
+    <Property Name="yourRef" Type="nvarchar" MaxLength="500" />
+    <Property Name="status" Type="nvarchar" MaxLength="100" />
+    <Property Name="version" Type="int" />
+    <Property Name="matterNumId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="debitNoteType" Type="nvarchar" MaxLength="100" />
+    <Property Name="price" Type="float" />
+    <Property Name="isDiscount" Type="bit" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+    <Property Name="clientName" Type="nvarchar" MaxLength="250" />
+    <Property Name="accountGroup" Type="nvarchar" MaxLength="150" />
+    <Property Name="clientNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="billingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="correspondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="contactPerson" Type="nvarchar" MaxLength="300" />
+    <Property Name="tel" Type="nvarchar" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" MaxLength="150" />
+    <Property Name="billingEmail" Type="nvarchar" MaxLength="150" />
+    <Property Name="referertId" Type="int" />
+    <Property Name="discount" Type="float" />
+    <Property Name="refNumOfReferer" Type="nvarchar" MaxLength="150" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="isReleaseToPublic" Type="bit" />
+    <Property Name="otherPartiesName" Type="nvarchar" MaxLength="250" />
+    <Property Name="otherPartiesNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="OPBillingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPBillingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPCorrespondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPCorrespondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPCorrespondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPCorrespondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="OPContactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="OPTel" Type="nvarchar" MaxLength="100" />
+    <Property Name="OPFax" Type="nvarchar" MaxLength="100" />
+    <Property Name="OPEmail" Type="nvarchar" MaxLength="150" />
+    <Property Name="refererName" Type="nvarchar" MaxLength="250" />
+    <Property Name="refererNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="RBillingAddressFirst" Type="nvarchar" MaxLength="150" />
+    <Property Name="RBillingAddressSecond" Type="nvarchar" MaxLength="150" />
+    <Property Name="RCorrespondingAddress1First" Type="nvarchar" MaxLength="150" />
+    <Property Name="RCorrespondingAddress1Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="RCorrespondingAddress2First" Type="nvarchar" MaxLength="150" />
+    <Property Name="RCorrespondingAddress2Second" Type="nvarchar" MaxLength="150" />
+    <Property Name="RContactPerson" Type="nvarchar" MaxLength="100" />
+    <Property Name="RTel" Type="nvarchar" MaxLength="100" />
+    <Property Name="RFax" Type="nvarchar" MaxLength="100" />
+    <Property Name="REmail" Type="nvarchar" MaxLength="150" />
+    <Property Name="RRemark" Type="nvarchar(max)" />
+    <Property Name="RIslegalAid" Type="bit" />
+    <Property Name="ROutgoingAgentId" Type="int" />
+    <Property Name="contactPersonList" Type="nvarchar" MaxLength="3000" />
+    <Property Name="feeEarnerList" Type="nvarchar" MaxLength="1000" />
+    <Property Name="HandlingColleagueList" Type="nvarchar" MaxLength="1000" />
+    <Property Name="DiscountValue" Type="float" Nullable="false" />
+    <Property Name="subject" Type="nvarchar" MaxLength="500" />
+    <Property Name="category" Type="nvarchar" MaxLength="100" />
+    <Property Name="billTo" Type="nvarchar" MaxLength="200" />
+    <Property Name="reportDate" Type="datetime" />
+    <Property Name="ioNum" Type="nvarchar" MaxLength="150" />
+    <Property Name="SubjectType" Type="nvarchar" MaxLength="100" />
+    <Property Name="CurrencySymbol" Type="nvarchar" MaxLength="50" />
+    <Property Name="subRef" Type="nvarchar" MaxLength="500" />
+    <Property Name="depositAccount" Type="float" />
+    <Property Name="matterNumIdList" Type="nvarchar" MaxLength="3000" />
+    <Property Name="butSay" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.View_UserInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="View_UserInfo">
+    <Key>
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="PasswordFormat" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="FailedPasswordAttemptWindowStart" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptCount" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptWindowStart" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+      <PropertyRef Name="systemUserNum" />
+      <PropertyRef Name="systemUserId" />
+    </Key>
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PasswordFormat" Type="int" Nullable="false" />
+    <Property Name="MobilePIN" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordQuestion" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordAnswer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="Comment" Type="ntext" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+    <Property Name="firstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="systemUserNum" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="systemUserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreateByDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateByUserId" Type="uniqueidentifier" />
+    <Property Name="UpdateByUserId" Type="uniqueidentifier" />
+    <Property Name="isEnable" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'RBJLLawFirmDB_UAT.dbo.vw_aspnet_UsersInRoles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__2BFE89A6">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="RBJLLawFirmDBModel.Store.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__Appli__3B0BC30C">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="RBJLLawFirmDBModel.Store.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__2CF2ADDF">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="RBJLLawFirmDBModel.Store.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__3BFFE745">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="RBJLLawFirmDBModel.Store.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__2DE6D218">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__3CF40B7E">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2EDAF651">
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2FCF1A8A">
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__3DE82FB7">
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__3EDC53F0">
+    <End Role="aspnet_Paths" Type="RBJLLawFirmDBModel.Store.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__30C33EC3">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__3FD07829">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="RBJLLawFirmDBModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__31B762FC">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="RBJLLawFirmDBModel.Store.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__40C49C62">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="RBJLLawFirmDBModel.Store.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__32AB8735">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="RBJLLawFirmDBModel.Store.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__41B8C09B">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="RBJLLawFirmDBModel.Store.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__339FAB6E">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__42ACE4D4">
+    <End Role="aspnet_Applications" Type="RBJLLawFirmDBModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__3493CFA7">
+    <End Role="aspnet_Roles" Type="RBJLLawFirmDBModel.Store.aspnet_Roles" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="RBJLLawFirmDBModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__43A1090D">
+    <End Role="aspnet_Roles" Type="RBJLLawFirmDBModel.Store.aspnet_Roles" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="RBJLLawFirmDBModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__3587F3E0">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="RBJLLawFirmDBModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__44952D46">
+    <End Role="aspnet_Users" Type="RBJLLawFirmDBModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="RBJLLawFirmDBModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client_Country">
+    <End Role="Country" Type="RBJLLawFirmDBModel.Store.Country" Multiplicity="0..1" />
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client_Referer">
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="0..1" />
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="referertId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteAttachment_DebitNoteCore">
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="1" />
+    <End Role="DebitNoteAttachment" Type="RBJLLawFirmDBModel.Store.DebitNoteAttachment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteAttachment">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_Client">
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="0..1" />
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_MatterCore">
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="1" />
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="matterNumId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_OtherParties">
+    <End Role="OtherParties" Type="RBJLLawFirmDBModel.Store.OtherParties" Multiplicity="0..1" />
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OtherParties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="otherPartiesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCore_Referer">
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="0..1" />
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteCost_DebitNoteCore">
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="1" />
+    <End Role="DebitNoteCost" Type="RBJLLawFirmDBModel.Store.DebitNoteCost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteCost">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteDisbursement_DebitNoteCore">
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="1" />
+    <End Role="DebitNoteDisbursement" Type="RBJLLawFirmDBModel.Store.DebitNoteDisbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteDisbursement">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DebitNoteNarrative_DebitNoteCore">
+    <End Role="DebitNoteCore" Type="RBJLLawFirmDBModel.Store.DebitNoteCore" Multiplicity="1" />
+    <End Role="DebitNoteNarrative" Type="RBJLLawFirmDBModel.Store.DebitNoteNarrative" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DebitNoteCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DebitNoteNarrative">
+        <PropertyRef Name="debitNoteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndFeeEarner_LFUser">
+    <End Role="LFUser" Type="RBJLLawFirmDBModel.Store.LFUser" Multiplicity="1" />
+    <End Role="MatterAndFeeEarner" Type="RBJLLawFirmDBModel.Store.MatterAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="MatterAndFeeEarner">
+        <PropertyRef Name="feeEarnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndFeeEarner_MatterCore">
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="1" />
+    <End Role="MatterAndFeeEarner" Type="RBJLLawFirmDBModel.Store.MatterAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterAndFeeEarner">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndHandlingColleague_LFUser">
+    <End Role="LFUser" Type="RBJLLawFirmDBModel.Store.LFUser" Multiplicity="1" />
+    <End Role="MatterAndHandlingColleague" Type="RBJLLawFirmDBModel.Store.MatterAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="MatterAndHandlingColleague">
+        <PropertyRef Name="handlingColleagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterAndHandlingColleague_MatterCore">
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="1" />
+    <End Role="MatterAndHandlingColleague" Type="RBJLLawFirmDBModel.Store.MatterAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterAndHandlingColleague">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_Client">
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="1" />
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_OutgoingAgent">
+    <End Role="OutgoingAgent" Type="RBJLLawFirmDBModel.Store.OutgoingAgent" Multiplicity="0..1" />
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OutgoingAgent">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="outgoingAgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterCore_Referer">
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="0..1" />
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatterDetails_MatterCore">
+    <End Role="MatterCore" Type="RBJLLawFirmDBModel.Store.MatterCore" Multiplicity="1" />
+    <End Role="MatterDetails" Type="RBJLLawFirmDBModel.Store.MatterDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatterCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MatterDetails">
+        <PropertyRef Name="matterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OutgoingAgent_Country">
+    <End Role="Country" Type="RBJLLawFirmDBModel.Store.Country" Multiplicity="0..1" />
+    <End Role="OutgoingAgent" Type="RBJLLawFirmDBModel.Store.OutgoingAgent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="OutgoingAgent">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PricingDetails_PricingType">
+    <End Role="PricingType" Type="RBJLLawFirmDBModel.Store.PricingType" Multiplicity="1" />
+    <End Role="PricingDetails" Type="RBJLLawFirmDBModel.Store.PricingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PricingType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PricingDetails">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndFeeEarner_LFUser">
+    <End Role="LFUser" Type="RBJLLawFirmDBModel.Store.LFUser" Multiplicity="1" />
+    <End Role="PutAwayAndFeeEarner" Type="RBJLLawFirmDBModel.Store.PutAwayAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="PutAwayAndFeeEarner">
+        <PropertyRef Name="feeEarnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndFeeEarner_PutAwayCore">
+    <End Role="PutAwayCore" Type="RBJLLawFirmDBModel.Store.PutAwayCore" Multiplicity="1" />
+    <End Role="PutAwayAndFeeEarner" Type="RBJLLawFirmDBModel.Store.PutAwayAndFeeEarner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PutAwayCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayAndFeeEarner">
+        <PropertyRef Name="putAwayId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndHandlingColleague_LFUser">
+    <End Role="LFUser" Type="RBJLLawFirmDBModel.Store.LFUser" Multiplicity="1" />
+    <End Role="PutAwayAndHandlingColleague" Type="RBJLLawFirmDBModel.Store.PutAwayAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LFUser">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="PutAwayAndHandlingColleague">
+        <PropertyRef Name="handlingColleagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayAndHandlingColleague_PutAwayCore">
+    <End Role="PutAwayCore" Type="RBJLLawFirmDBModel.Store.PutAwayCore" Multiplicity="1" />
+    <End Role="PutAwayAndHandlingColleague" Type="RBJLLawFirmDBModel.Store.PutAwayAndHandlingColleague" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PutAwayCore">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayAndHandlingColleague">
+        <PropertyRef Name="putAwayId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Client">
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="0..1" />
+    <End Role="PutAwayCore" Type="RBJLLawFirmDBModel.Store.PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Client1">
+    <End Role="Client" Type="RBJLLawFirmDBModel.Store.Client" Multiplicity="0..1" />
+    <End Role="PutAwayCore" Type="RBJLLawFirmDBModel.Store.PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PutAwayCore_Referer">
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="0..1" />
+    <End Role="PutAwayCore" Type="RBJLLawFirmDBModel.Store.PutAwayCore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Referer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PutAwayCore">
+        <PropertyRef Name="refererId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Referer_Country">
+    <End Role="Country" Type="RBJLLawFirmDBModel.Store.Country" Multiplicity="0..1" />
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Referer">
+        <PropertyRef Name="countryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Referer_OutgoingAgent">
+    <End Role="OutgoingAgent" Type="RBJLLawFirmDBModel.Store.OutgoingAgent" Multiplicity="0..1" />
+    <End Role="Referer" Type="RBJLLawFirmDBModel.Store.Referer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OutgoingAgent">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Referer">
+        <PropertyRef Name="outgoingAgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TemplateDetails_TemplateType">
+    <End Role="TemplateType" Type="RBJLLawFirmDBModel.Store.TemplateType" Multiplicity="1" />
+    <End Role="TemplateDetails" Type="RBJLLawFirmDBModel.Store.TemplateDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TemplateType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="TemplateDetails">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

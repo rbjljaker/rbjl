@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="client_accountGroup" xml:space="preserve">
+    <value>Account Group</value>
+  </data>
+  <data name="keyword_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="keyword_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="refer_billingAddressFirst" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="refer_billingAddressSecond" xml:space="preserve">
+    <value />
+  </data>
+  <data name="refer_contactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="refer_correspondingAddress1First" xml:space="preserve">
+    <value>Correspondence Address 1</value>
+  </data>
+  <data name="refer_correspondingAddress1Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="refer_correspondingAddress2First" xml:space="preserve">
+    <value>Correspondence Address 2</value>
+  </data>
+  <data name="refer_correspondingAddress2Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="refer_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="refer_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="refer_islegalAid" xml:space="preserve">
+    <value>is Legal Aid</value>
+  </data>
+  <data name="refer_OutgoingAgent" xml:space="preserve">
+    <value>Outgoing Agent</value>
+  </data>
+  <data name="refer_refererName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="refer_refererNum" xml:space="preserve">
+    <value>Instructor No.</value>
+  </data>
+  <data name="refer_tel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="type_name" xml:space="preserve">
+    <value>Job Type Name</value>
+  </data>
+  <data name="type_num" xml:space="preserve">
+    <value>Job Type No.</value>
+  </data>
+  <data name="currency_currencyName" xml:space="preserve">
+    <value>Currency Name</value>
+  </data>
+  <data name="currency_rateToHK" xml:space="preserve">
+    <value>Exchange Rate To HKD</value>
+  </data>
+  <data name="currency_symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="otherparties_billingAddressFirst" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="otherparties_billingAddressSecond" xml:space="preserve">
+    <value />
+  </data>
+  <data name="otherparties_contactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="otherparties_correspondingAddress1First" xml:space="preserve">
+    <value>Correspondence Address 1</value>
+  </data>
+  <data name="otherparties_correspondingAddress1Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="otherparties_correspondingAddress2First" xml:space="preserve">
+    <value>Correspondence Address 2</value>
+  </data>
+  <data name="otherparties_correspondingAddress2Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="otherparties_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="otherparties_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="otherparties_isEnable" xml:space="preserve">
+    <value>IsEnable</value>
+  </data>
+  <data name="otherparties_otherPartiesName" xml:space="preserve">
+    <value>Other Party Name</value>
+  </data>
+  <data name="otherparties_otherPartiesNum" xml:space="preserve">
+    <value>Other Party No.</value>
+  </data>
+  <data name="otherparties_tel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="outgoingagent_agentName" xml:space="preserve">
+    <value>Agent Name</value>
+  </data>
+  <data name="outgoingagent_agentNum" xml:space="preserve">
+    <value>Agent No.</value>
+  </data>
+  <data name="outgoingagent_contactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="outgoingagent_correspondingAddress1First" xml:space="preserve">
+    <value>Correspondence Address 1</value>
+  </data>
+  <data name="outgoingagent_correspondingAddress1Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="outgoingagent_correspondingAddress2First" xml:space="preserve">
+    <value>Correspondence Address 2</value>
+  </data>
+  <data name="outgoingagent_correspondingAddress2Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="outgoingagent_correspondingAddress3First" xml:space="preserve">
+    <value>Correspondence Address 3</value>
+  </data>
+  <data name="outgoingagent_correspondingAddress3Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="outgoingagent_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="outgoingagent_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="outgoingagent_tel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="client_billingAddressFirst" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="client_billingAddressSecond" xml:space="preserve">
+    <value />
+  </data>
+  <data name="client_billingEmail" xml:space="preserve">
+    <value>Billing Email</value>
+  </data>
+  <data name="client_clientName" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="client_clientNum" xml:space="preserve">
+    <value>Client No.</value>
+  </data>
+  <data name="client_contactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="client_correspondingAddress1First" xml:space="preserve">
+    <value>Correspondence Address 1</value>
+  </data>
+  <data name="client_correspondingAddress1Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="client_correspondingAddress2First" xml:space="preserve">
+    <value>Correspondence Address 2</value>
+  </data>
+  <data name="client_correspondingAddress2Second" xml:space="preserve">
+    <value />
+  </data>
+  <data name="client_discount" xml:space="preserve">
+    <value>Discount(%)</value>
+  </data>
+  <data name="client_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="client_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="client_ioNumOfReferer" xml:space="preserve">
+    <value>IO No</value>
+  </data>
+  <data name="client_isReleaseToPublic" xml:space="preserve">
+    <value>Release To Public</value>
+  </data>
+  <data name="client_Referer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="client_refNumOfReferer" xml:space="preserve">
+    <value>Ref No</value>
+  </data>
+  <data name="client_tel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="client_UpdateByUserName" xml:space="preserve">
+    <value>Last Update Name</value>
+  </data>
+  <data name="client_UpdateDate" xml:space="preserve">
+    <value>Last Update Date</value>
+  </data>
+  <data name="pricing_detailsDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="pricing_priceValue" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="pricing_PricingType" xml:space="preserve">
+    <value>Work Category</value>
+  </data>
+  <data name="pricing_typeDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="pricing_typeName" xml:space="preserve">
+    <value>Work Category</value>
+  </data>
+  <data name="clientRemarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="client_contactPerson02" xml:space="preserve">
+    <value>Contact Person 02</value>
+  </data>
+  <data name="client_contactPerson03" xml:space="preserve">
+    <value>Contact Person 03</value>
+  </data>
+  <data name="client_contactPerson04" xml:space="preserve">
+    <value>Contact Person 04</value>
+  </data>
+  <data name="client_contactPerson05" xml:space="preserve">
+    <value>Contact Person 05</value>
+  </data>
+  <data name="client_contactPerson06" xml:space="preserve">
+    <value>Contact Person 06</value>
+  </data>
+  <data name="client_contactPerson07" xml:space="preserve">
+    <value>Contact Person 07</value>
+  </data>
+  <data name="client_contactPerson08" xml:space="preserve">
+    <value>Contact Person 08</value>
+  </data>
+  <data name="client_contactPerson09" xml:space="preserve">
+    <value>Contact Person 09</value>
+  </data>
+  <data name="client_contactPerson10" xml:space="preserve">
+    <value>Contact Person 10</value>
+  </data>
+  <data name="client_contactPerson11" xml:space="preserve">
+    <value>Contact Person 11</value>
+  </data>
+  <data name="client_contactPerson12" xml:space="preserve">
+    <value>Contact Person 12</value>
+  </data>
+  <data name="client_contactPerson13" xml:space="preserve">
+    <value>Contact Person 13</value>
+  </data>
+  <data name="client_contactPerson14" xml:space="preserve">
+    <value>Contact Person 14</value>
+  </data>
+  <data name="client_contactPerson15" xml:space="preserve">
+    <value>Contact Person 15</value>
+  </data>
+  <data name="client_contactPerson16" xml:space="preserve">
+    <value>Contact Person 16</value>
+  </data>
+  <data name="client_contactPerson17" xml:space="preserve">
+    <value>Contact Person 17</value>
+  </data>
+  <data name="client_contactPerson18" xml:space="preserve">
+    <value>Contact Person 18</value>
+  </data>
+  <data name="client_contactPerson19" xml:space="preserve">
+    <value>Contact Person 19</value>
+  </data>
+  <data name="client_contactPerson20" xml:space="preserve">
+    <value>Contact Person 20</value>
+  </data>
+  <data name="client_email02" xml:space="preserve">
+    <value>Email 02</value>
+  </data>
+  <data name="client_email03" xml:space="preserve">
+    <value>Email 03</value>
+  </data>
+  <data name="client_email04" xml:space="preserve">
+    <value>Email 04</value>
+  </data>
+  <data name="client_email05" xml:space="preserve">
+    <value>Email 05</value>
+  </data>
+  <data name="client_email06" xml:space="preserve">
+    <value>Email 06</value>
+  </data>
+  <data name="client_email07" xml:space="preserve">
+    <value>Email 07</value>
+  </data>
+  <data name="client_email08" xml:space="preserve">
+    <value>Email 08</value>
+  </data>
+  <data name="client_email09" xml:space="preserve">
+    <value>Email 09</value>
+  </data>
+  <data name="client_email10" xml:space="preserve">
+    <value>Email 10</value>
+  </data>
+  <data name="client_email11" xml:space="preserve">
+    <value>Email 11</value>
+  </data>
+  <data name="client_email12" xml:space="preserve">
+    <value>Email 12</value>
+  </data>
+  <data name="client_email13" xml:space="preserve">
+    <value>Email 13</value>
+  </data>
+  <data name="client_email14" xml:space="preserve">
+    <value>Email 14</value>
+  </data>
+  <data name="client_email15" xml:space="preserve">
+    <value>Email 15</value>
+  </data>
+  <data name="client_email16" xml:space="preserve">
+    <value>Email 16</value>
+  </data>
+  <data name="client_email17" xml:space="preserve">
+    <value>Email 17</value>
+  </data>
+  <data name="client_email18" xml:space="preserve">
+    <value>Email 18</value>
+  </data>
+  <data name="client_email19" xml:space="preserve">
+    <value>Email 19</value>
+  </data>
+  <data name="client_email20" xml:space="preserve">
+    <value>Email 20</value>
+  </data>
+  <data name="client_tel02" xml:space="preserve">
+    <value>Telephone 02</value>
+  </data>
+  <data name="client_tel03" xml:space="preserve">
+    <value>Telephone 03</value>
+  </data>
+  <data name="client_tel04" xml:space="preserve">
+    <value>Telephone 04</value>
+  </data>
+  <data name="client_tel05" xml:space="preserve">
+    <value>Telephone 05</value>
+  </data>
+  <data name="client_tel06" xml:space="preserve">
+    <value>Telephone 06</value>
+  </data>
+  <data name="client_tel07" xml:space="preserve">
+    <value>Telephone 07</value>
+  </data>
+  <data name="client_tel08" xml:space="preserve">
+    <value>Telephone 08</value>
+  </data>
+  <data name="client_tel09" xml:space="preserve">
+    <value>Telephone 09</value>
+  </data>
+  <data name="client_tel10" xml:space="preserve">
+    <value>Telephone 10</value>
+  </data>
+  <data name="client_tel11" xml:space="preserve">
+    <value>Telephone 11</value>
+  </data>
+  <data name="client_tel12" xml:space="preserve">
+    <value>Telephone 12</value>
+  </data>
+  <data name="client_tel13" xml:space="preserve">
+    <value>Telephone 13</value>
+  </data>
+  <data name="client_tel14" xml:space="preserve">
+    <value>Telephone 14</value>
+  </data>
+  <data name="client_tel15" xml:space="preserve">
+    <value>Telephone 15</value>
+  </data>
+  <data name="client_tel16" xml:space="preserve">
+    <value>Telephone 16</value>
+  </data>
+  <data name="client_tel17" xml:space="preserve">
+    <value>Telephone 17</value>
+  </data>
+  <data name="client_tel18" xml:space="preserve">
+    <value>Telephone 18</value>
+  </data>
+  <data name="client_tel19" xml:space="preserve">
+    <value>Telephone 19</value>
+  </data>
+  <data name="client_tel20" xml:space="preserve">
+    <value>Telephone 20</value>
+  </data>
+  <data name="clientCopyFormReferer" xml:space="preserve">
+    <value>Copy From Instructor</value>
+  </data>
+  <data name="clientCopyFormOutgoingAgent" xml:space="preserve">
+    <value>Copy From Outgoing Agent</value>
+  </data>
+</root>

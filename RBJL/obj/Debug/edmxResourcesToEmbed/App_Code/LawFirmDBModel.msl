@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RBJLLawFirmDBModelStoreContainer" CdmEntityContainer="RBJLLawFirmDBEntities">
+    <EntitySetMapping Name="aspnet_Applications">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Applications">
+        <MappingFragment StoreEntitySet="aspnet_Applications">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="LoweredApplicationName" ColumnName="LoweredApplicationName" />
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Membership">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Membership">
+        <MappingFragment StoreEntitySet="aspnet_Membership">
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="LoweredEmail" ColumnName="LoweredEmail" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobilePIN" ColumnName="MobilePIN" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Paths">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Paths">
+        <MappingFragment StoreEntitySet="aspnet_Paths">
+          <ScalarProperty Name="LoweredPath" ColumnName="LoweredPath" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="PathId" ColumnName="PathId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_PersonalizationAllUsers">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_PersonalizationAllUsers">
+        <MappingFragment StoreEntitySet="aspnet_PersonalizationAllUsers">
+          <ScalarProperty Name="LastUpdatedDate" ColumnName="LastUpdatedDate" />
+          <ScalarProperty Name="PageSettings" ColumnName="PageSettings" />
+          <ScalarProperty Name="PathId" ColumnName="PathId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_PersonalizationPerUser">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_PersonalizationPerUser">
+        <MappingFragment StoreEntitySet="aspnet_PersonalizationPerUser">
+          <ScalarProperty Name="LastUpdatedDate" ColumnName="LastUpdatedDate" />
+          <ScalarProperty Name="PageSettings" ColumnName="PageSettings" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PathId" ColumnName="PathId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Profile">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Profile">
+        <MappingFragment StoreEntitySet="aspnet_Profile">
+          <ScalarProperty Name="LastUpdatedDate" ColumnName="LastUpdatedDate" />
+          <ScalarProperty Name="PropertyValuesBinary" ColumnName="PropertyValuesBinary" />
+          <ScalarProperty Name="PropertyValuesString" ColumnName="PropertyValuesString" />
+          <ScalarProperty Name="PropertyNames" ColumnName="PropertyNames" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Roles">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Roles">
+        <MappingFragment StoreEntitySet="aspnet_Roles">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="LoweredRoleName" ColumnName="LoweredRoleName" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_SchemaVersions">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_SchemaVersions">
+        <MappingFragment StoreEntitySet="aspnet_SchemaVersions">
+          <ScalarProperty Name="IsCurrentVersion" ColumnName="IsCurrentVersion" />
+          <ScalarProperty Name="CompatibleSchemaVersion" ColumnName="CompatibleSchemaVersion" />
+          <ScalarProperty Name="Feature" ColumnName="Feature" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Users">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_Users">
+        <MappingFragment StoreEntitySet="aspnet_Users">
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_UsersInRoles">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_UsersInRoles">
+        <MappingFragment StoreEntitySet="aspnet_UsersInRoles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_WebEvent_Events">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.aspnet_WebEvent_Events">
+        <MappingFragment StoreEntitySet="aspnet_WebEvent_Events">
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="ExceptionType" ColumnName="ExceptionType" />
+          <ScalarProperty Name="RequestUrl" ColumnName="RequestUrl" />
+          <ScalarProperty Name="MachineName" ColumnName="MachineName" />
+          <ScalarProperty Name="ApplicationVirtualPath" ColumnName="ApplicationVirtualPath" />
+          <ScalarProperty Name="ApplicationPath" ColumnName="ApplicationPath" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="EventDetailCode" ColumnName="EventDetailCode" />
+          <ScalarProperty Name="EventCode" ColumnName="EventCode" />
+          <ScalarProperty Name="EventOccurrence" ColumnName="EventOccurrence" />
+          <ScalarProperty Name="EventSequence" ColumnName="EventSequence" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="EventTime" ColumnName="EventTime" />
+          <ScalarProperty Name="EventTimeUtc" ColumnName="EventTimeUtc" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="countryId" ColumnName="countryId" />
+          <ScalarProperty Name="email20" ColumnName="email20" />
+          <ScalarProperty Name="tel20" ColumnName="tel20" />
+          <ScalarProperty Name="contactPerson20" ColumnName="contactPerson20" />
+          <ScalarProperty Name="email19" ColumnName="email19" />
+          <ScalarProperty Name="tel19" ColumnName="tel19" />
+          <ScalarProperty Name="contactPerson19" ColumnName="contactPerson19" />
+          <ScalarProperty Name="email18" ColumnName="email18" />
+          <ScalarProperty Name="tel18" ColumnName="tel18" />
+          <ScalarProperty Name="contactPerson18" ColumnName="contactPerson18" />
+          <ScalarProperty Name="email17" ColumnName="email17" />
+          <ScalarProperty Name="tel17" ColumnName="tel17" />
+          <ScalarProperty Name="contactPerson17" ColumnName="contactPerson17" />
+          <ScalarProperty Name="email16" ColumnName="email16" />
+          <ScalarProperty Name="tel16" ColumnName="tel16" />
+          <ScalarProperty Name="contactPerson16" ColumnName="contactPerson16" />
+          <ScalarProperty Name="email15" ColumnName="email15" />
+          <ScalarProperty Name="tel15" ColumnName="tel15" />
+          <ScalarProperty Name="contactPerson15" ColumnName="contactPerson15" />
+          <ScalarProperty Name="email14" ColumnName="email14" />
+          <ScalarProperty Name="tel14" ColumnName="tel14" />
+          <ScalarProperty Name="contactPerson14" ColumnName="contactPerson14" />
+          <ScalarProperty Name="email13" ColumnName="email13" />
+          <ScalarProperty Name="tel13" ColumnName="tel13" />
+          <ScalarProperty Name="contactPerson13" ColumnName="contactPerson13" />
+          <ScalarProperty Name="email12" ColumnName="email12" />
+          <ScalarProperty Name="tel12" ColumnName="tel12" />
+          <ScalarProperty Name="contactPerson12" ColumnName="contactPerson12" />
+          <ScalarProperty Name="email11" ColumnName="email11" />
+          <ScalarProperty Name="tel11" ColumnName="tel11" />
+          <ScalarProperty Name="contactPerson11" ColumnName="contactPerson11" />
+          <ScalarProperty Name="email10" ColumnName="email10" />
+          <ScalarProperty Name="tel10" ColumnName="tel10" />
+          <ScalarProperty Name="contactPerson10" ColumnName="contactPerson10" />
+          <ScalarProperty Name="email09" ColumnName="email09" />
+          <ScalarProperty Name="tel09" ColumnName="tel09" />
+          <ScalarProperty Name="contactPerson09" ColumnName="contactPerson09" />
+          <ScalarProperty Name="email08" ColumnName="email08" />
+          <ScalarProperty Name="tel08" ColumnName="tel08" />
+          <ScalarProperty Name="contactPerson08" ColumnName="contactPerson08" />
+          <ScalarProperty Name="email07" ColumnName="email07" />
+          <ScalarProperty Name="tel07" ColumnName="tel07" />
+          <ScalarProperty Name="contactPerson07" ColumnName="contactPerson07" />
+          <ScalarProperty Name="email06" ColumnName="email06" />
+          <ScalarProperty Name="tel06" ColumnName="tel06" />
+          <ScalarProperty Name="contactPerson06" ColumnName="contactPerson06" />
+          <ScalarProperty Name="email05" ColumnName="email05" />
+          <ScalarProperty Name="tel05" ColumnName="tel05" />
+          <ScalarProperty Name="contactPerson05" ColumnName="contactPerson05" />
+          <ScalarProperty Name="email04" ColumnName="email04" />
+          <ScalarProperty Name="tel04" ColumnName="tel04" />
+          <ScalarProperty Name="contactPerson04" ColumnName="contactPerson04" />
+          <ScalarProperty Name="email03" ColumnName="email03" />
+          <ScalarProperty Name="tel03" ColumnName="tel03" />
+          <ScalarProperty Name="contactPerson03" ColumnName="contactPerson03" />
+          <ScalarProperty Name="email02" ColumnName="email02" />
+          <ScalarProperty Name="tel02" ColumnName="tel02" />
+          <ScalarProperty Name="contactPerson02" ColumnName="contactPerson02" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="ioNumOfReferer" ColumnName="ioNumOfReferer" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateByUserName" ColumnName="UpdateByUserName" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="isReleaseToPublic" ColumnName="isReleaseToPublic" />
+          <ScalarProperty Name="refNumOfReferer" ColumnName="refNumOfReferer" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="referertId" ColumnName="referertId" />
+          <ScalarProperty Name="billingEmail" ColumnName="billingEmail" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="billingAddressSecond" ColumnName="billingAddressSecond" />
+          <ScalarProperty Name="billingAddressFirst" ColumnName="billingAddressFirst" />
+          <ScalarProperty Name="clientNum" ColumnName="clientNum" />
+          <ScalarProperty Name="accountGroup" ColumnName="accountGroup" />
+          <ScalarProperty Name="clientName" ColumnName="clientName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="countryCodeISO" ColumnName="countryCodeISO" />
+          <ScalarProperty Name="countryCode" ColumnName="countryCode" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="countryName" ColumnName="countryName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurrencyRates">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.CurrencyRate">
+        <MappingFragment StoreEntitySet="CurrencyRate">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="orderBy" ColumnName="orderBy" />
+          <ScalarProperty Name="rateToHK" ColumnName="rateToHK" />
+          <ScalarProperty Name="currencyName" ColumnName="currencyName" />
+          <ScalarProperty Name="symbol" ColumnName="symbol" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteAttachments">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteAttachment">
+        <MappingFragment StoreEntitySet="DebitNoteAttachment">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="filePath" ColumnName="filePath" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteCores">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteCore">
+        <MappingFragment StoreEntitySet="DebitNoteCore">
+          <ScalarProperty Name="butSay" ColumnName="butSay" />
+          <ScalarProperty Name="matterNumIdList" ColumnName="matterNumIdList" />
+          <ScalarProperty Name="depositAccount" ColumnName="depositAccount" />
+          <ScalarProperty Name="subRef" ColumnName="subRef" />
+          <ScalarProperty Name="CurrencySymbol" ColumnName="CurrencySymbol" />
+          <ScalarProperty Name="SubjectType" ColumnName="SubjectType" />
+          <ScalarProperty Name="ioNum" ColumnName="ioNum" />
+          <ScalarProperty Name="reportDate" ColumnName="reportDate" />
+          <ScalarProperty Name="billTo" ColumnName="billTo" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="DiscountValue" ColumnName="DiscountValue" />
+          <ScalarProperty Name="HandlingColleagueList" ColumnName="HandlingColleagueList" />
+          <ScalarProperty Name="feeEarnerList" ColumnName="feeEarnerList" />
+          <ScalarProperty Name="contactPersonList" ColumnName="contactPersonList" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="customSortingCheckBox" ColumnName="customSortingCheckBox" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="isDiscount" ColumnName="isDiscount" />
+          <ScalarProperty Name="mustShowHeader" ColumnName="mustShowHeader" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="debitNoteType" ColumnName="debitNoteType" />
+          <ScalarProperty Name="matterNumId" ColumnName="matterNumId" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="yourRef" ColumnName="yourRef" />
+          <ScalarProperty Name="ref" ColumnName="ref" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="refererId" ColumnName="refererId" />
+          <ScalarProperty Name="otherPartiesId" ColumnName="otherPartiesId" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="debitNoteNum" ColumnName="debitNoteNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteCosts">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteCost">
+        <MappingFragment StoreEntitySet="DebitNoteCost">
+          <ScalarProperty Name="orderByValue" ColumnName="orderByValue" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="templateDetails" ColumnName="templateDetails" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteMiscs">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteMisc">
+        <MappingFragment StoreEntitySet="DebitNoteMisc">
+          <ScalarProperty Name="orderByValue" ColumnName="orderByValue" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="templateDetails" ColumnName="templateDetails" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteDisbursements">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteDisbursement">
+        <MappingFragment StoreEntitySet="DebitNoteDisbursement">
+          <ScalarProperty Name="orderByValue" ColumnName="orderByValue" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="templateDetails" ColumnName="templateDetails" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteNarratives">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteNarrative">
+        <MappingFragment StoreEntitySet="DebitNoteNarrative">
+          <ScalarProperty Name="isCountTotal" ColumnName="isCountTotal" />
+          <ScalarProperty Name="fixedCostTimeSpan" ColumnName="fixedCostTimeSpan" />
+          <ScalarProperty Name="hourlyRateH" ColumnName="hourlyRateH" />
+          <ScalarProperty Name="matterDetailsId" ColumnName="matterDetailsId" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="templateDescription" ColumnName="templateDescription" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="billable" ColumnName="billable" />
+          <ScalarProperty Name="wittenOff" ColumnName="wittenOff" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="fixedCost" ColumnName="fixedCost" />
+          <ScalarProperty Name="timespan" ColumnName="timespan" />
+          <ScalarProperty Name="otherFeeEarner" ColumnName="otherFeeEarner" />
+          <ScalarProperty Name="feeEarner" ColumnName="feeEarner" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="itemNum" ColumnName="itemNum" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteSubjectPs">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteSubjectP">
+        <MappingFragment StoreEntitySet="DebitNoteSubjectP">
+          <ScalarProperty Name="PPriorityValue" ColumnName="PPriorityValue" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="PNationalPhase" ColumnName="PNationalPhase" />
+          <ScalarProperty Name="PDesignOrPatentNumValue" ColumnName="PDesignOrPatentNumValue" />
+          <ScalarProperty Name="PDesignOrPatentNum" ColumnName="PDesignOrPatentNum" />
+          <ScalarProperty Name="PTitle" ColumnName="PTitle" />
+          <ScalarProperty Name="PAssignee" ColumnName="PAssignee" />
+          <ScalarProperty Name="PRoleProprietorApplicanValue" ColumnName="PRoleProprietorApplicanValue" />
+          <ScalarProperty Name="PRoleProprietorApplican" ColumnName="PRoleProprietorApplican" />
+          <ScalarProperty Name="PStageValue" ColumnName="PStageValue" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobTypes">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.JobType">
+        <MappingFragment StoreEntitySet="JobType">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Keyworks">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.Keywork">
+        <MappingFragment StoreEntitySet="Keywork">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LFUsers">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.LFUser">
+        <MappingFragment StoreEntitySet="LFUser">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="systemUserNum" ColumnName="systemUserNum" />
+          <ScalarProperty Name="systemUserId" ColumnName="systemUserId" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatterAndFeeEarners">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.MatterAndFeeEarner">
+        <MappingFragment StoreEntitySet="MatterAndFeeEarner">
+          <ScalarProperty Name="hourlyRate" ColumnName="hourlyRate" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="feeEarnerId" ColumnName="feeEarnerId" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatterAndHandlingColleagues">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.MatterAndHandlingColleague">
+        <MappingFragment StoreEntitySet="MatterAndHandlingColleague">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="handlingColleagueId" ColumnName="handlingColleagueId" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatterCores">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.MatterCore">
+        <MappingFragment StoreEntitySet="MatterCore">
+          <ScalarProperty Name="SPList" ColumnName="SPList" />
+          <ScalarProperty Name="refNumOfRefererM" ColumnName="refNumOfRefererM" />
+          <ScalarProperty Name="ioNumOfRefererM" ColumnName="ioNumOfRefererM" />
+          <ScalarProperty Name="putAwayContent" ColumnName="putAwayContent" />
+          <ScalarProperty Name="putAwayBoxNum" ColumnName="putAwayBoxNum" />
+          <ScalarProperty Name="putAwayDate" ColumnName="putAwayDate" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="adminStatus" ColumnName="adminStatus" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="isPending" ColumnName="isPending" />
+          <ScalarProperty Name="isReopen" ColumnName="isReopen" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="addUserToCase" ColumnName="addUserToCase" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="outgoingAgentId" ColumnName="outgoingAgentId" />
+          <ScalarProperty Name="releaseToPublic" ColumnName="releaseToPublic" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="customKeywordThird" ColumnName="customKeywordThird" />
+          <ScalarProperty Name="customKeywordSecond" ColumnName="customKeywordSecond" />
+          <ScalarProperty Name="customKeywordFirst" ColumnName="customKeywordFirst" />
+          <ScalarProperty Name="introducer" ColumnName="introducer" />
+          <ScalarProperty Name="masterKeywordName" ColumnName="masterKeywordName" />
+          <ScalarProperty Name="masterKeywordId" ColumnName="masterKeywordId" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="fileOpenDate" ColumnName="fileOpenDate" />
+          <ScalarProperty Name="jobTypeName" ColumnName="jobTypeName" />
+          <ScalarProperty Name="jobTypeId" ColumnName="jobTypeId" />
+          <ScalarProperty Name="refererFee" ColumnName="refererFee" />
+          <ScalarProperty Name="refererId" ColumnName="refererId" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+          <ScalarProperty Name="matterSubject" ColumnName="matterSubject" />
+          <ScalarProperty Name="matterNum" ColumnName="matterNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatterDetails">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.MatterDetail">
+        <MappingFragment StoreEntitySet="MatterDetails">
+          <ScalarProperty Name="fixedCostTimeSpan" ColumnName="fixedCostTimeSpan" />
+          <ScalarProperty Name="hourlyRateH" ColumnName="hourlyRateH" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+          <ScalarProperty Name="templateDescription" ColumnName="templateDescription" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="billable" ColumnName="billable" />
+          <ScalarProperty Name="wittenOff" ColumnName="wittenOff" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="fixedCost" ColumnName="fixedCost" />
+          <ScalarProperty Name="timespan" ColumnName="timespan" />
+          <ScalarProperty Name="otherFeeEarner" ColumnName="otherFeeEarner" />
+          <ScalarProperty Name="feeEarner" ColumnName="feeEarner" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="itemNum" ColumnName="itemNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Miscellaneous">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.Miscellaneou">
+        <MappingFragment StoreEntitySet="Miscellaneous">
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="isAutoGen" ColumnName="isAutoGen" />
+          <ScalarProperty Name="countValue" ColumnName="countValue" />
+          <ScalarProperty Name="numberValue" ColumnName="numberValue" />
+          <ScalarProperty Name="numberName" ColumnName="numberName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OtherParties">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.OtherParty">
+        <MappingFragment StoreEntitySet="OtherParties">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="billingAddressSecond" ColumnName="billingAddressSecond" />
+          <ScalarProperty Name="billingAddressFirst" ColumnName="billingAddressFirst" />
+          <ScalarProperty Name="otherPartiesNum" ColumnName="otherPartiesNum" />
+          <ScalarProperty Name="otherPartiesName" ColumnName="otherPartiesName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OutgoingAgents">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.OutgoingAgent">
+        <MappingFragment StoreEntitySet="OutgoingAgent">
+          <ScalarProperty Name="countryId" ColumnName="countryId" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="correspondingAddress3Second" ColumnName="correspondingAddress3Second" />
+          <ScalarProperty Name="correspondingAddress3First" ColumnName="correspondingAddress3First" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="agentNum" ColumnName="agentNum" />
+          <ScalarProperty Name="agentName" ColumnName="agentName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PricingDetails">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.PricingDetail">
+        <MappingFragment StoreEntitySet="PricingDetails">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="typeId" ColumnName="typeId" />
+          <ScalarProperty Name="priceValue" ColumnName="priceValue" />
+          <ScalarProperty Name="detailsDescription" ColumnName="detailsDescription" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PricingTypes">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.PricingType">
+        <MappingFragment StoreEntitySet="PricingType">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="typeDescription" ColumnName="typeDescription" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PutAwayAndFeeEarners">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.PutAwayAndFeeEarner">
+        <MappingFragment StoreEntitySet="PutAwayAndFeeEarner">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="feeEarnerId" ColumnName="feeEarnerId" />
+          <ScalarProperty Name="putAwayId" ColumnName="putAwayId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PutAwayAndHandlingColleagues">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.PutAwayAndHandlingColleague">
+        <MappingFragment StoreEntitySet="PutAwayAndHandlingColleague">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="handlingColleagueId" ColumnName="handlingColleagueId" />
+          <ScalarProperty Name="putAwayId" ColumnName="putAwayId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PutAwayCores">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.PutAwayCore">
+        <MappingFragment StoreEntitySet="PutAwayCore">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="other" ColumnName="other" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="putAwayContent" ColumnName="putAwayContent" />
+          <ScalarProperty Name="putAwayNum" ColumnName="putAwayNum" />
+          <ScalarProperty Name="putAwayDate" ColumnName="putAwayDate" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="fileOpenDate" ColumnName="fileOpenDate" />
+          <ScalarProperty Name="jobTypeName" ColumnName="jobTypeName" />
+          <ScalarProperty Name="jobTypeId" ColumnName="jobTypeId" />
+          <ScalarProperty Name="refererId" ColumnName="refererId" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+          <ScalarProperty Name="matterSubject" ColumnName="matterSubject" />
+          <ScalarProperty Name="matterNum" ColumnName="matterNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Referers">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.Referer">
+        <MappingFragment StoreEntitySet="Referer">
+          <ScalarProperty Name="countryId" ColumnName="countryId" />
+          <ScalarProperty Name="email20" ColumnName="email20" />
+          <ScalarProperty Name="tel20" ColumnName="tel20" />
+          <ScalarProperty Name="contactPerson20" ColumnName="contactPerson20" />
+          <ScalarProperty Name="email19" ColumnName="email19" />
+          <ScalarProperty Name="tel19" ColumnName="tel19" />
+          <ScalarProperty Name="contactPerson19" ColumnName="contactPerson19" />
+          <ScalarProperty Name="email18" ColumnName="email18" />
+          <ScalarProperty Name="tel18" ColumnName="tel18" />
+          <ScalarProperty Name="contactPerson18" ColumnName="contactPerson18" />
+          <ScalarProperty Name="email17" ColumnName="email17" />
+          <ScalarProperty Name="tel17" ColumnName="tel17" />
+          <ScalarProperty Name="contactPerson17" ColumnName="contactPerson17" />
+          <ScalarProperty Name="email16" ColumnName="email16" />
+          <ScalarProperty Name="tel16" ColumnName="tel16" />
+          <ScalarProperty Name="contactPerson16" ColumnName="contactPerson16" />
+          <ScalarProperty Name="email15" ColumnName="email15" />
+          <ScalarProperty Name="tel15" ColumnName="tel15" />
+          <ScalarProperty Name="contactPerson15" ColumnName="contactPerson15" />
+          <ScalarProperty Name="email14" ColumnName="email14" />
+          <ScalarProperty Name="tel14" ColumnName="tel14" />
+          <ScalarProperty Name="contactPerson14" ColumnName="contactPerson14" />
+          <ScalarProperty Name="email13" ColumnName="email13" />
+          <ScalarProperty Name="tel13" ColumnName="tel13" />
+          <ScalarProperty Name="contactPerson13" ColumnName="contactPerson13" />
+          <ScalarProperty Name="email12" ColumnName="email12" />
+          <ScalarProperty Name="tel12" ColumnName="tel12" />
+          <ScalarProperty Name="contactPerson12" ColumnName="contactPerson12" />
+          <ScalarProperty Name="email11" ColumnName="email11" />
+          <ScalarProperty Name="tel11" ColumnName="tel11" />
+          <ScalarProperty Name="contactPerson11" ColumnName="contactPerson11" />
+          <ScalarProperty Name="email10" ColumnName="email10" />
+          <ScalarProperty Name="tel10" ColumnName="tel10" />
+          <ScalarProperty Name="contactPerson10" ColumnName="contactPerson10" />
+          <ScalarProperty Name="email09" ColumnName="email09" />
+          <ScalarProperty Name="tel09" ColumnName="tel09" />
+          <ScalarProperty Name="contactPerson09" ColumnName="contactPerson09" />
+          <ScalarProperty Name="email08" ColumnName="email08" />
+          <ScalarProperty Name="tel08" ColumnName="tel08" />
+          <ScalarProperty Name="contactPerson08" ColumnName="contactPerson08" />
+          <ScalarProperty Name="email07" ColumnName="email07" />
+          <ScalarProperty Name="tel07" ColumnName="tel07" />
+          <ScalarProperty Name="contactPerson07" ColumnName="contactPerson07" />
+          <ScalarProperty Name="email06" ColumnName="email06" />
+          <ScalarProperty Name="tel06" ColumnName="tel06" />
+          <ScalarProperty Name="contactPerson06" ColumnName="contactPerson06" />
+          <ScalarProperty Name="email05" ColumnName="email05" />
+          <ScalarProperty Name="tel05" ColumnName="tel05" />
+          <ScalarProperty Name="contactPerson05" ColumnName="contactPerson05" />
+          <ScalarProperty Name="email04" ColumnName="email04" />
+          <ScalarProperty Name="tel04" ColumnName="tel04" />
+          <ScalarProperty Name="contactPerson04" ColumnName="contactPerson04" />
+          <ScalarProperty Name="email03" ColumnName="email03" />
+          <ScalarProperty Name="tel03" ColumnName="tel03" />
+          <ScalarProperty Name="contactPerson03" ColumnName="contactPerson03" />
+          <ScalarProperty Name="email02" ColumnName="email02" />
+          <ScalarProperty Name="tel02" ColumnName="tel02" />
+          <ScalarProperty Name="contactPerson02" ColumnName="contactPerson02" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="outgoingAgentId" ColumnName="outgoingAgentId" />
+          <ScalarProperty Name="islegalAid" ColumnName="islegalAid" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="billingAddressSecond" ColumnName="billingAddressSecond" />
+          <ScalarProperty Name="billingAddressFirst" ColumnName="billingAddressFirst" />
+          <ScalarProperty Name="refererNum" ColumnName="refererNum" />
+          <ScalarProperty Name="refererName" ColumnName="refererName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TemplateDetails">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.TemplateDetail">
+        <MappingFragment StoreEntitySet="TemplateDetails">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="typeId" ColumnName="typeId" />
+          <ScalarProperty Name="detailsDescription" ColumnName="detailsDescription" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TemplateTypes">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.TemplateType">
+        <MappingFragment StoreEntitySet="TemplateType">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="typeDescription" ColumnName="typeDescription" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLogs">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.UserLog">
+        <MappingFragment StoreEntitySet="UserLog">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="logDescription" ColumnName="logDescription" />
+          <ScalarProperty Name="typeId" ColumnName="typeId" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_ExportMatter">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_ExportMatter">
+        <MappingFragment StoreEntitySet="View_ExportMatter">
+          <ScalarProperty Name="SPList" ColumnName="SPList" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Refererremark" ColumnName="Refererremark" />
+          <ScalarProperty Name="Refereremail20" ColumnName="Refereremail20" />
+          <ScalarProperty Name="Referertel20" ColumnName="Referertel20" />
+          <ScalarProperty Name="ReferercontactPerson20" ColumnName="ReferercontactPerson20" />
+          <ScalarProperty Name="Refereremail19" ColumnName="Refereremail19" />
+          <ScalarProperty Name="Referertel19" ColumnName="Referertel19" />
+          <ScalarProperty Name="ReferercontactPerson19" ColumnName="ReferercontactPerson19" />
+          <ScalarProperty Name="Refereremail18" ColumnName="Refereremail18" />
+          <ScalarProperty Name="Referertel18" ColumnName="Referertel18" />
+          <ScalarProperty Name="ReferercontactPerson18" ColumnName="ReferercontactPerson18" />
+          <ScalarProperty Name="Refereremail17" ColumnName="Refereremail17" />
+          <ScalarProperty Name="Referertel17" ColumnName="Referertel17" />
+          <ScalarProperty Name="ReferercontactPerson17" ColumnName="ReferercontactPerson17" />
+          <ScalarProperty Name="Refereremail16" ColumnName="Refereremail16" />
+          <ScalarProperty Name="Referertel16" ColumnName="Referertel16" />
+          <ScalarProperty Name="ReferercontactPerson16" ColumnName="ReferercontactPerson16" />
+          <ScalarProperty Name="Refereremail15" ColumnName="Refereremail15" />
+          <ScalarProperty Name="Referertel15" ColumnName="Referertel15" />
+          <ScalarProperty Name="ReferercontactPerson15" ColumnName="ReferercontactPerson15" />
+          <ScalarProperty Name="Refereremail14" ColumnName="Refereremail14" />
+          <ScalarProperty Name="Referertel14" ColumnName="Referertel14" />
+          <ScalarProperty Name="ReferercontactPerson14" ColumnName="ReferercontactPerson14" />
+          <ScalarProperty Name="Refereremail13" ColumnName="Refereremail13" />
+          <ScalarProperty Name="Referertel13" ColumnName="Referertel13" />
+          <ScalarProperty Name="ReferercontactPerson13" ColumnName="ReferercontactPerson13" />
+          <ScalarProperty Name="Refereremail12" ColumnName="Refereremail12" />
+          <ScalarProperty Name="Referertel12" ColumnName="Referertel12" />
+          <ScalarProperty Name="ReferercontactPerson12" ColumnName="ReferercontactPerson12" />
+          <ScalarProperty Name="Refereremail11" ColumnName="Refereremail11" />
+          <ScalarProperty Name="Referertel11" ColumnName="Referertel11" />
+          <ScalarProperty Name="ReferercontactPerson11" ColumnName="ReferercontactPerson11" />
+          <ScalarProperty Name="Refereremail10" ColumnName="Refereremail10" />
+          <ScalarProperty Name="Referertel10" ColumnName="Referertel10" />
+          <ScalarProperty Name="ReferercontactPerson10" ColumnName="ReferercontactPerson10" />
+          <ScalarProperty Name="Refereremail09" ColumnName="Refereremail09" />
+          <ScalarProperty Name="Referertel09" ColumnName="Referertel09" />
+          <ScalarProperty Name="ReferercontactPerson09" ColumnName="ReferercontactPerson09" />
+          <ScalarProperty Name="Refereremail08" ColumnName="Refereremail08" />
+          <ScalarProperty Name="Referertel08" ColumnName="Referertel08" />
+          <ScalarProperty Name="ReferercontactPerson08" ColumnName="ReferercontactPerson08" />
+          <ScalarProperty Name="Refereremail07" ColumnName="Refereremail07" />
+          <ScalarProperty Name="Referertel07" ColumnName="Referertel07" />
+          <ScalarProperty Name="ReferercontactPerson07" ColumnName="ReferercontactPerson07" />
+          <ScalarProperty Name="Refereremail06" ColumnName="Refereremail06" />
+          <ScalarProperty Name="Referertel06" ColumnName="Referertel06" />
+          <ScalarProperty Name="ReferercontactPerson06" ColumnName="ReferercontactPerson06" />
+          <ScalarProperty Name="Refereremail05" ColumnName="Refereremail05" />
+          <ScalarProperty Name="Referertel05" ColumnName="Referertel05" />
+          <ScalarProperty Name="ReferercontactPerson05" ColumnName="ReferercontactPerson05" />
+          <ScalarProperty Name="Refereremail04" ColumnName="Refereremail04" />
+          <ScalarProperty Name="Referertel04" ColumnName="Referertel04" />
+          <ScalarProperty Name="ReferercontactPerson04" ColumnName="ReferercontactPerson04" />
+          <ScalarProperty Name="Refereremail03" ColumnName="Refereremail03" />
+          <ScalarProperty Name="Referertel03" ColumnName="Referertel03" />
+          <ScalarProperty Name="ReferercontactPerson03" ColumnName="ReferercontactPerson03" />
+          <ScalarProperty Name="Refereremail02" ColumnName="Refereremail02" />
+          <ScalarProperty Name="Referertel02" ColumnName="Referertel02" />
+          <ScalarProperty Name="ReferercontactPerson02" ColumnName="ReferercontactPerson02" />
+          <ScalarProperty Name="Refereremail" ColumnName="Refereremail" />
+          <ScalarProperty Name="Referertel" ColumnName="Referertel" />
+          <ScalarProperty Name="ReferercontactPerson" ColumnName="ReferercontactPerson" />
+          <ScalarProperty Name="ReferercorrespondingAddress2Second" ColumnName="ReferercorrespondingAddress2Second" />
+          <ScalarProperty Name="ReferercorrespondingAddress2First" ColumnName="ReferercorrespondingAddress2First" />
+          <ScalarProperty Name="ReferercorrespondingAddress1Second" ColumnName="ReferercorrespondingAddress1Second" />
+          <ScalarProperty Name="ReferercorrespondingAddress1First" ColumnName="ReferercorrespondingAddress1First" />
+          <ScalarProperty Name="RefererbillingAddressSecond" ColumnName="RefererbillingAddressSecond" />
+          <ScalarProperty Name="RefererbillingAddressFirst" ColumnName="RefererbillingAddressFirst" />
+          <ScalarProperty Name="refererNum" ColumnName="refererNum" />
+          <ScalarProperty Name="refererName" ColumnName="refererName" />
+          <ScalarProperty Name="ClientRemarks" ColumnName="ClientRemarks" />
+          <ScalarProperty Name="ClientDiscount" ColumnName="ClientDiscount" />
+          <ScalarProperty Name="ClientBillingEmail" ColumnName="ClientBillingEmail" />
+          <ScalarProperty Name="ClientEmail20" ColumnName="ClientEmail20" />
+          <ScalarProperty Name="ClientTel20" ColumnName="ClientTel20" />
+          <ScalarProperty Name="ClientContactPerson20" ColumnName="ClientContactPerson20" />
+          <ScalarProperty Name="ClientEmail19" ColumnName="ClientEmail19" />
+          <ScalarProperty Name="ClientTel19" ColumnName="ClientTel19" />
+          <ScalarProperty Name="ClientcontactPerson19" ColumnName="ClientcontactPerson19" />
+          <ScalarProperty Name="Clientemail18" ColumnName="Clientemail18" />
+          <ScalarProperty Name="Clienttel18" ColumnName="Clienttel18" />
+          <ScalarProperty Name="ClientcontactPerson18" ColumnName="ClientcontactPerson18" />
+          <ScalarProperty Name="Clientemail17" ColumnName="Clientemail17" />
+          <ScalarProperty Name="Clienttel17" ColumnName="Clienttel17" />
+          <ScalarProperty Name="ClientcontactPerson17" ColumnName="ClientcontactPerson17" />
+          <ScalarProperty Name="Clientemail16" ColumnName="Clientemail16" />
+          <ScalarProperty Name="Clienttel16" ColumnName="Clienttel16" />
+          <ScalarProperty Name="ClientcontactPerson16" ColumnName="ClientcontactPerson16" />
+          <ScalarProperty Name="Clientemail15" ColumnName="Clientemail15" />
+          <ScalarProperty Name="Clienttel15" ColumnName="Clienttel15" />
+          <ScalarProperty Name="ClientcontactPerson15" ColumnName="ClientcontactPerson15" />
+          <ScalarProperty Name="Clientemail14" ColumnName="Clientemail14" />
+          <ScalarProperty Name="Clienttel14" ColumnName="Clienttel14" />
+          <ScalarProperty Name="ClientcontactPerson14" ColumnName="ClientcontactPerson14" />
+          <ScalarProperty Name="Clientemail13" ColumnName="Clientemail13" />
+          <ScalarProperty Name="Clienttel13" ColumnName="Clienttel13" />
+          <ScalarProperty Name="ClientcontactPerson13" ColumnName="ClientcontactPerson13" />
+          <ScalarProperty Name="Clientemail12" ColumnName="Clientemail12" />
+          <ScalarProperty Name="Clienttel12" ColumnName="Clienttel12" />
+          <ScalarProperty Name="ClientcontactPerson12" ColumnName="ClientcontactPerson12" />
+          <ScalarProperty Name="Clientemail11" ColumnName="Clientemail11" />
+          <ScalarProperty Name="Clienttel11" ColumnName="Clienttel11" />
+          <ScalarProperty Name="ClientcontactPerson11" ColumnName="ClientcontactPerson11" />
+          <ScalarProperty Name="Clientemail10" ColumnName="Clientemail10" />
+          <ScalarProperty Name="Clienttel10" ColumnName="Clienttel10" />
+          <ScalarProperty Name="ClientcontactPerson10" ColumnName="ClientcontactPerson10" />
+          <ScalarProperty Name="Clientemail09" ColumnName="Clientemail09" />
+          <ScalarProperty Name="Clienttel09" ColumnName="Clienttel09" />
+          <ScalarProperty Name="ClientcontactPerson09" ColumnName="ClientcontactPerson09" />
+          <ScalarProperty Name="Clientemail08" ColumnName="Clientemail08" />
+          <ScalarProperty Name="Clienttel08" ColumnName="Clienttel08" />
+          <ScalarProperty Name="ClientcontactPerson08" ColumnName="ClientcontactPerson08" />
+          <ScalarProperty Name="Clientemail07" ColumnName="Clientemail07" />
+          <ScalarProperty Name="Clienttel07" ColumnName="Clienttel07" />
+          <ScalarProperty Name="ClientcontactPerson07" ColumnName="ClientcontactPerson07" />
+          <ScalarProperty Name="Clientemail06" ColumnName="Clientemail06" />
+          <ScalarProperty Name="Clienttel06" ColumnName="Clienttel06" />
+          <ScalarProperty Name="ClientcontactPerson06" ColumnName="ClientcontactPerson06" />
+          <ScalarProperty Name="Clientemail05" ColumnName="Clientemail05" />
+          <ScalarProperty Name="Clienttel05" ColumnName="Clienttel05" />
+          <ScalarProperty Name="ClientcontactPerson05" ColumnName="ClientcontactPerson05" />
+          <ScalarProperty Name="Clientemail04" ColumnName="Clientemail04" />
+          <ScalarProperty Name="Clienttel04" ColumnName="Clienttel04" />
+          <ScalarProperty Name="ClientcontactPerson04" ColumnName="ClientcontactPerson04" />
+          <ScalarProperty Name="Clientemail03" ColumnName="Clientemail03" />
+          <ScalarProperty Name="Clienttel03" ColumnName="Clienttel03" />
+          <ScalarProperty Name="ClientcontactPerson03" ColumnName="ClientcontactPerson03" />
+          <ScalarProperty Name="Clientemail02" ColumnName="Clientemail02" />
+          <ScalarProperty Name="Clienttel02" ColumnName="Clienttel02" />
+          <ScalarProperty Name="ClientcontactPerson02" ColumnName="ClientcontactPerson02" />
+          <ScalarProperty Name="Clientemail" ColumnName="Clientemail" />
+          <ScalarProperty Name="Clienttel" ColumnName="Clienttel" />
+          <ScalarProperty Name="ClientcontactPerson" ColumnName="ClientcontactPerson" />
+          <ScalarProperty Name="ClientcorrespondingAddress2Second" ColumnName="ClientcorrespondingAddress2Second" />
+          <ScalarProperty Name="ClientcorrespondingAddress2First" ColumnName="ClientcorrespondingAddress2First" />
+          <ScalarProperty Name="ClientcorrespondingAddress1Second" ColumnName="ClientcorrespondingAddress1Second" />
+          <ScalarProperty Name="ClientcorrespondingAddress1First" ColumnName="ClientcorrespondingAddress1First" />
+          <ScalarProperty Name="ClientbillingAddressSecond" ColumnName="ClientbillingAddressSecond" />
+          <ScalarProperty Name="ClientbillingAddressFirst" ColumnName="ClientbillingAddressFirst" />
+          <ScalarProperty Name="clientNum" ColumnName="clientNum" />
+          <ScalarProperty Name="accountGroup" ColumnName="accountGroup" />
+          <ScalarProperty Name="clientName" ColumnName="clientName" />
+          <ScalarProperty Name="refNumOfRefererM" ColumnName="refNumOfRefererM" />
+          <ScalarProperty Name="ioNumOfRefererM" ColumnName="ioNumOfRefererM" />
+          <ScalarProperty Name="isReopen" ColumnName="isReopen" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="releaseToPublic" ColumnName="releaseToPublic" />
+          <ScalarProperty Name="introducer" ColumnName="introducer" />
+          <ScalarProperty Name="customKeywordThird" ColumnName="customKeywordThird" />
+          <ScalarProperty Name="customKeywordSecond" ColumnName="customKeywordSecond" />
+          <ScalarProperty Name="customKeywordFirst" ColumnName="customKeywordFirst" />
+          <ScalarProperty Name="masterKeywordName" ColumnName="masterKeywordName" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="fileOpenDate" ColumnName="fileOpenDate" />
+          <ScalarProperty Name="jobTypeName" ColumnName="jobTypeName" />
+          <ScalarProperty Name="jobTypeId" ColumnName="jobTypeId" />
+          <ScalarProperty Name="refererFee" ColumnName="refererFee" />
+          <ScalarProperty Name="matterSubject" ColumnName="matterSubject" />
+          <ScalarProperty Name="matterNum" ColumnName="matterNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_FindMatter">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_FindMatter">
+        <MappingFragment StoreEntitySet="View_FindMatter">
+          <ScalarProperty Name="SPList" ColumnName="SPList" />
+          <ScalarProperty Name="refNumOfRefererM" ColumnName="refNumOfRefererM" />
+          <ScalarProperty Name="ioNumOfRefererM" ColumnName="ioNumOfRefererM" />
+          <ScalarProperty Name="islegalAid" ColumnName="islegalAid" />
+          <ScalarProperty Name="agentName" ColumnName="agentName" />
+          <ScalarProperty Name="putAwayContent" ColumnName="putAwayContent" />
+          <ScalarProperty Name="putAwayBoxNum" ColumnName="putAwayBoxNum" />
+          <ScalarProperty Name="putAwayDate" ColumnName="putAwayDate" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="outgoingAgentId" ColumnName="outgoingAgentId" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="introducer" ColumnName="introducer" />
+          <ScalarProperty Name="masterKeywordId" ColumnName="masterKeywordId" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="refererFee" ColumnName="refererFee" />
+          <ScalarProperty Name="isReopen" ColumnName="isReopen" />
+          <ScalarProperty Name="isPending" ColumnName="isPending" />
+          <ScalarProperty Name="releaseToPublic" ColumnName="releaseToPublic" />
+          <ScalarProperty Name="fileOpenDate" ColumnName="fileOpenDate" />
+          <ScalarProperty Name="adminStatus" ColumnName="adminStatus" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="billingAddressSecond" ColumnName="billingAddressSecond" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="refererName" ColumnName="refererName" />
+          <ScalarProperty Name="refererId" ColumnName="refererId" />
+          <ScalarProperty Name="billingAddressFirst" ColumnName="billingAddressFirst" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="jobTypeName" ColumnName="jobTypeName" />
+          <ScalarProperty Name="jobTypeId" ColumnName="jobTypeId" />
+          <ScalarProperty Name="clientName" ColumnName="clientName" />
+          <ScalarProperty Name="customKeywordThird" ColumnName="customKeywordThird" />
+          <ScalarProperty Name="customKeywordSecond" ColumnName="customKeywordSecond" />
+          <ScalarProperty Name="customKeywordFirst" ColumnName="customKeywordFirst" />
+          <ScalarProperty Name="masterKeywordName" ColumnName="masterKeywordName" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="matterSubject" ColumnName="matterSubject" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+          <ScalarProperty Name="matterNum" ColumnName="matterNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_MatterUser">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_MatterUser">
+        <MappingFragment StoreEntitySet="View_MatterUser">
+          <ScalarProperty Name="tarUserId" ColumnName="tarUserId" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_OldTimeEntry">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_OldTimeEntry">
+        <MappingFragment StoreEntitySet="View_OldTimeEntry">
+          <ScalarProperty Name="isCountTotal" ColumnName="isCountTotal" />
+          <ScalarProperty Name="fixedCostTimeSpan" ColumnName="fixedCostTimeSpan" />
+          <ScalarProperty Name="CreateDebitNoteDate" ColumnName="CreateDebitNoteDate" />
+          <ScalarProperty Name="hourlyRateH" ColumnName="hourlyRateH" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="templateDescription" ColumnName="templateDescription" />
+          <ScalarProperty Name="templateType" ColumnName="templateType" />
+          <ScalarProperty Name="billable" ColumnName="billable" />
+          <ScalarProperty Name="wittenOff" ColumnName="wittenOff" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="fixedCost" ColumnName="fixedCost" />
+          <ScalarProperty Name="timespan" ColumnName="timespan" />
+          <ScalarProperty Name="otherFeeEarner" ColumnName="otherFeeEarner" />
+          <ScalarProperty Name="feeEarner" ColumnName="feeEarner" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="itemNum" ColumnName="itemNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+          <ScalarProperty Name="debitNoteType" ColumnName="debitNoteType" />
+          <ScalarProperty Name="matterDetailsId" ColumnName="matterDetailsId" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_ReportDebitNote">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_ReportDebitNote">
+        <MappingFragment StoreEntitySet="View_ReportDebitNote">
+          <ScalarProperty Name="butSay" ColumnName="butSay" />
+          <ScalarProperty Name="matterNumIdList" ColumnName="matterNumIdList" />
+          <ScalarProperty Name="depositAccount" ColumnName="depositAccount" />
+          <ScalarProperty Name="subRef" ColumnName="subRef" />
+          <ScalarProperty Name="CurrencySymbol" ColumnName="CurrencySymbol" />
+          <ScalarProperty Name="SubjectType" ColumnName="SubjectType" />
+          <ScalarProperty Name="ioNum" ColumnName="ioNum" />
+          <ScalarProperty Name="reportDate" ColumnName="reportDate" />
+          <ScalarProperty Name="billTo" ColumnName="billTo" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="DiscountValue" ColumnName="DiscountValue" />
+          <ScalarProperty Name="HandlingColleagueList" ColumnName="HandlingColleagueList" />
+          <ScalarProperty Name="feeEarnerList" ColumnName="feeEarnerList" />
+          <ScalarProperty Name="contactPersonList" ColumnName="contactPersonList" />
+          <ScalarProperty Name="ROutgoingAgentId" ColumnName="ROutgoingAgentId" />
+          <ScalarProperty Name="RIslegalAid" ColumnName="RIslegalAid" />
+          <ScalarProperty Name="RRemark" ColumnName="RRemark" />
+          <ScalarProperty Name="REmail" ColumnName="REmail" />
+          <ScalarProperty Name="RFax" ColumnName="RFax" />
+          <ScalarProperty Name="RTel" ColumnName="RTel" />
+          <ScalarProperty Name="RContactPerson" ColumnName="RContactPerson" />
+          <ScalarProperty Name="RCorrespondingAddress2Second" ColumnName="RCorrespondingAddress2Second" />
+          <ScalarProperty Name="RCorrespondingAddress2First" ColumnName="RCorrespondingAddress2First" />
+          <ScalarProperty Name="RCorrespondingAddress1Second" ColumnName="RCorrespondingAddress1Second" />
+          <ScalarProperty Name="RCorrespondingAddress1First" ColumnName="RCorrespondingAddress1First" />
+          <ScalarProperty Name="RBillingAddressSecond" ColumnName="RBillingAddressSecond" />
+          <ScalarProperty Name="RBillingAddressFirst" ColumnName="RBillingAddressFirst" />
+          <ScalarProperty Name="refererNum" ColumnName="refererNum" />
+          <ScalarProperty Name="refererName" ColumnName="refererName" />
+          <ScalarProperty Name="OPEmail" ColumnName="OPEmail" />
+          <ScalarProperty Name="OPFax" ColumnName="OPFax" />
+          <ScalarProperty Name="OPTel" ColumnName="OPTel" />
+          <ScalarProperty Name="OPContactPerson" ColumnName="OPContactPerson" />
+          <ScalarProperty Name="OPCorrespondingAddress2Second" ColumnName="OPCorrespondingAddress2Second" />
+          <ScalarProperty Name="OPCorrespondingAddress2First" ColumnName="OPCorrespondingAddress2First" />
+          <ScalarProperty Name="OPCorrespondingAddress1First" ColumnName="OPCorrespondingAddress1First" />
+          <ScalarProperty Name="OPCorrespondingAddress1Second" ColumnName="OPCorrespondingAddress1Second" />
+          <ScalarProperty Name="OPBillingAddressSecond" ColumnName="OPBillingAddressSecond" />
+          <ScalarProperty Name="OPBillingAddressFirst" ColumnName="OPBillingAddressFirst" />
+          <ScalarProperty Name="otherPartiesNum" ColumnName="otherPartiesNum" />
+          <ScalarProperty Name="otherPartiesName" ColumnName="otherPartiesName" />
+          <ScalarProperty Name="isReleaseToPublic" ColumnName="isReleaseToPublic" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="refNumOfReferer" ColumnName="refNumOfReferer" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="referertId" ColumnName="referertId" />
+          <ScalarProperty Name="billingEmail" ColumnName="billingEmail" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="correspondingAddress2Second" ColumnName="correspondingAddress2Second" />
+          <ScalarProperty Name="correspondingAddress2First" ColumnName="correspondingAddress2First" />
+          <ScalarProperty Name="correspondingAddress1Second" ColumnName="correspondingAddress1Second" />
+          <ScalarProperty Name="correspondingAddress1First" ColumnName="correspondingAddress1First" />
+          <ScalarProperty Name="billingAddressSecond" ColumnName="billingAddressSecond" />
+          <ScalarProperty Name="billingAddressFirst" ColumnName="billingAddressFirst" />
+          <ScalarProperty Name="clientNum" ColumnName="clientNum" />
+          <ScalarProperty Name="accountGroup" ColumnName="accountGroup" />
+          <ScalarProperty Name="clientName" ColumnName="clientName" />
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="isDiscount" ColumnName="isDiscount" />
+          <ScalarProperty Name="mustShowHeader" ColumnName="mustShowHeader" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="debitNoteType" ColumnName="debitNoteType" />
+          <ScalarProperty Name="matterNumId" ColumnName="matterNumId" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="yourRef" ColumnName="yourRef" />
+          <ScalarProperty Name="ref" ColumnName="ref" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="refererId" ColumnName="refererId" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+          <ScalarProperty Name="otherPartiesId" ColumnName="otherPartiesId" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="debitNoteNum" ColumnName="debitNoteNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="customSortingCheckBox" ColumnName="customSortingCheckBox" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_UserInfo">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.View_UserInfo">
+        <MappingFragment StoreEntitySet="View_UserInfo">
+          <ScalarProperty Name="isEnable" ColumnName="isEnable" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateByDate" ColumnName="CreateByDate" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="systemUserId" ColumnName="systemUserId" />
+          <ScalarProperty Name="systemUserNum" ColumnName="systemUserNum" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="LoweredEmail" ColumnName="LoweredEmail" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobilePIN" ColumnName="MobilePIN" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_UsersInRoles">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.vw_aspnet_UsersInRoles">
+        <MappingFragment StoreEntitySet="vw_aspnet_UsersInRoles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebitNoteSubjectTs">
+      <EntityTypeMapping TypeName="RBJLLawFirmDBModel.DebitNoteSubjectT">
+        <MappingFragment StoreEntitySet="DebitNoteSubjectT">
+          <ScalarProperty Name="TrademarkLogoDescription" ColumnName="TrademarkLogoDescription" />
+          <ScalarProperty Name="UpdateByUserId" ColumnName="UpdateByUserId" />
+          <ScalarProperty Name="CreateByUserId" ColumnName="CreateByUserId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="matterId" ColumnName="matterId" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="TClass" ColumnName="TClass" />
+          <ScalarProperty Name="TrademarkNum" ColumnName="TrademarkNum" />
+          <ScalarProperty Name="TrademarkLogo" ColumnName="TrademarkLogo" />
+          <ScalarProperty Name="TRoleTypeValue" ColumnName="TRoleTypeValue" />
+          <ScalarProperty Name="TRoleType" ColumnName="TRoleType" />
+          <ScalarProperty Name="TOpponentValue" ColumnName="TOpponentValue" />
+          <ScalarProperty Name="TIsOpponent" ColumnName="TIsOpponent" />
+          <ScalarProperty Name="TTypeOfWork" ColumnName="TTypeOfWork" />
+          <ScalarProperty Name="debitNoteId" ColumnName="debitNoteId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

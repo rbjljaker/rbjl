@@ -1,0 +1,1434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConfirmPasswordLabelCreateNewUser" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="ContinueButtonCreateNewUser" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="CreateNewUserFirstName" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="CreateNewUserLastName" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="CreateNewUserNickName" xml:space="preserve">
+    <value>Initial(s):</value>
+  </data>
+  <data name="EmailLabelCreateNewUser" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="FinishButtonCreateNewUser" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="FinishPreviousButtonCreateNewUser" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="HpyerLinkLogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lblChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="lblCompleteCreateNewUser" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="lblConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="lblConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="lblConfirmPasswordCompareErrorMessage" xml:space="preserve">
+    <value>The Confirm New Password must match the New Password entry.</value>
+  </data>
+  <data name="lblConfirmPasswordRequiredErrorMessage" xml:space="preserve">
+    <value>Confirm New Password is required</value>
+  </data>
+  <data name="lblConfirmPasswordResetPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="lblEmailInvalid" xml:space="preserve">
+    <value>Email Invalid</value>
+  </data>
+  <data name="lblNewPasswordRequired" xml:space="preserve">
+    <value>New Password is required</value>
+  </data>
+  <data name="lblPasswordAndConfirmationPasswordMustMatch" xml:space="preserve">
+    <value>The Password and Confirmation Password must match</value>
+  </data>
+  <data name="lblSelectRolesCreateNewUser" xml:space="preserve">
+    <value>User Level:</value>
+  </data>
+  <data name="lblSignUpCreateNewUser" xml:space="preserve">
+    <value>Sign Up for Your New Account</value>
+  </data>
+  <data name="lblSuccessCreateNewUser" xml:space="preserve">
+    <value>Your account has been successfully created.</value>
+  </data>
+  <data name="CreateNewUserlblTitle" xml:space="preserve">
+    <value>System User</value>
+  </data>
+  <data name="lblUserNameIsRequired" xml:space="preserve">
+    <value>User Name is required</value>
+  </data>
+  <data name="PasswordLabelCreateNewUser" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="StepNextButtonCreateNewUser" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UnitRateLabelCreateNewUser" xml:space="preserve">
+    <value>How Unit Rate:</value>
+  </data>
+  <data name="UserNameLabelCreateNewUser" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="UserNumLabelCreateNewUser" xml:space="preserve">
+    <value>User No:</value>
+  </data>
+  <data name="wrnCreateUserUnknowErrorMessage" xml:space="preserve">
+    <value>Your account was not created. Please try again.</value>
+  </data>
+  <data name="wrnMinimumPassword" xml:space="preserve">
+    <value>Password length minimum:</value>
+  </data>
+  <data name="wrnPasswordNonalphanumericRequired" xml:space="preserve">
+    <value>Non-alphanumeric characters required:</value>
+  </data>
+  <data name="wrnPasswordRequirement" xml:space="preserve">
+    <value>Password length minimum: {0}. Non-alphanumeric characters required: {1}.</value>
+  </data>
+  <data name="wrnPleaseEnterADiffernetEmailAddress" xml:space="preserve">
+    <value>The e-mail address that you entered is already in use. Please enter a different e-mail address.</value>
+  </data>
+  <data name="wrnPleaseEnterADirrerentUserName" xml:space="preserve">
+    <value>Please enter a different user name</value>
+  </data>
+  <data name="wrnTimeOut" xml:space="preserve">
+    <value>Please login again!</value>
+  </data>
+  <data name="wUpdateSuccessfullyUpdateNews" xml:space="preserve">
+    <value>Update successfully. Redirect to Admin Page after 2 seconds</value>
+  </data>
+  <data name="wUpdateSuccessfulMesageLoginManagement" xml:space="preserve">
+    <value>Update successfully. Redirect to Admin Page after 1 second.</value>
+  </data>
+  <data name="SettingMiscellaneouslblTitle" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="MenuSettingMiscellaneous" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MenuSystemUser" xml:space="preserve">
+    <value>System User</value>
+  </data>
+  <data name="SettingMiscellaneousLabelAutoGen" xml:space="preserve">
+    <value>Auto Generate?</value>
+  </data>
+  <data name="SettingMiscellaneousLabelClientNoStartFrom" xml:space="preserve">
+    <value>Client No. Start From:</value>
+  </data>
+  <data name="SettingMiscellaneousLabelDebitNoteNoStartFrom" xml:space="preserve">
+    <value>Debit Note No. Start From:</value>
+  </data>
+  <data name="SettingMiscellaneousLabelMatterNoStartFrom" xml:space="preserve">
+    <value>Matter No. Start From:</value>
+  </data>
+  <data name="SettingMiscellaneousLabelNumSetup" xml:space="preserve">
+    <value>Numbering Setup</value>
+  </data>
+  <data name="SettingMiscellaneousLabelWhatNewsSetup" xml:space="preserve">
+    <value>What's News Setup</value>
+  </data>
+  <data name="loginCaptchaError" xml:space="preserve">
+    <value>The key is incorrect.</value>
+  </data>
+  <data name="welcomeLblTitle" xml:space="preserve">
+    <value>What' New</value>
+  </data>
+  <data name="BottomButtonAction" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BottomButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="welcomeLabelTitleMatterInformation" xml:space="preserve">
+    <value>Matter Summary</value>
+  </data>
+  <data name="ClientTitlelbl" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="TemplatelblTitle" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="RefererlblTitle" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="JobTypelblTitle" xml:space="preserve">
+    <value>Job Type</value>
+  </data>
+  <data name="KeywordlblTitle" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="OtherPartieslblTitle" xml:space="preserve">
+    <value>Other Party</value>
+  </data>
+  <data name="OutgoingAgentlblTitle" xml:space="preserve">
+    <value>Outgoing Agent</value>
+  </data>
+  <data name="CurrencylblTitle" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="MenuClient" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="MenuCurrency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="MenuJobType" xml:space="preserve">
+    <value>Job Type</value>
+  </data>
+  <data name="MenuKeyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="MenuMaster" xml:space="preserve">
+    <value>Master</value>
+  </data>
+  <data name="MenuOtherParties" xml:space="preserve">
+    <value>Other Party</value>
+  </data>
+  <data name="MenuOutgoingAgent" xml:space="preserve">
+    <value>Outgoing Agent</value>
+  </data>
+  <data name="MenuPricing" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="MenuReferer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="MenuTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="LoglblTitle" xml:space="preserve">
+    <value>User Log</value>
+  </data>
+  <data name="MenuLog" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MenuUserLog" xml:space="preserve">
+    <value>User Log</value>
+  </data>
+  <data name="PricinglblTitle" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="MenuAgentss" xml:space="preserve">
+    <value>Client/Instructor/Agents</value>
+  </data>
+  <data name="MenuDebitNote" xml:space="preserve">
+    <value>Debit Note</value>
+  </data>
+  <data name="MenuDebitNoteNew" xml:space="preserve">
+    <value>New Debit Notes</value>
+  </data>
+  <data name="MenuDebitNotePendingList" xml:space="preserve">
+    <value>Pending Debit Notes</value>
+  </data>
+  <data name="MenuDebitNoteSub" xml:space="preserve">
+    <value>Issued Debit Notes</value>
+  </data>
+  <data name="MenuFeeEarner" xml:space="preserve">
+    <value>Fee Earner</value>
+  </data>
+  <data name="MenuMatter" xml:space="preserve">
+    <value>Matter</value>
+  </data>
+  <data name="MenuMatterNew" xml:space="preserve">
+    <value>New Matters</value>
+  </data>
+  <data name="MenuMatterPendingList" xml:space="preserve">
+    <value>Pending Matters</value>
+  </data>
+  <data name="MenuMatterPutAway" xml:space="preserve">
+    <value>Put Away</value>
+  </data>
+  <data name="MenuMatterSub" xml:space="preserve">
+    <value>Current Matters</value>
+  </data>
+  <data name="MenuNewMatterRecord" xml:space="preserve">
+    <value>Current Matters</value>
+  </data>
+  <data name="MenuPutAway" xml:space="preserve">
+    <value>Put Away</value>
+  </data>
+  <data name="MenuReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="masterPageSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="masterPageSearchByApplicationNum" xml:space="preserve">
+    <value>By Application No.</value>
+  </data>
+  <data name="masterPageSearchByClass" xml:space="preserve">
+    <value>By Class</value>
+  </data>
+  <data name="masterPageSearchByClientName" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="masterPageSearchByCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="masterPageSearchByFeferer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="masterPageSearchByJobType" xml:space="preserve">
+    <value>Job Type</value>
+  </data>
+  <data name="masterPageSearchByKeywords" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="masterPageSearchByRegistrationNum" xml:space="preserve">
+    <value>By Registration No.</value>
+  </data>
+  <data name="masterPageSearchByMatterNum" xml:space="preserve">
+    <value>Matter No.</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>return confirm('"Are you sure to delete this record?"')</value>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="LogLabelDate" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="LogLabelUserName" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="MatterNewTitle" xml:space="preserve">
+    <value>Current Matters</value>
+  </data>
+  <data name="MatterNewAddTitle" xml:space="preserve">
+    <value>New Matter</value>
+  </data>
+  <data name="MatterNewFollowUp" xml:space="preserve">
+    <value>Draft Time Entri(es)</value>
+  </data>
+  <data name="MatterPendingListTitle" xml:space="preserve">
+    <value>Pending Matters</value>
+  </data>
+  <data name="validMess" xml:space="preserve">
+    <value>This file format not supported, only accepted [.jpg]</value>
+  </data>
+  <data name="MatterMatterCoreTitle" xml:space="preserve">
+    <value>Matter</value>
+  </data>
+  <data name="agent_LabelClient" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="agent_lblDate" xml:space="preserve">
+    <value>Date From:</value>
+  </data>
+  <data name="agent_lblTitle" xml:space="preserve">
+    <value>Client / Instructor / Agents</value>
+  </data>
+  <data name="agent_textOutgoingAgent" xml:space="preserve">
+    <value>Outgoing Agent:</value>
+  </data>
+  <data name="agent_textRefer" xml:space="preserve">
+    <value>Instructor:</value>
+  </data>
+  <data name="debitnote_LabelFeeEarner" xml:space="preserve">
+    <value>Fee Earner:</value>
+  </data>
+  <data name="debitnote_LabelMatterNo" xml:space="preserve">
+    <value>Matter No:</value>
+  </data>
+  <data name="debitnote_LabelState" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="debitnote_LabelSubject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="debitnote_lblDate" xml:space="preserve">
+    <value>Date From:</value>
+  </data>
+  <data name="debitnote_lblTitle" xml:space="preserve">
+    <value>Print Debit Note</value>
+  </data>
+  <data name="debitnote_Type_CompletSet" xml:space="preserve">
+    <value>Complet Set</value>
+  </data>
+  <data name="debitnote_Type_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="debitnote_Type_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="debitnote_Type_NotanyPublic" xml:space="preserve">
+    <value>Notary Public</value>
+  </data>
+  <data name="debitnote_Type_Patent" xml:space="preserve">
+    <value>Patent</value>
+  </data>
+  <data name="debitnote_Type_Trademark" xml:space="preserve">
+    <value>Trademark</value>
+  </data>
+  <data name="feeearner_LabelClient" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="feeearner_LabelFeeEarner" xml:space="preserve">
+    <value>Fee Earner:</value>
+  </data>
+  <data name="feeearner_LabelJobType" xml:space="preserve">
+    <value>Job Type:</value>
+  </data>
+  <data name="feeearner_LabelMatterNo" xml:space="preserve">
+    <value>Matter No:</value>
+  </data>
+  <data name="feeearner_LabelRefer" xml:space="preserve">
+    <value>Instructor:</value>
+  </data>
+  <data name="feeearner_lblDate" xml:space="preserve">
+    <value>Date From:</value>
+  </data>
+  <data name="feeearner_lblTitle" xml:space="preserve">
+    <value>Fee Earner</value>
+  </data>
+  <data name="newmatterrecord_LabelClient" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="newmatterrecord_LabelFeeEarner" xml:space="preserve">
+    <value>Fee Earner:</value>
+  </data>
+  <data name="newmatterrecord_LabelMatterNo" xml:space="preserve">
+    <value>Matter No.:</value>
+  </data>
+  <data name="newmatterrecord_LabelMatterNo3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="newmatterrecord_LabelSubject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="newmatterrecord_lblDate" xml:space="preserve">
+    <value>Date From:</value>
+  </data>
+  <data name="newmatterrecord_lblTitle" xml:space="preserve">
+    <value>Current Matters</value>
+  </data>
+  <data name="print_excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="print_onScreen" xml:space="preserve">
+    <value>On Screen</value>
+  </data>
+  <data name="print_pdf" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="putaway_LabelClient" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="putaway_LabelFeeEarner" xml:space="preserve">
+    <value>Fee Earner:</value>
+  </data>
+  <data name="putaway_LabelJobType" xml:space="preserve">
+    <value>Job Type:</value>
+  </data>
+  <data name="putaway_LabelMatterNo" xml:space="preserve">
+    <value>Matter No:</value>
+  </data>
+  <data name="putaway_LabelSubject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="putaway_lblDate" xml:space="preserve">
+    <value>Put Away Date From:</value>
+  </data>
+  <data name="putaway_lblTitle" xml:space="preserve">
+    <value>Put Away</value>
+  </data>
+  <data name="print_PrintTo" xml:space="preserve">
+    <value>Print To:</value>
+  </data>
+  <data name="userlog_CreateByUserId" xml:space="preserve">
+    <value>Create by UserID</value>
+  </data>
+  <data name="userlog_CreateDate" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="userlog_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="userlog_isEnable" xml:space="preserve">
+    <value>IsEnable</value>
+  </data>
+  <data name="userlog_logDescription" xml:space="preserve">
+    <value>Log Description</value>
+  </data>
+  <data name="userlog_typeId" xml:space="preserve">
+    <value>Type Id</value>
+  </data>
+  <data name="userlog_UpdateByUserId" xml:space="preserve">
+    <value>Update by UserID</value>
+  </data>
+  <data name="userlog_UpdateDate" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="report_option" xml:space="preserve">
+    <value>Options - Show/Not Show in Report</value>
+  </data>
+  <data name="report_bill" xml:space="preserve">
+    <value>Billed</value>
+  </data>
+  <data name="report_Billable" xml:space="preserve">
+    <value>Billable</value>
+  </data>
+  <data name="report_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="report_desciption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="report_nonBillable" xml:space="preserve">
+    <value>Non-Billable</value>
+  </data>
+  <data name="lblCancle" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="debitnote_Type_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="debitnote_Type_title" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="LoginManagementTitle" xml:space="preserve">
+    <value>Login Management</value>
+  </data>
+  <data name="UserManagementlblTitle" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="Mattercore_billable" xml:space="preserve">
+    <value>Billable</value>
+  </data>
+  <data name="Mattercore_Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Mattercore_customKeywordFirst" xml:space="preserve">
+    <value>Custom Keyword:</value>
+  </data>
+  <data name="Mattercore_customKeywordSecond" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mattercore_customKeywordThird" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mattercore_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Mattercore_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Mattercore_discount" xml:space="preserve">
+    <value>Discount(%):</value>
+  </data>
+  <data name="Mattercore_FeeEarner" xml:space="preserve">
+    <value>Fee Earner:</value>
+  </data>
+  <data name="Mattercore_fileOpenDate" xml:space="preserve">
+    <value>Creation Date:</value>
+  </data>
+  <data name="Mattercore_fixedCost" xml:space="preserve">
+    <value>Fixed Cost</value>
+  </data>
+  <data name="Mattercore_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Mattercore_HandlingColleague" xml:space="preserve">
+    <value>Handling Colleague:</value>
+  </data>
+  <data name="Mattercore_isReopen" xml:space="preserve">
+    <value>Re-opened:</value>
+  </data>
+  <data name="Mattercore_itemNum" xml:space="preserve">
+    <value>Item No</value>
+  </data>
+  <data name="Mattercore_jobTypeName" xml:space="preserve">
+    <value>Job Type:</value>
+  </data>
+  <data name="Mattercore_logo" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="Mattercore_masterKeywordName" xml:space="preserve">
+    <value>Master Keyword:</value>
+  </data>
+  <data name="Mattercore_matterNum" xml:space="preserve">
+    <value>Matter Number:</value>
+  </data>
+  <data name="Mattercore_matterSubject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="Mattercore_Referer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="Mattercore_releaseToPublic" xml:space="preserve">
+    <value>Public:</value>
+  </data>
+  <data name="Mattercore_remarks" xml:space="preserve">
+    <value>Remarks:</value>
+  </data>
+  <data name="Mattercore_Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Mattercore_TimeEntry" xml:space="preserve">
+    <value>Time Entry</value>
+  </data>
+  <data name="Mattercore_timespan" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Mattercore_WittenOff" xml:space="preserve">
+    <value>Written Off</value>
+  </data>
+  <data name="MatterNew_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="MatterNew_clientName" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="MatterNew_matterNum" xml:space="preserve">
+    <value>Matter No</value>
+  </data>
+  <data name="MatterNew_matterSubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="MatterNew_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="NewMatterAdd_Client" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="NewMatterAdd_customKeywordFirst" xml:space="preserve">
+    <value>Custom Keyword:</value>
+  </data>
+  <data name="NewMatterAdd_customKeywordSecond" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewMatterAdd_customKeywordThird" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewMatterAdd_discount" xml:space="preserve">
+    <value>Discount(%):</value>
+  </data>
+  <data name="NewMatterAdd_FeeEarner" xml:space="preserve">
+    <value>Fee Earner(s):</value>
+  </data>
+  <data name="NewMatterAdd_fileOpenDate" xml:space="preserve">
+    <value>File Open Date:</value>
+  </data>
+  <data name="NewMatterAdd_HandlingColleague" xml:space="preserve">
+    <value>Handling Colleague(s):</value>
+  </data>
+  <data name="NewMatterAdd_introducer" xml:space="preserve">
+    <value>Introducer:</value>
+  </data>
+  <data name="NewMatterAdd_jobType" xml:space="preserve">
+    <value>Job Type:</value>
+  </data>
+  <data name="NewMatterAdd_logo" xml:space="preserve">
+    <value>Trademark/Design Logo Upload:</value>
+  </data>
+  <data name="NewMatterAdd_masterKeywordName" xml:space="preserve">
+    <value>Master Keyword:</value>
+  </data>
+  <data name="NewMatterAdd_matterNum" xml:space="preserve">
+    <value>Matter No:</value>
+  </data>
+  <data name="NewMatterAdd_matterSubject" xml:space="preserve">
+    <value>Matter Subject:</value>
+  </data>
+  <data name="NewMatterAdd_OutgoingAgent" xml:space="preserve">
+    <value>Outgoing Agent:</value>
+  </data>
+  <data name="NewMatterAdd_Referer" xml:space="preserve">
+    <value>Instructor:</value>
+  </data>
+  <data name="NewMatterAdd_refererFee" xml:space="preserve">
+    <value>Instructor Fee:</value>
+  </data>
+  <data name="NewMatterAdd_releaseToPublic" xml:space="preserve">
+    <value>Public:</value>
+  </data>
+  <data name="NewMatterAdd_remarks" xml:space="preserve">
+    <value>Remark:</value>
+  </data>
+  <data name="Pendinglist_Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Pendinglist_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Pendinglist_FeeEarner" xml:space="preserve">
+    <value>Fee Earner</value>
+  </data>
+  <data name="Pendinglist_fileOpenDate" xml:space="preserve">
+    <value>File Open Date</value>
+  </data>
+  <data name="Pendinglist_item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Pendinglist_jobTypeName" xml:space="preserve">
+    <value>Job Type</value>
+  </data>
+  <data name="Pendinglist_matterNum" xml:space="preserve">
+    <value>Matter Number</value>
+  </data>
+  <data name="systemUserpopup_btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="systemUserpopup_Cancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="systemUserpopup_lblBackToLoginManagement" xml:space="preserve">
+    <value>Back To Login Management</value>
+  </data>
+  <data name="systemUserpopup_lblBackTosystemUser" xml:space="preserve">
+    <value>Back To System User</value>
+  </data>
+  <data name="systemUserpopup_lblChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="systemUserpopup_lblConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="systemUserpopup_lblEmail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="systemUserpopup_lblGvApproved" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="systemUserpopup_lblGvEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="systemUserpopup_lblGvLastLoginDate" xml:space="preserve">
+    <value>Last Login Date</value>
+  </data>
+  <data name="systemUserpopup_lblGvLockedOut" xml:space="preserve">
+    <value>LockedOut</value>
+  </data>
+  <data name="systemUserpopup_lblGvRole" xml:space="preserve">
+    <value>User Level</value>
+  </data>
+  <data name="systemUserpopup_lblLockUser" xml:space="preserve">
+    <value>Lock User</value>
+  </data>
+  <data name="systemUserpopup_lblNewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="systemUserpopup_lblSelectRole" xml:space="preserve">
+    <value>User Level:</value>
+  </data>
+  <data name="systemUserpopup_lblUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="systemUserpopup_lblUsername" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="systemUserpopup_lblUserName_edit" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="systemUserpopup_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="welcomeLabelDraftMatters" xml:space="preserve">
+    <value>Pending Time Entries:</value>
+  </data>
+  <data name="welcomeLabelNewFile" xml:space="preserve">
+    <value>Pending Matters:</value>
+  </data>
+  <data name="welcomeLabelOpenedMatters" xml:space="preserve">
+    <value>Current Matters:</value>
+  </data>
+  <data name="welcomeLabelPendingDebitNote" xml:space="preserve">
+    <value>Pending Debit Notes:</value>
+  </data>
+  <data name="welcomeLabelSuspendedMatters" xml:space="preserve">
+    <value>Suspended Matters:</value>
+  </data>
+  <data name="debitNotependinglist_debitNoteNum" xml:space="preserve">
+    <value>Debit Note No:</value>
+  </data>
+  <data name="debitNotependinglist_endDate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="debitnotependinglist_enter" xml:space="preserve">
+    <value>Enter Debit Note No.</value>
+  </data>
+  <data name="debitNotependinglist_item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="debitNotependinglist_ref" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="debitNotependinglist_Referer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="debitNotependinglist_RefererAddress" xml:space="preserve">
+    <value>Instructor Address:</value>
+  </data>
+  <data name="debitNotependinglist_startDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="UpdateConfirm" xml:space="preserve">
+    <value>return confirm('"Are you sure to update this record?"')</value>
+  </data>
+  <data name="NewFollowUpTitle" xml:space="preserve">
+    <value>Draft Time Entri(es)</value>
+  </data>
+  <data name="AddConfirm" xml:space="preserve">
+    <value>return confirm('"Are you sure to Add this record?"')</value>
+  </data>
+  <data name="PendingListTimeEntryTitle" xml:space="preserve">
+    <value>Draft Matters</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblMoveToMatter" xml:space="preserve">
+    <value>Move To Matter</value>
+  </data>
+  <data name="systemUserLabelAddUser" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="PutAwayView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="UserInfoTitle" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="MenuSettingChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="masterPageSearchBySelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="debitnotePendingNotData" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="refer_Remark" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="client_ADDItem" xml:space="preserve">
+    <value>New Client</value>
+  </data>
+  <data name="client_EditItem" xml:space="preserve">
+    <value>Edit Client</value>
+  </data>
+  <data name="CurrencyADDItem" xml:space="preserve">
+    <value>New Currency</value>
+  </data>
+  <data name="JobTypeADDItem" xml:space="preserve">
+    <value>New Job Type</value>
+  </data>
+  <data name="KeywordADDItem" xml:space="preserve">
+    <value>New Keyword</value>
+  </data>
+  <data name="OtherPartiesADDItem" xml:space="preserve">
+    <value>New Other Party</value>
+  </data>
+  <data name="OtherPartiesEditItem" xml:space="preserve">
+    <value>Edit Other Party</value>
+  </data>
+  <data name="OutgoingAgentADDItem" xml:space="preserve">
+    <value>New Outgoing Agent</value>
+  </data>
+  <data name="OutgoingAgentEditItem" xml:space="preserve">
+    <value>Edit Outgoing Agent</value>
+  </data>
+  <data name="PricingADDPricingDetails" xml:space="preserve">
+    <value>New Fees (Description)</value>
+  </data>
+  <data name="PricingADDPricingType" xml:space="preserve">
+    <value>New Work Category</value>
+  </data>
+  <data name="RefererADDItem" xml:space="preserve">
+    <value>New Instructor</value>
+  </data>
+  <data name="RefererEditItem" xml:space="preserve">
+    <value>Edit Instructor</value>
+  </data>
+  <data name="TemplateADDItem" xml:space="preserve">
+    <value>New Terminologies</value>
+  </data>
+  <data name="TemplateADDItemTemplateDetails" xml:space="preserve">
+    <value>New Descriptions</value>
+  </data>
+  <data name="PendingListDebitNoteEnterNum" xml:space="preserve">
+    <value>Enter Debit Note No.</value>
+  </data>
+  <data name="PendingListEnterNum" xml:space="preserve">
+    <value>Enter Matter No.</value>
+  </data>
+  <data name="MasterLblNickName" xml:space="preserve">
+    <value>Initial(s):</value>
+  </data>
+  <data name="MasterLblUserTitle" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="SettingMiscellaneousLabelAccountEmail" xml:space="preserve">
+    <value>Billing Email:</value>
+  </data>
+  <data name="SettingMiscellaneousLabelAccountEmailTitle" xml:space="preserve">
+    <value>Account Email Setup</value>
+  </data>
+  <data name="PendinglistButtonSendEmail" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="MattercoreHourlyRate" xml:space="preserve">
+    <value>Hourly Rate:</value>
+  </data>
+  <data name="MatterCoreOldDetails" xml:space="preserve">
+    <value>Billed Time Entry</value>
+  </data>
+  <data name="Mattercore_CountTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="DebitNotelblTitle" xml:space="preserve">
+    <value>Issued Debit Note</value>
+  </data>
+  <data name="DebitNoteNewlblTitle" xml:space="preserve">
+    <value>New Debit Notes</value>
+  </data>
+  <data name="DebitNoteCoreDownload" xml:space="preserve">
+    <value>download</value>
+  </data>
+  <data name="DebitNoteDebitNoteNum" xml:space="preserve">
+    <value>Debit Note No.:</value>
+  </data>
+  <data name="DebitNoteNotData" xml:space="preserve">
+    <value>No Debit Note Data</value>
+  </data>
+  <data name="MatterNotData" xml:space="preserve">
+    <value>Not Matter Data</value>
+  </data>
+  <data name="PutAwayNotData" xml:space="preserve">
+    <value>No Put Away Data</value>
+  </data>
+  <data name="PutAwayCoreTitle" xml:space="preserve">
+    <value>Put Away</value>
+  </data>
+  <data name="PutAwayNewTitle" xml:space="preserve">
+    <value>Put Away</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="PutAwayBoxNum" xml:space="preserve">
+    <value>Put Away Box No.:</value>
+  </data>
+  <data name="DebitNoteCoreDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ReporyNewMatterNoResult" xml:space="preserve">
+    <value>No data found on that date.</value>
+  </data>
+  <data name="ReportDebitNoteNoResult" xml:space="preserve">
+    <value>No data found on that date.</value>
+  </data>
+  <data name="ReportDebitNotePleaseSelectType" xml:space="preserve">
+    <value>Please select Category.</value>
+  </data>
+  <data name="LabelReferName" xml:space="preserve">
+    <value>Instructor Name:</value>
+  </data>
+  <data name="LabelClientName" xml:space="preserve">
+    <value>Client name:</value>
+  </data>
+  <data name="lblCopyFromClient" xml:space="preserve">
+    <value>Copy From Client</value>
+  </data>
+  <data name="SettingAddUserTitle" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="SettingEditUserTitle" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="RequiredTimeSpentAndFixedCost" xml:space="preserve">
+    <value>Time Spent or Fixed Cost is required.</value>
+  </data>
+  <data name="newmatterrecord_lblDateTo" xml:space="preserve">
+    <value>Date To:</value>
+  </data>
+  <data name="agent_lblDateTo" xml:space="preserve">
+    <value>Date To:</value>
+  </data>
+  <data name="putaway_lblDateTo" xml:space="preserve">
+    <value>Put Away Date To:</value>
+  </data>
+  <data name="systemUserpopupLabelEditFirstName" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="systemUserpopupLabelEditLastName" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="systemUserpopup_LabelEditNickName" xml:space="preserve">
+    <value>Initial(s):</value>
+  </data>
+  <data name="systemUserpopup_LabelEditUserRole" xml:space="preserve">
+    <value>User Level:</value>
+  </data>
+  <data name="systemUserpopup_lblUserName_UserNo" xml:space="preserve">
+    <value>User No.</value>
+  </data>
+  <data name="masterPageSearchBySubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="MenuDebitNoteReport" xml:space="preserve">
+    <value>Print Debit Notes</value>
+  </data>
+  <data name="pricingTabPD" xml:space="preserve">
+    <value>Type of work</value>
+  </data>
+  <data name="pricingTabT" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="TemplateTabT" xml:space="preserve">
+    <value>Work Category</value>
+  </data>
+  <data name="TemplateTpyeDesc" xml:space="preserve">
+    <value>Full Description</value>
+  </data>
+  <data name="MatterNewAddFollowUp" xml:space="preserve">
+    <value>New Time Entry</value>
+  </data>
+  <data name="TemplateTabD" xml:space="preserve">
+    <value>Work Type</value>
+  </data>
+  <data name="MatterNewPedingEntry" xml:space="preserve">
+    <value>Pending Entries</value>
+  </data>
+  <data name="systemUserpopup_LabelLockedOut" xml:space="preserve">
+    <value>Unlock User</value>
+  </data>
+  <data name="CountryTitle" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="MattercoreIoNumOfReferer" xml:space="preserve">
+    <value>IO No.:</value>
+  </data>
+  <data name="MattercoreRefNumOfReferer" xml:space="preserve">
+    <value>Ref. No.:</value>
+  </data>
+  <data name="MenuCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CountryADDItem" xml:space="preserve">
+    <value>New Country</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Country Code</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="PendinglistIntroducer" xml:space="preserve">
+    <value>Introducer</value>
+  </data>
+  <data name="PutAwayPutAwayBoxNum" xml:space="preserve">
+    <value>Away Box No</value>
+  </data>
+  <data name="PutAwayPutAwayContent" xml:space="preserve">
+    <value>Put Away Content</value>
+  </data>
+  <data name="PutAwayPutAwayDate" xml:space="preserve">
+    <value>Put Away Date</value>
+  </data>
+  <data name="lblMatterExport" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="feeEarnerViewChart" xml:space="preserve">
+    <value>View Chart</value>
+  </data>
+  <data name="DebitNoteNewMatterNum" xml:space="preserve">
+    <value>Enter Matter No.:</value>
+  </data>
+  <data name="DebitNoteAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="DebitNoteClient" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="DebitNoteDebitNoteNumH" xml:space="preserve">
+    <value>Debit Note Num</value>
+  </data>
+  <data name="DebitNoteMatterCore" xml:space="preserve">
+    <value>Matter No</value>
+  </data>
+  <data name="DebitNoteOtherParty" xml:space="preserve">
+    <value>Other Parties</value>
+  </data>
+  <data name="DebitNotePrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="DebitNoteReferer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="DebitNoteVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="DebitNoteCoreAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="DebitNoteCoreAmendedBy" xml:space="preserve">
+    <value>Amend By</value>
+  </data>
+  <data name="DebitNoteCoreAttachment1" xml:space="preserve">
+    <value>Attachment 1 : </value>
+  </data>
+  <data name="DebitNoteCoreAttachment2" xml:space="preserve">
+    <value>Attachment 2 : </value>
+  </data>
+  <data name="DebitNoteCoreAttachment3" xml:space="preserve">
+    <value>Attachment 3 : </value>
+  </data>
+  <data name="DebitNoteCoreAttachment4" xml:space="preserve">
+    <value>Attachment 4 : </value>
+  </data>
+  <data name="DebitNoteCoreAttachment5" xml:space="preserve">
+    <value>Attachment 5 : </value>
+  </data>
+  <data name="DebitNoteCoreAttachmentTab5" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="DebitNoteCoreClient" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="DebitNoteCoreCost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="DebitNoteCoreCostTab2" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="DebitNoteCoreDebitNote" xml:space="preserve">
+    <value>Debit Note</value>
+  </data>
+  <data name="DebitNoteCoreDebitNoteNum" xml:space="preserve">
+    <value>Debit Note No</value>
+  </data>
+  <data name="DebitNoteCoreDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DebitNoteCoreDisbursementTab3" xml:space="preserve">
+    <value>Disbursement</value>
+  </data>
+  <data name="DebitNoteCoreEndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="DebitNoteCoreMatterCore" xml:space="preserve">
+    <value>Matter No</value>
+  </data>
+  <data name="DebitNoteCoreNarrativeTab4" xml:space="preserve">
+    <value>Narrative</value>
+  </data>
+  <data name="DebitNoteCoreOtherParty" xml:space="preserve">
+    <value>Other Parties</value>
+  </data>
+  <data name="DebitNoteCorePrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="DebitNoteCoreRef" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="DebitNoteCoreReferer" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="DebitNoteCoreRemark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="DebitNoteCoreStartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="DebitNoteCoreTab1" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="DebitNoteCoreTemplateDetails" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="DebitNoteCoreTitle" xml:space="preserve">
+    <value>Debit Note Details</value>
+  </data>
+  <data name="DebitNoteCoreUpdateDate" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="DebitNoteCoreVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="DebitNoteCoreYourRef" xml:space="preserve">
+    <value>Your Reference</value>
+  </data>
+  <data name="debitnote_TypeCategory" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="debitnote_TypeLanguage" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="report_unbill" xml:space="preserve">
+    <value>Unbilled</value>
+  </data>
+  <data name="masterNoData" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="lblDDl" xml:space="preserve">
+    <value>(Drop down list)</value>
+  </data>
+  <data name="lblCopyFromReferer" xml:space="preserve">
+    <value>Copy From Instructor</value>
+  </data>
+  <data name="MatterNewUpdateByName" xml:space="preserve">
+    <value>Amend By</value>
+  </data>
+  <data name="MatterNewUpdateDate" xml:space="preserve">
+    <value>Amend Date</value>
+  </data>
+  <data name="PricingEditPricingDetails" xml:space="preserve">
+    <value>Edit Fees (Description)</value>
+  </data>
+  <data name="PricingEditPricingType" xml:space="preserve">
+    <value>Edit Work Category</value>
+  </data>
+  <data name="KeywordEditItem" xml:space="preserve">
+    <value>Edit Keyword</value>
+  </data>
+  <data name="TemplateADDItemTemplateDetailsEdit" xml:space="preserve">
+    <value>Edit Descriptions</value>
+  </data>
+  <data name="TemplateTypeEditItem" xml:space="preserve">
+    <value>Edit Terminologies</value>
+  </data>
+  <data name="lblEnterMatterNo" xml:space="preserve">
+    <value>Enter Matter No.</value>
+  </data>
+  <data name="NewMatterAdd_SP" xml:space="preserve">
+    <value>Supervising Fee Earner:</value>
+  </data>
+  <data name="debitNotependinglist_RefererContactperson" xml:space="preserve">
+    <value>Instructor Contact Person:</value>
+  </data>
+  <data name="DebitNoteCategory" xml:space="preserve">
+    <value>Debit Note Type</value>
+  </data>
+  <data name="DebitNoteSubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="SelectClient" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="SelectReferer" xml:space="preserve">
+    <value>Select Instructor</value>
+  </data>
+  <data name="DebitNoteSubmitTotal" xml:space="preserve">
+    <value>Debit Note</value>
+  </data>
+  <data name="TemplateTpyeCore" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="GvDeSaveBtn" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="chartTitle" xml:space="preserve">
+    <value>View chart for</value>
+  </data>
+  <data name="pendingListDebitNoteTitle" xml:space="preserve">
+    <value>Pending Debit Note(s)</value>
+  </data>
+  <data name="SearchClientName" xml:space="preserve">
+    <value>Client Name:</value>
+  </data>
+  <data name="SearchRefererName" xml:space="preserve">
+    <value>Instructor Name:</value>
+  </data>
+  <data name="SearchOutgoingAgent" xml:space="preserve">
+    <value>Agent Name:</value>
+  </data>
+  <data name="CurrentMattersLabelAllMatter" xml:space="preserve">
+    <value>This action will take some time</value>
+  </data>
+  <data name="CountryEditItem" xml:space="preserve">
+    <value>Edit Country</value>
+  </data>
+  <data name="CurrencyEditItem" xml:space="preserve">
+    <value>Edit Currency</value>
+  </data>
+  <data name="JobTypeEditItem" xml:space="preserve">
+    <value>Edit Job Type</value>
+  </data>
+  <data name="DebitNoteConfirmAtt" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="DebitNoteConfirmAttContent" xml:space="preserve">
+    <value>Any Fee notes of Agents, Experts, Counsel etc.</value>
+  </data>
+  <data name="GeneralNo" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="GeneralYes" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="CreateDebiteNoteAttConfirm" xml:space="preserve">
+    <value>Select Update Attachment.</value>
+  </data>
+  <data name="SelectTarMatterDetails" xml:space="preserve">
+    <value>Please select first.</value>
+  </data>
+  <data name="debitNoteDownloadAtt" xml:space="preserve">
+    <value>Download attachment</value>
+  </data>
+  <data name="PendingListDebitNoteDonwloadAtt" xml:space="preserve">
+    <value>Download attachment</value>
+  </data>
+  <data name="LabelOutgoingAgentName" xml:space="preserve">
+    <value>Outgoing Agent Name:</value>
+  </data>
+  <data name="SelectOutgoingAgent" xml:space="preserve">
+    <value>Outgoing Agent</value>
+  </data>
+  <data name="MatterMoveOrCopyText" xml:space="preserve">
+    <value>Copy/Move  to matter no.:</value>
+  </data>
+  <data name="DebitNoteSearchMatterNum" xml:space="preserve">
+    <value>Matter no.:</value>
+  </data>
+</root>

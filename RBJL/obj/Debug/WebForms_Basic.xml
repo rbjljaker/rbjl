@@ -1,0 +1,2923 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RBJL
+</name>
+</assembly>
+<members>
+<member name="T:RBJL.Resources.LanguagePack">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.AddConfirm">
+<summary>
+  Looks up a localized string similar to return confirm(&apos;&quot;Are you sure to Add this record?&quot;&apos;).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_LabelClient">
+<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_lblDate">
+<summary>
+  Looks up a localized string similar to Date From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_lblDateTo">
+<summary>
+  Looks up a localized string similar to Date To:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_lblTitle">
+<summary>
+  Looks up a localized string similar to Client / Instructor / Agents.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_textOutgoingAgent">
+<summary>
+  Looks up a localized string similar to Outgoing Agent:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.agent_textRefer">
+<summary>
+  Looks up a localized string similar to Instructor:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.BottomButtonAction">
+<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.BottomButtonCancel">
+<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ButtonSearch">
+<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.chartTitle">
+<summary>
+  Looks up a localized string similar to View chart for.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ClientTitlelbl">
+<summary>
+  Looks up a localized string similar to Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.client_ADDItem">
+<summary>
+  Looks up a localized string similar to New Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.client_EditItem">
+<summary>
+  Looks up a localized string similar to Edit Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ConfirmPasswordLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to Confirm Password:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ContinueButtonCreateNewUser">
+<summary>
+  Looks up a localized string similar to Continue.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CountryADDItem">
+<summary>
+  Looks up a localized string similar to New Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CountryCode">
+<summary>
+  Looks up a localized string similar to Country Code.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CountryEditItem">
+<summary>
+  Looks up a localized string similar to Edit Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CountryName">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CountryTitle">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CreateDebiteNoteAttConfirm">
+<summary>
+  Looks up a localized string similar to Select Update Attachment..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CreateNewUserFirstName">
+<summary>
+  Looks up a localized string similar to First Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CreateNewUserLastName">
+<summary>
+  Looks up a localized string similar to Last Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CreateNewUserlblTitle">
+<summary>
+  Looks up a localized string similar to System User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CreateNewUserNickName">
+<summary>
+  Looks up a localized string similar to Initial(s):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CurrencyADDItem">
+<summary>
+  Looks up a localized string similar to New Currency.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CurrencyEditItem">
+<summary>
+  Looks up a localized string similar to Edit Currency.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CurrencylblTitle">
+<summary>
+  Looks up a localized string similar to Currency.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.CurrentMattersLabelAllMatter">
+<summary>
+  Looks up a localized string similar to This action will take some time.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteAddress">
+<summary>
+  Looks up a localized string similar to Address.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCategory">
+<summary>
+  Looks up a localized string similar to Debit Note Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteClient">
+<summary>
+  Looks up a localized string similar to Client Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteConfirmAtt">
+<summary>
+  Looks up a localized string similar to Confirm.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteConfirmAttContent">
+<summary>
+  Looks up a localized string similar to Any Fee notes of Agents, Experts, Counsel etc..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAddress">
+<summary>
+  Looks up a localized string similar to Address.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAmendedBy">
+<summary>
+  Looks up a localized string similar to Amend By.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachment1">
+<summary>
+  Looks up a localized string similar to Attachment 1 : .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachment2">
+<summary>
+  Looks up a localized string similar to Attachment 2 : .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachment3">
+<summary>
+  Looks up a localized string similar to Attachment 3 : .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachment4">
+<summary>
+  Looks up a localized string similar to Attachment 4 : .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachment5">
+<summary>
+  Looks up a localized string similar to Attachment 5 : .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreAttachmentTab5">
+<summary>
+  Looks up a localized string similar to Attachment.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreClient">
+<summary>
+  Looks up a localized string similar to Client Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreCost">
+<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreCostTab2">
+<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDebitNote">
+<summary>
+  Looks up a localized string similar to Debit Note.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDebitNoteNum">
+<summary>
+  Looks up a localized string similar to Debit Note No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDelete">
+<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDescription">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDisbursementTab3">
+<summary>
+  Looks up a localized string similar to Disbursement.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreDownload">
+<summary>
+  Looks up a localized string similar to download.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreEndDate">
+<summary>
+  Looks up a localized string similar to End Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreMatterCore">
+<summary>
+  Looks up a localized string similar to Matter No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreNarrativeTab4">
+<summary>
+  Looks up a localized string similar to Narrative.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreOtherParty">
+<summary>
+  Looks up a localized string similar to Other Parties.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCorePrice">
+<summary>
+  Looks up a localized string similar to Price.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreRef">
+<summary>
+  Looks up a localized string similar to Reference.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreReferer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreRemark">
+<summary>
+  Looks up a localized string similar to Remark.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreStartDate">
+<summary>
+  Looks up a localized string similar to Start Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreTab1">
+<summary>
+  Looks up a localized string similar to General.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreTemplateDetails">
+<summary>
+  Looks up a localized string similar to Template.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreTitle">
+<summary>
+  Looks up a localized string similar to Debit Note Details.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreUpdateDate">
+<summary>
+  Looks up a localized string similar to Update Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreVersion">
+<summary>
+  Looks up a localized string similar to Version.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteCoreYourRef">
+<summary>
+  Looks up a localized string similar to Your Reference.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteDebitNoteNum">
+<summary>
+  Looks up a localized string similar to Debit Note No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteDebitNoteNumH">
+<summary>
+  Looks up a localized string similar to Debit Note Num.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNoteDownloadAtt">
+<summary>
+  Looks up a localized string similar to Download attachment.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNotelblTitle">
+<summary>
+  Looks up a localized string similar to Issued Debit Note.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteMatterCore">
+<summary>
+  Looks up a localized string similar to Matter No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteNewlblTitle">
+<summary>
+  Looks up a localized string similar to New Debit Notes.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteNewMatterNum">
+<summary>
+  Looks up a localized string similar to Enter Matter No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteNotData">
+<summary>
+  Looks up a localized string similar to No Debit Note Data.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteOtherParty">
+<summary>
+  Looks up a localized string similar to Other Parties.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_debitNoteNum">
+<summary>
+  Looks up a localized string similar to Debit Note No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_endDate">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnotependinglist_enter">
+<summary>
+  Looks up a localized string similar to Enter Debit Note No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_item">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_ref">
+<summary>
+  Looks up a localized string similar to Ref.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_Referer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_RefererAddress">
+<summary>
+  Looks up a localized string similar to Instructor Address:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_RefererContactperson">
+<summary>
+  Looks up a localized string similar to Instructor Contact Person:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitNotependinglist_startDate">
+<summary>
+  Looks up a localized string similar to Start Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnotePendingNotData">
+<summary>
+  Looks up a localized string similar to No Data.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNotePrice">
+<summary>
+  Looks up a localized string similar to Price.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteReferer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteSearchMatterNum">
+<summary>
+  Looks up a localized string similar to Matter no.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteSubject">
+<summary>
+  Looks up a localized string similar to Subject.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteSubmitTotal">
+<summary>
+  Looks up a localized string similar to Debit Note.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DebitNoteVersion">
+<summary>
+  Looks up a localized string similar to Version.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_LabelFeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_LabelMatterNo">
+<summary>
+  Looks up a localized string similar to Matter No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_LabelState">
+<summary>
+  Looks up a localized string similar to Status:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_LabelSubject">
+<summary>
+  Looks up a localized string similar to Subject:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_lblDate">
+<summary>
+  Looks up a localized string similar to Date From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_lblTitle">
+<summary>
+  Looks up a localized string similar to Print Debit Note.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_TypeCategory">
+<summary>
+  Looks up a localized string similar to Category:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_TypeLanguage">
+<summary>
+  Looks up a localized string similar to Language:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_CompletSet">
+<summary>
+  Looks up a localized string similar to Complet Set.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_Draft">
+<summary>
+  Looks up a localized string similar to Draft.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_General">
+<summary>
+  Looks up a localized string similar to General.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_Language">
+<summary>
+  Looks up a localized string similar to Language.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_NotanyPublic">
+<summary>
+  Looks up a localized string similar to Notary Public.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_Patent">
+<summary>
+  Looks up a localized string similar to Patent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_title">
+<summary>
+  Looks up a localized string similar to Type:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.debitnote_Type_Trademark">
+<summary>
+  Looks up a localized string similar to Trademark.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.DeleteConfirm">
+<summary>
+  Looks up a localized string similar to return confirm(&apos;&quot;Are you sure to delete this record?&quot;&apos;).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.EmailLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to E-mail:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeEarnerViewChart">
+<summary>
+  Looks up a localized string similar to View Chart.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_LabelClient">
+<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_LabelFeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_LabelJobType">
+<summary>
+  Looks up a localized string similar to Job Type:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_LabelMatterNo">
+<summary>
+  Looks up a localized string similar to Matter No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_LabelRefer">
+<summary>
+  Looks up a localized string similar to Instructor:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_lblDate">
+<summary>
+  Looks up a localized string similar to Date From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.feeearner_lblTitle">
+<summary>
+  Looks up a localized string similar to Fee Earner.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.FinishButtonCreateNewUser">
+<summary>
+  Looks up a localized string similar to Finish.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.FinishPreviousButtonCreateNewUser">
+<summary>
+  Looks up a localized string similar to Previous.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.GeneralNo">
+<summary>
+  Looks up a localized string similar to NO.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.GeneralYes">
+<summary>
+  Looks up a localized string similar to YES.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.GvDeSaveBtn">
+<summary>
+  Looks up a localized string similar to Save.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.HpyerLinkLogout">
+<summary>
+  Looks up a localized string similar to Logout.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.JobTypeADDItem">
+<summary>
+  Looks up a localized string similar to New Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.JobTypeEditItem">
+<summary>
+  Looks up a localized string similar to Edit Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.JobTypelblTitle">
+<summary>
+  Looks up a localized string similar to Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.KeywordADDItem">
+<summary>
+  Looks up a localized string similar to New Keyword.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.KeywordEditItem">
+<summary>
+  Looks up a localized string similar to Edit Keyword.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.KeywordlblTitle">
+<summary>
+  Looks up a localized string similar to Keyword.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LabelClientName">
+<summary>
+  Looks up a localized string similar to Client name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LabelOutgoingAgentName">
+<summary>
+  Looks up a localized string similar to Outgoing Agent Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LabelReferName">
+<summary>
+  Looks up a localized string similar to Instructor Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblAdd">
+<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblCancel">
+<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblCancle">
+<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblChangePassword">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblCompleteCreateNewUser">
+<summary>
+  Looks up a localized string similar to Complete.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblConfirmNewPassword">
+<summary>
+  Looks up a localized string similar to Confirm New Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblConfirmPassword">
+<summary>
+  Looks up a localized string similar to Confirm Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblConfirmPasswordCompareErrorMessage">
+<summary>
+  Looks up a localized string similar to The Confirm New Password must match the New Password entry..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblConfirmPasswordRequiredErrorMessage">
+<summary>
+  Looks up a localized string similar to Confirm New Password is required.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblConfirmPasswordResetPassword">
+<summary>
+  Looks up a localized string similar to Confirm New Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblCopyFromClient">
+<summary>
+  Looks up a localized string similar to Copy From Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblCopyFromReferer">
+<summary>
+  Looks up a localized string similar to Copy From Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblDDl">
+<summary>
+  Looks up a localized string similar to (Drop down list).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblDelete">
+<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblEdit">
+<summary>
+  Looks up a localized string similar to Edit.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblEmailInvalid">
+<summary>
+  Looks up a localized string similar to Email Invalid.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblEnterMatterNo">
+<summary>
+  Looks up a localized string similar to Enter Matter No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblMatterExport">
+<summary>
+  Looks up a localized string similar to Export to Excel.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblMoveToMatter">
+<summary>
+  Looks up a localized string similar to Move To Matter.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblNewPasswordRequired">
+<summary>
+  Looks up a localized string similar to New Password is required.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblPasswordAndConfirmationPasswordMustMatch">
+<summary>
+  Looks up a localized string similar to The Password and Confirmation Password must match.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblPrint">
+<summary>
+  Looks up a localized string similar to Print.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblSelect">
+<summary>
+  Looks up a localized string similar to Select.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblSelectRolesCreateNewUser">
+<summary>
+  Looks up a localized string similar to User Level:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblSignUpCreateNewUser">
+<summary>
+  Looks up a localized string similar to Sign Up for Your New Account.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblSuccessCreateNewUser">
+<summary>
+  Looks up a localized string similar to Your account has been successfully created..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblUpdate">
+<summary>
+  Looks up a localized string similar to Update.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.lblUserNameIsRequired">
+<summary>
+  Looks up a localized string similar to User Name is required.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.loginCaptchaError">
+<summary>
+  Looks up a localized string similar to The key is incorrect..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LoginManagementTitle">
+<summary>
+  Looks up a localized string similar to Login Management.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LogLabelDate">
+<summary>
+  Looks up a localized string similar to Date:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LogLabelUserName">
+<summary>
+  Looks up a localized string similar to User Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.LoglblTitle">
+<summary>
+  Looks up a localized string similar to User Log.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MasterLblNickName">
+<summary>
+  Looks up a localized string similar to Initial(s):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MasterLblUserTitle">
+<summary>
+  Looks up a localized string similar to User Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterNoData">
+<summary>
+  Looks up a localized string similar to No Data.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearch">
+<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByApplicationNum">
+<summary>
+  Looks up a localized string similar to By Application No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByClass">
+<summary>
+  Looks up a localized string similar to By Class.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByClientName">
+<summary>
+  Looks up a localized string similar to Client Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByCountry">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByFeferer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByJobType">
+<summary>
+  Looks up a localized string similar to Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByKeywords">
+<summary>
+  Looks up a localized string similar to Keyword.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByMatterNum">
+<summary>
+  Looks up a localized string similar to Matter No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchByRegistrationNum">
+<summary>
+  Looks up a localized string similar to By Registration No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchBySelectAll">
+<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.masterPageSearchBySubject">
+<summary>
+  Looks up a localized string similar to Subject.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MattercoreHourlyRate">
+<summary>
+  Looks up a localized string similar to Hourly Rate:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MattercoreIoNumOfReferer">
+<summary>
+  Looks up a localized string similar to IO No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterCoreOldDetails">
+<summary>
+  Looks up a localized string similar to Billed Time Entry.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MattercoreRefNumOfReferer">
+<summary>
+  Looks up a localized string similar to Ref. No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_billable">
+<summary>
+  Looks up a localized string similar to Billable.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_Client">
+<summary>
+  Looks up a localized string similar to Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_CountTotal">
+<summary>
+  Looks up a localized string similar to Total.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_customKeywordFirst">
+<summary>
+  Looks up a localized string similar to Custom Keyword:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_customKeywordSecond">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_customKeywordThird">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_date">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_description">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_discount">
+<summary>
+  Looks up a localized string similar to Discount(%):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_FeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_fileOpenDate">
+<summary>
+  Looks up a localized string similar to Creation Date:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_fixedCost">
+<summary>
+  Looks up a localized string similar to Fixed Cost.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_General">
+<summary>
+  Looks up a localized string similar to General.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_HandlingColleague">
+<summary>
+  Looks up a localized string similar to Handling Colleague:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_isReopen">
+<summary>
+  Looks up a localized string similar to Re-opened:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_itemNum">
+<summary>
+  Looks up a localized string similar to Item No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_jobTypeName">
+<summary>
+  Looks up a localized string similar to Job Type:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_logo">
+<summary>
+  Looks up a localized string similar to Logo:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_masterKeywordName">
+<summary>
+  Looks up a localized string similar to Master Keyword:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_matterNum">
+<summary>
+  Looks up a localized string similar to Matter Number:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_matterSubject">
+<summary>
+  Looks up a localized string similar to Subject:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_Referer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_releaseToPublic">
+<summary>
+  Looks up a localized string similar to Public:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_remarks">
+<summary>
+  Looks up a localized string similar to Remarks:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_Status">
+<summary>
+  Looks up a localized string similar to Status:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_TimeEntry">
+<summary>
+  Looks up a localized string similar to Time Entry.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_timespan">
+<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Mattercore_WittenOff">
+<summary>
+  Looks up a localized string similar to Written Off.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterMatterCoreTitle">
+<summary>
+  Looks up a localized string similar to Matter.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterMoveOrCopyText">
+<summary>
+  Looks up a localized string similar to Copy/Move  to matter no.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewAddFollowUp">
+<summary>
+  Looks up a localized string similar to New Time Entry.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewAddTitle">
+<summary>
+  Looks up a localized string similar to New Matter.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewFollowUp">
+<summary>
+  Looks up a localized string similar to Draft Time Entri(es).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewPedingEntry">
+<summary>
+  Looks up a localized string similar to Pending Entries.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewTitle">
+<summary>
+  Looks up a localized string similar to Current Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewUpdateByName">
+<summary>
+  Looks up a localized string similar to Amend By.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNewUpdateDate">
+<summary>
+  Looks up a localized string similar to Amend Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNew_action">
+<summary>
+  Looks up a localized string similar to Action.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNew_clientName">
+<summary>
+  Looks up a localized string similar to Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNew_matterNum">
+<summary>
+  Looks up a localized string similar to Matter No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNew_matterSubject">
+<summary>
+  Looks up a localized string similar to Subject.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNew_Status">
+<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterNotData">
+<summary>
+  Looks up a localized string similar to Not Matter Data.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MatterPendingListTitle">
+<summary>
+  Looks up a localized string similar to Pending Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuAgentss">
+<summary>
+  Looks up a localized string similar to Client/Instructor/Agents.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuClient">
+<summary>
+  Looks up a localized string similar to Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuCountry">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuCurrency">
+<summary>
+  Looks up a localized string similar to Currency.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuDebitNote">
+<summary>
+  Looks up a localized string similar to Debit Note.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuDebitNoteNew">
+<summary>
+  Looks up a localized string similar to New Debit Notes.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuDebitNotePendingList">
+<summary>
+  Looks up a localized string similar to Pending Debit Notes.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuDebitNoteReport">
+<summary>
+  Looks up a localized string similar to Print Debit Notes.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuDebitNoteSub">
+<summary>
+  Looks up a localized string similar to Issued Debit Notes.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuFeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuJobType">
+<summary>
+  Looks up a localized string similar to Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuKeyword">
+<summary>
+  Looks up a localized string similar to Keyword.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuLog">
+<summary>
+  Looks up a localized string similar to Log.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMaster">
+<summary>
+  Looks up a localized string similar to Master.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMatter">
+<summary>
+  Looks up a localized string similar to Matter.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMatterNew">
+<summary>
+  Looks up a localized string similar to New Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMatterPendingList">
+<summary>
+  Looks up a localized string similar to Pending Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMatterPutAway">
+<summary>
+  Looks up a localized string similar to Put Away.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuMatterSub">
+<summary>
+  Looks up a localized string similar to Current Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuNewMatterRecord">
+<summary>
+  Looks up a localized string similar to Current Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuOtherParties">
+<summary>
+  Looks up a localized string similar to Other Party.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuOutgoingAgent">
+<summary>
+  Looks up a localized string similar to Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuPricing">
+<summary>
+  Looks up a localized string similar to Fees.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuPutAway">
+<summary>
+  Looks up a localized string similar to Put Away.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuReferer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuReport">
+<summary>
+  Looks up a localized string similar to Report.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuSettingChangePassword">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuSettingMiscellaneous">
+<summary>
+  Looks up a localized string similar to Miscellaneous.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuSettings">
+<summary>
+  Looks up a localized string similar to Settings.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuSystemUser">
+<summary>
+  Looks up a localized string similar to System User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuTemplate">
+<summary>
+  Looks up a localized string similar to Template.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.MenuUserLog">
+<summary>
+  Looks up a localized string similar to User Log.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewFollowUpTitle">
+<summary>
+  Looks up a localized string similar to Draft Time Entri(es).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_Client">
+<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_customKeywordFirst">
+<summary>
+  Looks up a localized string similar to Custom Keyword:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_customKeywordSecond">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_customKeywordThird">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_discount">
+<summary>
+  Looks up a localized string similar to Discount(%):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_FeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner(s):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_fileOpenDate">
+<summary>
+  Looks up a localized string similar to File Open Date:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_HandlingColleague">
+<summary>
+  Looks up a localized string similar to Handling Colleague(s):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_introducer">
+<summary>
+  Looks up a localized string similar to Introducer:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_jobType">
+<summary>
+  Looks up a localized string similar to Job Type:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_logo">
+<summary>
+  Looks up a localized string similar to Trademark/Design Logo Upload:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_masterKeywordName">
+<summary>
+  Looks up a localized string similar to Master Keyword:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_matterNum">
+<summary>
+  Looks up a localized string similar to Matter No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_matterSubject">
+<summary>
+  Looks up a localized string similar to Matter Subject:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_OutgoingAgent">
+<summary>
+  Looks up a localized string similar to Outgoing Agent:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_Referer">
+<summary>
+  Looks up a localized string similar to Instructor:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_refererFee">
+<summary>
+  Looks up a localized string similar to Instructor Fee:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_releaseToPublic">
+<summary>
+  Looks up a localized string similar to Public:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_remarks">
+<summary>
+  Looks up a localized string similar to Remark:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.NewMatterAdd_SP">
+<summary>
+  Looks up a localized string similar to Supervising Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_LabelClient">
+<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_LabelFeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_LabelMatterNo">
+<summary>
+  Looks up a localized string similar to Matter No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_LabelMatterNo3">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_LabelSubject">
+<summary>
+  Looks up a localized string similar to Subject:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_lblDate">
+<summary>
+  Looks up a localized string similar to Date From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_lblDateTo">
+<summary>
+  Looks up a localized string similar to Date To:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.newmatterrecord_lblTitle">
+<summary>
+  Looks up a localized string similar to Current Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OtherPartiesADDItem">
+<summary>
+  Looks up a localized string similar to New Other Party.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OtherPartiesEditItem">
+<summary>
+  Looks up a localized string similar to Edit Other Party.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OtherPartieslblTitle">
+<summary>
+  Looks up a localized string similar to Other Party.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OutgoingAgentADDItem">
+<summary>
+  Looks up a localized string similar to New Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OutgoingAgentEditItem">
+<summary>
+  Looks up a localized string similar to Edit Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.OutgoingAgentlblTitle">
+<summary>
+  Looks up a localized string similar to Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PasswordLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to Password:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendinglistButtonSendEmail">
+<summary>
+  Looks up a localized string similar to Send Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendingListDebitNoteDonwloadAtt">
+<summary>
+  Looks up a localized string similar to Download attachment.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendingListDebitNoteEnterNum">
+<summary>
+  Looks up a localized string similar to Enter Debit Note No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.pendingListDebitNoteTitle">
+<summary>
+  Looks up a localized string similar to Pending Debit Note(s).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendingListEnterNum">
+<summary>
+  Looks up a localized string similar to Enter Matter No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendinglistIntroducer">
+<summary>
+  Looks up a localized string similar to Introducer.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PendingListTimeEntryTitle">
+<summary>
+  Looks up a localized string similar to Draft Matters.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_Client">
+<summary>
+  Looks up a localized string similar to Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_Date">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_FeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_fileOpenDate">
+<summary>
+  Looks up a localized string similar to File Open Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_item">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_jobTypeName">
+<summary>
+  Looks up a localized string similar to Job Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.Pendinglist_matterNum">
+<summary>
+  Looks up a localized string similar to Matter Number.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PricingADDPricingDetails">
+<summary>
+  Looks up a localized string similar to New Fees (Description).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PricingADDPricingType">
+<summary>
+  Looks up a localized string similar to New Work Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PricingEditPricingDetails">
+<summary>
+  Looks up a localized string similar to Edit Fees (Description).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PricingEditPricingType">
+<summary>
+  Looks up a localized string similar to Edit Work Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PricinglblTitle">
+<summary>
+  Looks up a localized string similar to Fees.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.pricingTabPD">
+<summary>
+  Looks up a localized string similar to Type of work.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.pricingTabT">
+<summary>
+  Looks up a localized string similar to Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.print_excel">
+<summary>
+  Looks up a localized string similar to Excel.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.print_onScreen">
+<summary>
+  Looks up a localized string similar to On Screen.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.print_pdf">
+<summary>
+  Looks up a localized string similar to PDF.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.print_PrintTo">
+<summary>
+  Looks up a localized string similar to Print To:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayBoxNum">
+<summary>
+  Looks up a localized string similar to Put Away Box No.:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayCoreTitle">
+<summary>
+  Looks up a localized string similar to Put Away.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayNewTitle">
+<summary>
+  Looks up a localized string similar to Put Away.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayNotData">
+<summary>
+  Looks up a localized string similar to No Put Away Data.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayPutAwayBoxNum">
+<summary>
+  Looks up a localized string similar to Away Box No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayPutAwayContent">
+<summary>
+  Looks up a localized string similar to Put Away Content.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayPutAwayDate">
+<summary>
+  Looks up a localized string similar to Put Away Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.PutAwayView">
+<summary>
+  Looks up a localized string similar to View.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_LabelClient">
+<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_LabelFeeEarner">
+<summary>
+  Looks up a localized string similar to Fee Earner:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_LabelJobType">
+<summary>
+  Looks up a localized string similar to Job Type:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_LabelMatterNo">
+<summary>
+  Looks up a localized string similar to Matter No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_LabelSubject">
+<summary>
+  Looks up a localized string similar to Subject:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_lblDate">
+<summary>
+  Looks up a localized string similar to Put Away Date From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_lblDateTo">
+<summary>
+  Looks up a localized string similar to Put Away Date To:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.putaway_lblTitle">
+<summary>
+  Looks up a localized string similar to Put Away.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.RefererADDItem">
+<summary>
+  Looks up a localized string similar to New Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.RefererEditItem">
+<summary>
+  Looks up a localized string similar to Edit Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.RefererlblTitle">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.refer_Remark">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ReportDebitNoteNoResult">
+<summary>
+  Looks up a localized string similar to No data found on that date..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ReportDebitNotePleaseSelectType">
+<summary>
+  Looks up a localized string similar to Please select Category..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_bill">
+<summary>
+  Looks up a localized string similar to Billed.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_Billable">
+<summary>
+  Looks up a localized string similar to Billable.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_Both">
+<summary>
+  Looks up a localized string similar to Both.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_desciption">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_nonBillable">
+<summary>
+  Looks up a localized string similar to Non-Billable.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_option">
+<summary>
+  Looks up a localized string similar to Options - Show/Not Show in Report.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.report_unbill">
+<summary>
+  Looks up a localized string similar to Unbilled.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.ReporyNewMatterNoResult">
+<summary>
+  Looks up a localized string similar to No data found on that date..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.RequiredTimeSpentAndFixedCost">
+<summary>
+  Looks up a localized string similar to Time Spent or Fixed Cost is required..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SearchClientName">
+<summary>
+  Looks up a localized string similar to Client Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SearchOutgoingAgent">
+<summary>
+  Looks up a localized string similar to Agent Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SearchRefererName">
+<summary>
+  Looks up a localized string similar to Instructor Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SelectClient">
+<summary>
+  Looks up a localized string similar to Select Client.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SelectOutgoingAgent">
+<summary>
+  Looks up a localized string similar to Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SelectReferer">
+<summary>
+  Looks up a localized string similar to Select Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SelectTarMatterDetails">
+<summary>
+  Looks up a localized string similar to Please select first..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingAddUserTitle">
+<summary>
+  Looks up a localized string similar to Add User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingEditUserTitle">
+<summary>
+  Looks up a localized string similar to Edit User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelAccountEmail">
+<summary>
+  Looks up a localized string similar to Billing Email:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelAccountEmailTitle">
+<summary>
+  Looks up a localized string similar to Account Email Setup.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelAutoGen">
+<summary>
+  Looks up a localized string similar to Auto Generate?.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelClientNoStartFrom">
+<summary>
+  Looks up a localized string similar to Client No. Start From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelDebitNoteNoStartFrom">
+<summary>
+  Looks up a localized string similar to Debit Note No. Start From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelMatterNoStartFrom">
+<summary>
+  Looks up a localized string similar to Matter No. Start From:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelNumSetup">
+<summary>
+  Looks up a localized string similar to Numbering Setup.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneousLabelWhatNewsSetup">
+<summary>
+  Looks up a localized string similar to What&apos;s News Setup.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.SettingMiscellaneouslblTitle">
+<summary>
+  Looks up a localized string similar to Miscellaneous.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.StepNextButtonCreateNewUser">
+<summary>
+  Looks up a localized string similar to Next.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserLabelAddUser">
+<summary>
+  Looks up a localized string similar to Add User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopupLabelEditFirstName">
+<summary>
+  Looks up a localized string similar to First Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopupLabelEditLastName">
+<summary>
+  Looks up a localized string similar to Last Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_btnSearch">
+<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_Cancel">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_LabelEditNickName">
+<summary>
+  Looks up a localized string similar to Initial(s):.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_LabelEditUserRole">
+<summary>
+  Looks up a localized string similar to User Level:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_LabelLockedOut">
+<summary>
+  Looks up a localized string similar to Unlock User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblBackToLoginManagement">
+<summary>
+  Looks up a localized string similar to Back To Login Management.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblBackTosystemUser">
+<summary>
+  Looks up a localized string similar to Back To System User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblChangePassword">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblConfirmNewPassword">
+<summary>
+  Looks up a localized string similar to Confirm New Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblEmail">
+<summary>
+  Looks up a localized string similar to E-Mail.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblGvApproved">
+<summary>
+  Looks up a localized string similar to Allowed.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblGvEmail">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblGvLastLoginDate">
+<summary>
+  Looks up a localized string similar to Last Login Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblGvLockedOut">
+<summary>
+  Looks up a localized string similar to LockedOut.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblGvRole">
+<summary>
+  Looks up a localized string similar to User Level.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblLockUser">
+<summary>
+  Looks up a localized string similar to Lock User.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblNewPassword">
+<summary>
+  Looks up a localized string similar to New Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblSelectRole">
+<summary>
+  Looks up a localized string similar to User Level:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblUpdate">
+<summary>
+  Looks up a localized string similar to Update.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblUsername">
+<summary>
+  Looks up a localized string similar to User Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblUserName_edit">
+<summary>
+  Looks up a localized string similar to User Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_lblUserName_UserNo">
+<summary>
+  Looks up a localized string similar to User No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.systemUserpopup_UserName">
+<summary>
+  Looks up a localized string similar to User Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateADDItem">
+<summary>
+  Looks up a localized string similar to New Terminologies.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateADDItemTemplateDetails">
+<summary>
+  Looks up a localized string similar to New Descriptions.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateADDItemTemplateDetailsEdit">
+<summary>
+  Looks up a localized string similar to Edit Descriptions.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplatelblTitle">
+<summary>
+  Looks up a localized string similar to Template.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateTabD">
+<summary>
+  Looks up a localized string similar to Work Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateTabT">
+<summary>
+  Looks up a localized string similar to Work Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateTpyeCore">
+<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateTpyeDesc">
+<summary>
+  Looks up a localized string similar to Full Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.TemplateTypeEditItem">
+<summary>
+  Looks up a localized string similar to Edit Terminologies.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UnitRateLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to How Unit Rate:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UpdateConfirm">
+<summary>
+  Looks up a localized string similar to return confirm(&apos;&quot;Are you sure to update this record?&quot;&apos;).
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UserInfoTitle">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_CreateByUserId">
+<summary>
+  Looks up a localized string similar to Create by UserID.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_CreateDate">
+<summary>
+  Looks up a localized string similar to Create Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_date">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_isEnable">
+<summary>
+  Looks up a localized string similar to IsEnable.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_logDescription">
+<summary>
+  Looks up a localized string similar to Log Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_typeId">
+<summary>
+  Looks up a localized string similar to Type Id.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_UpdateByUserId">
+<summary>
+  Looks up a localized string similar to Update by UserID.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.userlog_UpdateDate">
+<summary>
+  Looks up a localized string similar to Update Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UserManagementlblTitle">
+<summary>
+  Looks up a localized string similar to User Management.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UserNameLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to User Name:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.UserNumLabelCreateNewUser">
+<summary>
+  Looks up a localized string similar to User No:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.validMess">
+<summary>
+  Looks up a localized string similar to This file format not supported, only accepted [.jpg].
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelDraftMatters">
+<summary>
+  Looks up a localized string similar to Pending Time Entries:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelNewFile">
+<summary>
+  Looks up a localized string similar to Pending Matters:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelOpenedMatters">
+<summary>
+  Looks up a localized string similar to Current Matters:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelPendingDebitNote">
+<summary>
+  Looks up a localized string similar to Pending Debit Notes:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelSuspendedMatters">
+<summary>
+  Looks up a localized string similar to Suspended Matters:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLabelTitleMatterInformation">
+<summary>
+  Looks up a localized string similar to Matter Summary.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.welcomeLblTitle">
+<summary>
+  Looks up a localized string similar to What&apos; New.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnCreateUserUnknowErrorMessage">
+<summary>
+  Looks up a localized string similar to Your account was not created. Please try again..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnMinimumPassword">
+<summary>
+  Looks up a localized string similar to Password length minimum:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnPasswordNonalphanumericRequired">
+<summary>
+  Looks up a localized string similar to Non-alphanumeric characters required:.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnPasswordRequirement">
+<summary>
+  Looks up a localized string similar to Password length minimum: {0}. Non-alphanumeric characters required: {1}..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnPleaseEnterADiffernetEmailAddress">
+<summary>
+  Looks up a localized string similar to The e-mail address that you entered is already in use. Please enter a different e-mail address..
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnPleaseEnterADirrerentUserName">
+<summary>
+  Looks up a localized string similar to Please enter a different user name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wrnTimeOut">
+<summary>
+  Looks up a localized string similar to Please login again!.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wUpdateSuccessfullyUpdateNews">
+<summary>
+  Looks up a localized string similar to Update successfully. Redirect to Admin Page after 2 seconds.
+</summary>
+</member>
+<member name="P:RBJL.Resources.LanguagePack.wUpdateSuccessfulMesageLoginManagement">
+<summary>
+  Looks up a localized string similar to Update successfully. Redirect to Admin Page after 1 second..
+</summary>
+</member>
+<member name="T:RBJL.Resources.master">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.clientCopyFormOutgoingAgent">
+<summary>
+  Looks up a localized string similar to Copy From Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.clientCopyFormReferer">
+<summary>
+  Looks up a localized string similar to Copy From Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.clientRemarks">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_accountGroup">
+<summary>
+  Looks up a localized string similar to Account Group.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_billingAddressFirst">
+<summary>
+  Looks up a localized string similar to Billing Address.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_billingAddressSecond">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_billingEmail">
+<summary>
+  Looks up a localized string similar to Billing Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_clientName">
+<summary>
+  Looks up a localized string similar to Client Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_clientNum">
+<summary>
+  Looks up a localized string similar to Client No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson">
+<summary>
+  Looks up a localized string similar to Contact Person.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson02">
+<summary>
+  Looks up a localized string similar to Contact Person 02.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson03">
+<summary>
+  Looks up a localized string similar to Contact Person 03.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson04">
+<summary>
+  Looks up a localized string similar to Contact Person 04.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson05">
+<summary>
+  Looks up a localized string similar to Contact Person 05.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson06">
+<summary>
+  Looks up a localized string similar to Contact Person 06.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson07">
+<summary>
+  Looks up a localized string similar to Contact Person 07.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson08">
+<summary>
+  Looks up a localized string similar to Contact Person 08.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson09">
+<summary>
+  Looks up a localized string similar to Contact Person 09.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson10">
+<summary>
+  Looks up a localized string similar to Contact Person 10.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson11">
+<summary>
+  Looks up a localized string similar to Contact Person 11.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson12">
+<summary>
+  Looks up a localized string similar to Contact Person 12.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson13">
+<summary>
+  Looks up a localized string similar to Contact Person 13.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson14">
+<summary>
+  Looks up a localized string similar to Contact Person 14.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson15">
+<summary>
+  Looks up a localized string similar to Contact Person 15.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson16">
+<summary>
+  Looks up a localized string similar to Contact Person 16.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson17">
+<summary>
+  Looks up a localized string similar to Contact Person 17.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson18">
+<summary>
+  Looks up a localized string similar to Contact Person 18.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson19">
+<summary>
+  Looks up a localized string similar to Contact Person 19.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_contactPerson20">
+<summary>
+  Looks up a localized string similar to Contact Person 20.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_correspondingAddress1First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 1.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_correspondingAddress1Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_correspondingAddress2First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 2.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_correspondingAddress2Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_discount">
+<summary>
+  Looks up a localized string similar to Discount(%).
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email02">
+<summary>
+  Looks up a localized string similar to Email 02.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email03">
+<summary>
+  Looks up a localized string similar to Email 03.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email04">
+<summary>
+  Looks up a localized string similar to Email 04.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email05">
+<summary>
+  Looks up a localized string similar to Email 05.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email06">
+<summary>
+  Looks up a localized string similar to Email 06.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email07">
+<summary>
+  Looks up a localized string similar to Email 07.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email08">
+<summary>
+  Looks up a localized string similar to Email 08.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email09">
+<summary>
+  Looks up a localized string similar to Email 09.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email10">
+<summary>
+  Looks up a localized string similar to Email 10.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email11">
+<summary>
+  Looks up a localized string similar to Email 11.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email12">
+<summary>
+  Looks up a localized string similar to Email 12.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email13">
+<summary>
+  Looks up a localized string similar to Email 13.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email14">
+<summary>
+  Looks up a localized string similar to Email 14.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email15">
+<summary>
+  Looks up a localized string similar to Email 15.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email16">
+<summary>
+  Looks up a localized string similar to Email 16.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email17">
+<summary>
+  Looks up a localized string similar to Email 17.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email18">
+<summary>
+  Looks up a localized string similar to Email 18.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email19">
+<summary>
+  Looks up a localized string similar to Email 19.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_email20">
+<summary>
+  Looks up a localized string similar to Email 20.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_fax">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_ioNumOfReferer">
+<summary>
+  Looks up a localized string similar to IO No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_isReleaseToPublic">
+<summary>
+  Looks up a localized string similar to Release To Public.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_Referer">
+<summary>
+  Looks up a localized string similar to Instructor.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_refNumOfReferer">
+<summary>
+  Looks up a localized string similar to Ref No.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel">
+<summary>
+  Looks up a localized string similar to Telephone.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel02">
+<summary>
+  Looks up a localized string similar to Telephone 02.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel03">
+<summary>
+  Looks up a localized string similar to Telephone 03.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel04">
+<summary>
+  Looks up a localized string similar to Telephone 04.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel05">
+<summary>
+  Looks up a localized string similar to Telephone 05.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel06">
+<summary>
+  Looks up a localized string similar to Telephone 06.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel07">
+<summary>
+  Looks up a localized string similar to Telephone 07.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel08">
+<summary>
+  Looks up a localized string similar to Telephone 08.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel09">
+<summary>
+  Looks up a localized string similar to Telephone 09.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel10">
+<summary>
+  Looks up a localized string similar to Telephone 10.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel11">
+<summary>
+  Looks up a localized string similar to Telephone 11.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel12">
+<summary>
+  Looks up a localized string similar to Telephone 12.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel13">
+<summary>
+  Looks up a localized string similar to Telephone 13.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel14">
+<summary>
+  Looks up a localized string similar to Telephone 14.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel15">
+<summary>
+  Looks up a localized string similar to Telephone 15.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel16">
+<summary>
+  Looks up a localized string similar to Telephone 16.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel17">
+<summary>
+  Looks up a localized string similar to Telephone 17.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel18">
+<summary>
+  Looks up a localized string similar to Telephone 18.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel19">
+<summary>
+  Looks up a localized string similar to Telephone 19.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_tel20">
+<summary>
+  Looks up a localized string similar to Telephone 20.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_UpdateByUserName">
+<summary>
+  Looks up a localized string similar to Last Update Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.client_UpdateDate">
+<summary>
+  Looks up a localized string similar to Last Update Date.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.currency_currencyName">
+<summary>
+  Looks up a localized string similar to Currency Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.currency_rateToHK">
+<summary>
+  Looks up a localized string similar to Exchange Rate To HKD.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.currency_symbol">
+<summary>
+  Looks up a localized string similar to Symbol.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.keyword_description">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.keyword_name">
+<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_billingAddressFirst">
+<summary>
+  Looks up a localized string similar to Billing Address.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_billingAddressSecond">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_contactPerson">
+<summary>
+  Looks up a localized string similar to Contact Person.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_correspondingAddress1First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 1.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_correspondingAddress1Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_correspondingAddress2First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 2.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_correspondingAddress2Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_email">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_fax">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_isEnable">
+<summary>
+  Looks up a localized string similar to IsEnable.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_otherPartiesName">
+<summary>
+  Looks up a localized string similar to Other Party Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_otherPartiesNum">
+<summary>
+  Looks up a localized string similar to Other Party No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.otherparties_tel">
+<summary>
+  Looks up a localized string similar to Telephone.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_agentName">
+<summary>
+  Looks up a localized string similar to Agent Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_agentNum">
+<summary>
+  Looks up a localized string similar to Agent No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_contactPerson">
+<summary>
+  Looks up a localized string similar to Contact Person.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress1First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 1.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress1Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress2First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 2.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress2Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress3First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 3.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_correspondingAddress3Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_email">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_fax">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.outgoingagent_tel">
+<summary>
+  Looks up a localized string similar to Telephone.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.pricing_detailsDescription">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.pricing_priceValue">
+<summary>
+  Looks up a localized string similar to Fees.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.pricing_PricingType">
+<summary>
+  Looks up a localized string similar to Work Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.pricing_typeDescription">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.pricing_typeName">
+<summary>
+  Looks up a localized string similar to Work Category.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_billingAddressFirst">
+<summary>
+  Looks up a localized string similar to Billing Address.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_billingAddressSecond">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_contactPerson">
+<summary>
+  Looks up a localized string similar to Contact Person.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_correspondingAddress1First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 1.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_correspondingAddress1Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_correspondingAddress2First">
+<summary>
+  Looks up a localized string similar to Correspondence Address 2.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_correspondingAddress2Second">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_email">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_fax">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_islegalAid">
+<summary>
+  Looks up a localized string similar to is Legal Aid.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_OutgoingAgent">
+<summary>
+  Looks up a localized string similar to Outgoing Agent.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_refererName">
+<summary>
+  Looks up a localized string similar to Instructor Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_refererNum">
+<summary>
+  Looks up a localized string similar to Instructor No..
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.refer_tel">
+<summary>
+  Looks up a localized string similar to Telephone.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.type_name">
+<summary>
+  Looks up a localized string similar to Job Type Name.
+</summary>
+</member>
+<member name="P:RBJL.Resources.master.type_num">
+<summary>
+  Looks up a localized string similar to Job Type No..
+</summary>
+</member>
+<member name="T:RBJL.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:RBJL.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:RBJL.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:RBJL.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:RBJL.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:RBJL.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+</members>
+</doc>

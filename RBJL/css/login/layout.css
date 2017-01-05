@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+.divPageContainer
+{
+	width:960px;
+	margin:0 auto;
+	background-color:#FFF;
+	border:1px solid #CCCCCC;
+}
+.divPageContainer h1
+{
+	margin-top:10px !important;
+}
+.main_logonPage
+{
+	background-color:none;
+	border:none;
+	margin:0 auto;
+}
+.divLoginContainer
+{
+	width:500px;
+	padding:65px 80px;
+	border:2px solid #d4d5d4;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	margin-top:100px;
+	
+}
+
+.divLoginContainer h5
+{
+	margin-bottom:15px;
+}
+.divLoginContainer th
+{
+	width:140px;
+	text-align:left;
+	vertical-align:top;
+}
+.divLoginContainer td
+{
+	width:300px;
+	text-align:left;
+	vertical-align:top;
+}
+.divLoginContainer input.textbox
+{
+	width:290px;
+}
+
+.divHeaderContainer
+{
+	height:100px;
+}
+.divHeaderContainer .comp_logo
+{
+	margin:20px 0 0 20px;
+}
+.divMenuContainer
+{
+	
+	background-color:#eeeeee;
+	background-image:url(../images/default/menu_bg.png);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	overflow:auto;
+	position:relative;
+}
+.divMenuContainer ul
+{
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	position:relative;
+}
+.divMenuContainer li
+{
+	height:52px;
+	/*line-height:52px;*/
+	display:block;
+	float:left;
+	list-style:none;
+	margin-top:2px;
+	
+	position:relative;
+	background-image:url(../images/default/menu_dot.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	margin-right:10px;
+}
+.divMenuContainer li:first-child
+{
+	background-image:none;
+}
+.divMenuContainer li a
+{
+	/*height:33px;
+	line-height:33px;*/
+	height:52px;
+	display:block;
+	font-size:12px;
+	color:#7c7c7c;
+	text-decoration:none;
+	text-align:center;
+	line-height:22px
+}
+.divMenuContainer li a:hover
+{
+	/*background-color:#f58320;*/
+	color:#f4821f;
+	text-decoration:none;
+}
+.divMenuContainer li.right
+{
+	float:right;
+}
+.divMainContainer
+{
+	padding:15px;
+}
+.page_mainConent
+{
+	float:left;
+	width:640px;
+}
+.page_leftConent
+{
+	float:left;
+	width:263px;
+	margin-right:20px;
+}
+.page_rightConent
+{
+	float:right;
+	width:263px;
+	margin-left:20px;
+}
+/*video list*/
+.main_videoList
+{
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+}
+.main_videoList>li
+{
+	margin:0 0 12px 12px;
+	list-style:none;
+	float:left;
+}
+.main_videoList>li a
+{
+	text-decoration:none;
+}
+.main_videoList>li>a
+{
+	margin-top:3px;
+	/*height:40px;*/
+	width:140px;
+	display:block;
+	line-height:12px;
+}
+.main_videoList>li:first-child
+{
+	margin-left:12px;
+}
+.main_videoList>li img
+{
+	border:none;
+	max-height:108px;
+	max-width:144px;
+}
+.main_videoList>li .video
+{
+	position:relative;
+    text-align: center;
+    vertical-align: middle;
+	display:table-cell;
+}
+.main_videoList>li .video a
+{
+	display:block;
+	overflow:hidden;
+	width:144px;
+	height:108px;
+	position:relative;
+}
+.main_videoList>li .video a * {
+    vertical-align: middle;
+}
+
+.main_videoList>li .video a span.center {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
+
+.main_videoList>li .video a span.icon
+{
+	background-image:url(../images/default/video_icon.png);
+	height:21px;
+	width:21px;
+	display:none;;
+	position:absolute;
+	left:15px;
+	bottom:15px;
+}
+.main_videoList>li .video a:hover span.icon
+{
+	display:block;;
+}
+.main_videoList li.clsFloat
+{
+	width:auto !important;
+	height:auto !important;
+	margin:0px !important;
+	padding:0px !important;
+	border:0px !important;
+}
+.main_videoList li .title,
+.main_videoList li .date,
+.main_videoList li .desc,
+.main_videoList li .remark
+{
+	float:left;	
+	display:block;
+	margin-bottom:5px;
+	min-height:16px;
+}
+.main_videoList li .title
+{
+	height:auto !important;
+}
+.main_videoList li .date
+{
+	font-weight:bold;
+}
+.main_videoList li .remark
+{
+	color:#AAAAAA;
+}
+/* infoPanel*/
+.infoPanel
+{
+	/*width:263px;*/
+	border:1px solid #f58320;
+	text-align:left;
+	vertical-align:top;
+}
+.infoPanel .panelTitle,
+.infoPanel h3.panelTitle
+{
+	height:24px;
+	line-height:24px;
+	padding:0px;
+	margin:0px;
+	padding:0 15px;
+	background-image:url(../images/default/infoPanel_title_bg.png);
+	background-color:1px solid #f58320;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+}
+.infoPanel .panelContent
+{
+	padding:15px;
+}
+.infoPanel .panelContent dl
+{
+	padding:0px;
+	margin:0px;
+}
+.infoPanel .panelContent dd
+{
+	padding:0px;
+	margin:0px;
+	padding-bottom:15px;
+}
+.infoPanel .panelContent dd hr
+{
+	border:1px solid #9e734e;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-collapse:collapse;
+}
+.infoPanel .panelContent .group
+{
+	font-size:12px !important;
+}
+.infoPanel .panelContent .lastLgoin
+{
+	color:#999999;
+	font-style:italic;
+	font-size:12px;
+}
+.infoPanel .panelContent .expire
+{
+	color:#999999;
+	font-size:12px;
+}
+/*category list*/
+.left_videoCategoryList
+{
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+}
+.main_videoList>li
+{
+	margin:0 0 12px 12px;
+	list-style:none;
+	float:left;
+}
+
+/*user input */
+.user_inputForm
+{
+}
+.user_inputForm th,
+.user_inputForm td
+{
+	text-align:left;
+}
+.user_inputForm th
+{
+	width:120px;
+	padding:5px;
+	color:#665a51;
+	font-weight:normal;
+	font-size:14px;
+}
+.user_inputForm td
+{
+	min-width:180px;
+	padding:5px;
+}
+.user_inputForm .mintextbox
+{
+	width:100px;
+}
+.user_inputForm .textbox
+{
+	width:170px;
+}
+.user_inputForm .fulltextbox
+{
+	width:450px;
+}
+.table_item_list
+{
+	border:none;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+.table_item_list th,
+.table_item_list td
+{
+	text-align:left;
+	padding:5px;
+	vertical-align::top;
+}
+.table_item_list th
+{
+	border::none;
+	border-bottom:1px solid #AAAAAA;
+}
+.table_item_list th.code
+{
+	width:100px;
+}
+.table_item_list th.email
+{
+	width:150px;
+}
+.table_item_list th.tel
+{
+	width:80px;
+}
+.table_item_list th.expiredate
+{
+	width:100px;
+}
+.table_item_list th.singlelogin
+{
+	width:60px;
+}
+.table_item_list th.status
+{
+	width:60px;
+}
+.table_item_list th.date
+{
+	width:100px;
+}
+.table_item_list th.ipaddress
+{
+	width:100px;
+}
+
+/**************/
+.video_frame
+{
+	width:640px;
+	height:480px;
+	display:block;
+}
+.video_frame
+{
+	width:640px;
+	height:480px;
+	display:block;
+	
+}
+
+.video_content .date,
+.video_content .desc,
+.video_content .remark
+{
+	float:left;	
+	display:block;
+	margin-bottom:5px;
+	min-height:16px;
+}
+.video_content .date
+{
+	font-weight:bold;
+}
+.video_content .remark
+{
+	color:#AAAAAA;
+}

@@ -1,0 +1,143 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 12px;
+	font-family: Verdana, Genera, Sans-serif;
+	background-image: url(../images/default/logon_bg.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-color: #eeeeee;
+	color: #666666;
+}
+
+textarea, input, select, span, div, th, td
+{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.invClass
+{
+	display: none;
+}
+
+.float_l
+{
+	float: left;
+}
+.float_r
+{
+	float: right;
+}
+.clsFloat
+{
+	clear: both;
+}
+.block
+{
+	display: block;
+}
+.errMsg
+{
+	color: #FF3333;
+	font-size: 11px;
+	font-weight: bold;
+}
+.notBlank
+{
+	color: #FF3333;
+}
+.successMsg
+{
+	color: #009900;
+	font-size: 11px;
+	font-weight: bold;
+}
+.noBorder
+{
+	border-width: 0px;
+	border: none;
+}
+a
+{
+	color: #2f87aa;
+}
+h1
+{
+	color: #ff9229;
+	font-size: 18px;
+	margin: 25px 0px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+h2
+{
+	color: #7f6737;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	height: 22px;
+	line-height: 22px;
+	font-weight: normal;
+	padding: 0px;
+	padding-left: 34px;
+	background-image: url(../images/default/title_bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+h5
+{
+	margin: 0px;
+	padding: 0px;
+	height: 24px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #665a51;
+	font-weight: normal;
+}
+input.submit
+{
+	background-color: #ff9229;
+	font-size: 14px;
+	color: #FFFFFF;
+	border: 1px solid #ff7d00;
+	height: 30px;
+	padding: 0 15px;
+}
+.textbox, .fulltextbox, .mintextbox, .inputkey
+{
+	height: 24px;
+	border: 1px solid #aaaaaa;
+	background-color: #FFFFFF;
+	font-size: 14px;
+}
+textarea.fulltextbox
+{
+	height: 80px;
+}
+.textTitle
+{
+	color: #665a51;
+	font-size: 14px;
+}
+.orange_textTitle
+{
+	color: #f58320;
+	font-size: 14px;
+}
+
+
+.mainLogin
+{
+	//text-align: center;
+}
+
+.LoginP
+{
+	margin: 0 auto;
+
+}
+
+
